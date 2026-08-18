@@ -1,7 +1,7 @@
 {
     "product": "wendao-ai",
     "channel": "stable",
-    "version": "0.0.1",
+    "version": "0.0.7",
     "publishedAt": "2026-08-18T12:00:00+08:00",
     "releaseNotes": [
         "修复本地升级流程",
