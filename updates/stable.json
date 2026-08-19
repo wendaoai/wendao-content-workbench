@@ -1,11 +1,10 @@
 {
   "product": "wendao-ai",
   "channel": "stable",
-  "version": "0.0.12",
-  "publishedAt": "2026-08-19T01:29:01Z",
+  "version": "0.0.13",
+  "publishedAt": "2026-08-19T01:36:33Z",
   "releaseNotes": [],
   "packages": {
-    "macos/arm64": {"fileName": "ContentWorkbench-v0.0.12-mac-arm64.zip", "url": "https://api.gitcode.com/api/v5/repos/wendao-ai/wendao-ai-updates/raw/packages/ContentWorkbench-v0.0.12-mac-arm64.zip"},
-    "windows/amd64": {"fileName": "ContentWorkbench-v0.0.12-win-x64.zip", "url": "https://api.gitcode.com/api/v5/repos/wendao-ai/wendao-ai-updates/raw/packages/ContentWorkbench-v0.0.12-win-x64.zip"}
+    "macos/arm64": {"fileName": "ContentWorkbench-v0.0.13-mac-arm64.zip", "url": "https://api.gitcode.com/api/v5/repos/wendao-ai/wendao-ai-updates/raw/packages/ContentWorkbench-v0.0.13-mac-arm64.zip"}
   }
 }
