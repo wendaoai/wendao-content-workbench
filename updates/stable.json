@@ -1,20 +1,11 @@
 {
-    "product": "wendao-ai",
-    "channel": "stable",
-    "version": "0.0.8",
-    "publishedAt": "2026-08-18T12:00:00+08:00",
-    "releaseNotes": [
-        "修复本地升级流程",
-        "优化系统设置页"
-    ],
-    "packages": {   
-        "windows/amd64": {
-            "fileName": "WenDaoAI-v1.2.3-windows-amd64-update.zip",
-            "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.8/ContentWorkbench-v0.0.8-win-x64.zip"
-        },
-        "macos/arm64": {
-            "fileName": "WenDaoAI-v1.2.3-macos-arm64-update.zip",
-            "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.8/ContentWorkbench-v0.0.8-win-x64.zip"
-        }
-    }
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.12",
+  "publishedAt": "2026-08-19T01:29:01Z",
+  "releaseNotes": [],
+  "packages": {
+    "macos/arm64": {"fileName": "ContentWorkbench-v0.0.12-mac-arm64.zip", "url": "https://api.gitcode.com/api/v5/repos/wendao-ai/wendao-ai-updates/raw/packages/ContentWorkbench-v0.0.12-mac-arm64.zip"},
+    "windows/amd64": {"fileName": "ContentWorkbench-v0.0.12-win-x64.zip", "url": "https://api.gitcode.com/api/v5/repos/wendao-ai/wendao-ai-updates/raw/packages/ContentWorkbench-v0.0.12-win-x64.zip"}
+  }
 }
