@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "product": "wendao-ai",
   "channel": "stable",
-  "version": "0.0.48",
-  "publishedAt": "2026-08-24T05:31:57Z",
+  "version": "0.0.49",
+  "publishedAt": "2026-08-24T05:41:25Z",
   "releaseNotes": [],
   "policy": {
     "minimumSupportedVersion": "",
@@ -19,28 +19,28 @@
   ],
   "packages": {
     "macos/arm64": {
-      "fileName": "ContentWorkbench-v0.0.48-mac-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.48/ContentWorkbench-v0.0.48-mac-arm64.zip",
-      "size": 18279120,
-      "sha256": "1a6f6122d6e69589252d68953bb33ceed0c4957976e9f8a66446d5736fdf21c2"
+      "fileName": "ContentWorkbench-v0.0.49-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.49/ContentWorkbench-v0.0.49-mac-arm64.zip",
+      "size": 18279118,
+      "sha256": "e5148ab091c38939f7b279bb95908055c6ef40ff08405cccd3146260c737626c"
     },
     "macos/amd64": {
-      "fileName": "ContentWorkbench-v0.0.48-mac-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.48/ContentWorkbench-v0.0.48-mac-x64.zip",
-      "size": 19522081,
-      "sha256": "4f52a57dad4f9b19d22ed12a51796e28fe2f500ef05a793459fb922d37321749"
+      "fileName": "ContentWorkbench-v0.0.49-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.49/ContentWorkbench-v0.0.49-mac-x64.zip",
+      "size": 19522078,
+      "sha256": "1e0cd3a016697049c42c6ef701142ebf6a60cb23f085fee27638cabf5e5068dc"
     },
     "windows/amd64": {
-      "fileName": "ContentWorkbench-v0.0.48-win-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.48/ContentWorkbench-v0.0.48-win-x64.zip",
-      "size": 18929722,
-      "sha256": "4c579010fa9af4c6ad25b1adf3c0f952f43d38f8a762fac7486ee5803c92697f"
+      "fileName": "ContentWorkbench-v0.0.49-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.49/ContentWorkbench-v0.0.49-win-x64.zip",
+      "size": 18929727,
+      "sha256": "68ddcb532b0eafbfdb2078923c2b1d88f1fdc75684f2faa0ab1e16f82f53da4a"
     },
     "windows/arm64": {
-      "fileName": "ContentWorkbench-v0.0.48-win-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.48/ContentWorkbench-v0.0.48-win-arm64.zip",
-      "size": 17624832,
-      "sha256": "6996d16e1cf4a32369a322140279354809ff3aaacba2c12c363ede26f8dd0969"
+      "fileName": "ContentWorkbench-v0.0.49-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.49/ContentWorkbench-v0.0.49-win-arm64.zip",
+      "size": 17624836,
+      "sha256": "bdde94da8db9b659cd7422bba52bcf63d459bdde484fbdc2a55a2455e004e481"
     }
   }
 }
