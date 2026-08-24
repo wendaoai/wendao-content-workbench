@@ -3,7 +3,7 @@
   "product": "wendao-ai",
   "channel": "stable",
   "version": "0.0.47",
-  "publishedAt": "2026-08-24T00:27:11Z",
+  "publishedAt": "2026-08-24T05:23:34Z",
   "releaseNotes": [],
   "policy": {
     "minimumSupportedVersion": "",
@@ -11,19 +11,36 @@
     "remindAfterHours": 24,
     "reason": ""
   },
-  "supportedPlatforms": ["macos/arm64", "macos/amd64", "windows/amd64", "windows/arm64"],
+  "supportedPlatforms": [
+    "macos/amd64",
+    "macos/arm64",
+    "windows/amd64",
+    "windows/arm64"
+  ],
   "packages": {
     "macos/arm64": {
       "fileName": "ContentWorkbench-v0.0.47-mac-arm64.zip",
       "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.47/ContentWorkbench-v0.0.47-mac-arm64.zip",
-      "size": 18275359,
-      "sha256": "3c519ef32ad00bae566f4d56548ee69a7974bfed76061e97667a01a6b878b89e"
+      "size": 18279119,
+      "sha256": "a5182b2c3596e5cd281c68d21e65d749b6f2c06de270c0aaaaa121bf707f8bb0"
+    },
+    "macos/amd64": {
+      "fileName": "ContentWorkbench-v0.0.47-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.47/ContentWorkbench-v0.0.47-mac-x64.zip",
+      "size": 19522087,
+      "sha256": "2ecf777842e49bf1155c03a3d020e521a881c71bb2e5b88359a965452a624f77"
     },
     "windows/amd64": {
       "fileName": "ContentWorkbench-v0.0.47-win-x64.zip",
       "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.47/ContentWorkbench-v0.0.47-win-x64.zip",
-      "size": 18922977,
-      "sha256": "19b0e7bfd376a449504be40f394675d480dd5224bf37feb5f0314cf1fb71874c"
+      "size": 18929719,
+      "sha256": "4da36cd938c9c96aaf808769a90428d8c71af921cf3fc78f35f0dbfa73cbe76f"
+    },
+    "windows/arm64": {
+      "fileName": "ContentWorkbench-v0.0.47-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.47/ContentWorkbench-v0.0.47-win-arm64.zip",
+      "size": 17624828,
+      "sha256": "6f8570f8d7ab20f318cdbb6751579129ecf15289c256fe1fc24f740bd9a81cc3"
     }
   }
 }
