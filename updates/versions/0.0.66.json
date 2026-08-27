@@ -3,7 +3,7 @@
   "product": "wendao-ai",
   "channel": "stable",
   "version": "0.0.66",
-  "publishedAt": "2026-08-27T14:29:10Z",
+  "publishedAt": "2026-08-27T14:50:06Z",
   "releaseNotes": [
     "新增：新增 AI 看图多选分析，可按需生成图片提示词、诊断图片问题和创建多套可编辑设计方向；分析任务支持后台运行、刷新恢复、停止和原位置重试，AI 新增方向可持久化并最多扩展到 12 套，多套方案任务可按批次折叠查看；公众号封面支持点击放大、滚轮缩放和同批切换，全局通知统一为保留状态语义的黑金主题。"
   ],
@@ -23,26 +23,26 @@
     "macos/arm64": {
       "fileName": "ContentWorkbench-v0.0.66-mac-arm64.zip",
       "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.66/ContentWorkbench-v0.0.66-mac-arm64.zip",
-      "size": 20425221,
-      "sha256": "617ee0616621fe6d0a8eccec49a9ea0f888d8cee681084d57a509c60ed53a0f4"
+      "size": 20452972,
+      "sha256": "6f127317b07021a054643b0574da4fa242ada118cec6ba017796db658f264be9"
     },
     "macos/amd64": {
       "fileName": "ContentWorkbench-v0.0.66-mac-x64.zip",
       "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.66/ContentWorkbench-v0.0.66-mac-x64.zip",
-      "size": 21688079,
-      "sha256": "5168f78aafd61e6d91783b69833fd98dd538e3fa01b7f618fb322b85b6f91ba1"
+      "size": 21717472,
+      "sha256": "e6693a2fe583305425c3121440b56a822da131a875e44a05d1bfe869f1f951ea"
     },
     "windows/amd64": {
       "fileName": "ContentWorkbench-v0.0.66-win-x64.zip",
       "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.66/ContentWorkbench-v0.0.66-win-x64.zip",
-      "size": 21081210,
-      "sha256": "599439e842de0dce5df46a3168a573666d372f9b1788e5a9318d41dd0d6efee9"
+      "size": 21106090,
+      "sha256": "b26638c1963d8b29e8e21a34c7e614588376db18fd598c603e7efa0d3bed8396"
     },
     "windows/arm64": {
       "fileName": "ContentWorkbench-v0.0.66-win-arm64.zip",
       "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.66/ContentWorkbench-v0.0.66-win-arm64.zip",
-      "size": 19767276,
-      "sha256": "fa87a9989a5a4095c976dcef5a4c95b343a80fdf7d812ee651c32709f5bf5a12"
+      "size": 19794038,
+      "sha256": "62854cd75b81e21a0a7a487ba383e3ae1bb9035d63d3e4125d817ae2b3ff3d1e"
     }
   }
 }
