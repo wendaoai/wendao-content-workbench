@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.64",
+  "publishedAt": "2026-08-27T06:38:32Z",
+  "releaseNotes": [
+    "新增：新增文章默认配图能力，可在生成正文后自动插入匹配主题的正文配图。",
+    "优化：统一确认弹窗的品牌图标样式，并优化首次使用协议弹窗的内容布局。",
+    "优化：优化官方体验开始与额度用尽提示，让试用状态和后续配置指引更清晰。",
+    "优化：优化图片创作会话存储与分页加载，历史对话在重启后仍可继续使用。",
+    "优化：优化图片创作页的操作栏布局和默认图标，提升常用操作的辨识度。",
+    "优化：统一选题、灵感和文章工作区的空状态为品牌小狐狸形象。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/amd64",
+    "macos/arm64",
+    "windows/amd64",
+    "windows/arm64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "fileName": "ContentWorkbench-v0.0.64-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.64/ContentWorkbench-v0.0.64-mac-arm64.zip",
+      "size": 20386555,
+      "sha256": "2d375b73ab619e1ab56aaa3356f7c24fd09d137800d1812110c7c661edc6e1b9"
+    },
+    "macos/amd64": {
+      "fileName": "ContentWorkbench-v0.0.64-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.64/ContentWorkbench-v0.0.64-mac-x64.zip",
+      "size": 21651111,
+      "sha256": "d2d7eeac4b796fa0ca64f1061b5b0df758c16193524fc56a57bbb7430e3fda33"
+    },
+    "windows/amd64": {
+      "fileName": "ContentWorkbench-v0.0.64-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.64/ContentWorkbench-v0.0.64-win-x64.zip",
+      "size": 21041562,
+      "sha256": "fc03523646b681e8a55e9c3f6cd4605591d65c8a77a88aa49c15052f532e887f"
+    },
+    "windows/arm64": {
+      "fileName": "ContentWorkbench-v0.0.64-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.64/ContentWorkbench-v0.0.64-win-arm64.zip",
+      "size": 19727661,
+      "sha256": "b6187b74a75a4c749df5f4f9603c57207885711c828cda469ecb86e23d68c1c4"
+    }
+  }
+}
