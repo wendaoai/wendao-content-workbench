@@ -2,13 +2,10 @@
   "schemaVersion": 2,
   "product": "wendao-ai",
   "channel": "stable",
-  "version": "0.0.76",
-  "publishedAt": "2026-08-30T01:41:11Z",
+  "version": "0.0.77",
+  "publishedAt": "2026-08-30T02:33:13Z",
   "releaseNotes": [
-    "新增：新增公众号浏览器发布交接：可从文章工作区将标题、正文和封面安全交给本机浏览器插件填入公众号编辑器，并保留复制富文本的备用入口。",
-    "优化：优化公众号模板市场下载体验，支持一键下载全部未安装或可更新模板，并汇总新增、更新和失败数量。",
-    "优化：升级热点雷达为两种明确模式：实时热点使用 OpenAI、xAI/Grok 或 Claude 的原生联网搜索并校验来源，AI 策划生成非实时常青选题，避免将模型规划误标为实时热点。",
-    "修复：增强绿色版内置升级的数据保护：原地保留 data 和 outputs 目录，不使用更新包同名内容覆盖；开发服务占用默认端口时自动选择可用端口启动新版。"
+    "新增：新增浏览器插件安装入口、图文教程和 Chrome、Edge 直达下载包，可从创作首页或官网完成安装。"
   ],
   "policy": {
     "minimumSupportedVersion": "",
@@ -24,46 +21,28 @@
   ],
   "packages": {
     "macos/arm64": {
-      "fileName": "ContentWorkbench-v0.0.76-mac-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.76/ContentWorkbench-v0.0.76-mac-arm64.zip",
-      "size": 21482149,
-      "sha256": "53e62a374bbf3db9a4f9b85bafa5e67c848213b591137cca64ec96d71f98c73d"
+      "fileName": "ContentWorkbench-v0.0.77-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.77/ContentWorkbench-v0.0.77-mac-arm64.zip",
+      "size": 21484324,
+      "sha256": "a14922f4a562f594c5a988f1fc02a62f422febb1b45064b60343624be8ad8d75"
     },
     "macos/amd64": {
-      "fileName": "ContentWorkbench-v0.0.76-mac-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.76/ContentWorkbench-v0.0.76-mac-x64.zip",
-      "size": 22778931,
-      "sha256": "dbbca51a819792a556cd8d08456684607a0461fe27747204b9398207c3c67e04"
+      "fileName": "ContentWorkbench-v0.0.77-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.77/ContentWorkbench-v0.0.77-mac-x64.zip",
+      "size": 22781707,
+      "sha256": "8b0edab815b2dac8954e278e966313ed35cfc7d6d9ca736077cc694161a6f2e6"
     },
     "windows/amd64": {
-      "fileName": "ContentWorkbench-v0.0.76-win-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.76/ContentWorkbench-v0.0.76-win-x64.zip",
-      "size": 22153760,
-      "sha256": "d9ea3d7192aec5e06d15ed55fd05ca5941f670a86ae532fc9ce95485f7f7d611"
+      "fileName": "ContentWorkbench-v0.0.77-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.77/ContentWorkbench-v0.0.77-win-x64.zip",
+      "size": 22154249,
+      "sha256": "b93c573775f35e86c81ce34cc6a03a1349c04e88f2c99c3d6ba947b61f1753d4"
     },
     "windows/arm64": {
-      "fileName": "ContentWorkbench-v0.0.76-win-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.76/ContentWorkbench-v0.0.76-win-arm64.zip",
-      "size": 20818129,
-      "sha256": "88f92db9bbf54997e3f133419a8ef69fd7091bce974b61fcdcfbdb36929444e6"
-    }
-  },
-  "browserExtensions": {
-    "version": "0.1.0",
-    "minimumChromiumVersion": "116",
-    "packages": {
-      "chrome": {
-        "fileName": "wendao-ai-browser-ext-v0.1.0-chrome.zip",
-        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.0/wendao-ai-browser-ext-v0.1.0-chrome.zip",
-        "size": 124890,
-        "sha256": "d66f3039c0a825cf48b7d69dac1437302ca1ff1c789b94538dd0d44a2b528205"
-      },
-      "edge": {
-        "fileName": "wendao-ai-browser-ext-v0.1.0-edge.zip",
-        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.0/wendao-ai-browser-ext-v0.1.0-edge.zip",
-        "size": 124890,
-        "sha256": "d66f3039c0a825cf48b7d69dac1437302ca1ff1c789b94538dd0d44a2b528205"
-      }
+      "fileName": "ContentWorkbench-v0.0.77-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.77/ContentWorkbench-v0.0.77-win-arm64.zip",
+      "size": 20818427,
+      "sha256": "33e9f79aa4921542a1c954c6e2723c2bdd9508021fa5573115d2883ebcf5c73c"
     }
   }
 }
