@@ -2,11 +2,11 @@
   "schemaVersion": 2,
   "product": "wendao-ai",
   "channel": "stable",
-  "version": "0.0.81",
-  "publishedAt": "2026-08-31T09:26:28Z",
+  "version": "0.0.82",
+  "publishedAt": "2026-09-01T00:55:53Z",
   "releaseNotes": [
-    "优化：重构统一任务中心和创作工作台，完善真实控件新手引导，修复数据库恢复、任务取消与启动恢复问题，并显著降低首屏包体、重复请求和后台动画开销。",
-    "优化：首页合并重复创作入口，保留单一主输入、选题与热点快捷入口，并将帮助支持入口收纳到内容区底部。"
+    "修复：修复后台生成任务关闭时可能继续运行或无限等待的问题，并为内容分析、卡片页面和关联查询增加批量与数量边界。",
+    "修复：修复数据库恢复后部分带写入副作用的读取接口与桌面发布操作仍可访问的问题，确保重启前不会继续修改已恢复的数据。"
   ],
   "policy": {
     "minimumSupportedVersion": "",
@@ -22,28 +22,28 @@
   ],
   "packages": {
     "macos/arm64": {
-      "fileName": "ContentWorkbench-v0.0.81-mac-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.81/ContentWorkbench-v0.0.81-mac-arm64.zip",
-      "size": 16374612,
-      "sha256": "603ee3c5890ee18978886275e32c8f904b2f6ba1c408a31963385a914de49129"
+      "fileName": "ContentWorkbench-v0.0.82-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.82/ContentWorkbench-v0.0.82-mac-arm64.zip",
+      "size": 16390810,
+      "sha256": "b6e763b0fd49272935c108de1a3a56a0ddd23d3502448ecad799987e069040a8"
     },
     "macos/amd64": {
-      "fileName": "ContentWorkbench-v0.0.81-mac-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.81/ContentWorkbench-v0.0.81-mac-x64.zip",
-      "size": 17621069,
-      "sha256": "74a50d51c43b31a3d043d8ba0a3fa694358958a635fcdb8c7400381057130e87"
+      "fileName": "ContentWorkbench-v0.0.82-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.82/ContentWorkbench-v0.0.82-mac-x64.zip",
+      "size": 17636256,
+      "sha256": "d1ee4d27b2700b03e081bc2d27dfb6a672418d23b8590c4112efcf536d94a985"
     },
     "windows/amd64": {
-      "fileName": "ContentWorkbench-v0.0.81-win-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.81/ContentWorkbench-v0.0.81-win-x64.zip",
-      "size": 17015280,
-      "sha256": "7ddfd9a1f5f78bb8c2e5f7e3afc7b09242c86155ebd7529bd2716e1e4ae4e6af"
+      "fileName": "ContentWorkbench-v0.0.82-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.82/ContentWorkbench-v0.0.82-win-x64.zip",
+      "size": 17028544,
+      "sha256": "f058ed312b063cb66f82c42eebbc6a99bc1dffbef8c38414d45ffc7457e95504"
     },
     "windows/arm64": {
-      "fileName": "ContentWorkbench-v0.0.81-win-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.81/ContentWorkbench-v0.0.81-win-arm64.zip",
-      "size": 15745354,
-      "sha256": "1ec047a18dfe80c9ae43d1f9bcd5fb411bcdc6b90568860d5e6bbe3e52583433"
+      "fileName": "ContentWorkbench-v0.0.82-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.82/ContentWorkbench-v0.0.82-win-arm64.zip",
+      "size": 15758387,
+      "sha256": "80a75b76b0488976edc887f940c3d2de3e43134e2e12eb58da556225070e7e83"
     }
   },
   "browserExtensions": {
