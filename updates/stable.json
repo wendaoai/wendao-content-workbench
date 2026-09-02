@@ -3,7 +3,7 @@
   "product": "wendao-ai",
   "channel": "stable",
   "version": "0.0.85",
-  "publishedAt": "2026-09-01T08:54:02Z",
+  "publishedAt": "2026-09-02T00:39:30Z",
   "releaseNotes": [
     "优化：优化工作台首页创作入口、选题卡片与新手引导，支持从我的选题直接续写、从平台热点和热点雷达直接发散选题，并修复关闭按钮悬停对齐等交互问题。"
   ],
@@ -23,8 +23,8 @@
     "macos/arm64": {
       "fileName": "ContentWorkbench-v0.0.85-mac-arm64.zip",
       "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.85/ContentWorkbench-v0.0.85-mac-arm64.zip",
-      "size": 16445855,
-      "sha256": "e31c77d29805204a9da2e7029d0810ce101ebaa288ba4b28424c0dafc8375d3e"
+      "size": 16474619,
+      "sha256": "e820b38476807acf17d25d90d3b926b4c2e4967c5f2036b2467c2a584d9f1913"
     },
     "macos/amd64": {
       "fileName": "ContentWorkbench-v0.0.85-mac-x64.zip",
