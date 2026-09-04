@@ -2,11 +2,10 @@
   "schemaVersion": 2,
   "product": "wendao-ai",
   "channel": "stable",
-  "version": "0.0.91",
-  "publishedAt": "2026-09-04T04:31:54Z",
+  "version": "0.0.93",
+  "publishedAt": "2026-09-04T04:40:47Z",
   "releaseNotes": [
-    "优化：优化提示词广场缓存与图片加载体验，完善公众号复制、选题和平台设置交互。",
-    "修复：图片任务列表直接展示失败处理建议并支持点击查看详情，图片服务默认超时时间调整为 600 秒。"
+    "修复：为文章定稿增加确认与防重复提交，完善内容助手清空输入和未发送修改关闭保护；修复详情抽屉可见性、生成等待态空白和插件下载地址超时重试。"
   ],
   "policy": {
     "minimumSupportedVersion": "",
@@ -22,28 +21,28 @@
   ],
   "packages": {
     "macos/arm64": {
-      "fileName": "ContentWorkbench-v0.0.91-mac-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.91/ContentWorkbench-v0.0.91-mac-arm64.zip",
-      "size": 16517038,
-      "sha256": "f0971a5415b782bfadbde2c54867313eaed1e8f5249e9f90f50b261f47442cff"
+      "fileName": "ContentWorkbench-v0.0.93-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.93/ContentWorkbench-v0.0.93-mac-arm64.zip",
+      "size": 16517000,
+      "sha256": "33c46c3e12fc7c9ffdd4d3a76fa2e7e176e8235590e1d26b0ce43f054159f599"
     },
     "macos/amd64": {
-      "fileName": "ContentWorkbench-v0.0.91-mac-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.91/ContentWorkbench-v0.0.91-mac-x64.zip",
-      "size": 17763873,
-      "sha256": "f2f2307bb4b6dc1ef5fd36ea52cb9772e9bd0cbe1f188110ef834fc68ee45564"
+      "fileName": "ContentWorkbench-v0.0.93-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.93/ContentWorkbench-v0.0.93-mac-x64.zip",
+      "size": 17763847,
+      "sha256": "dc53cd495388944b8c30c55b5b78cc8322772ecbca7db96e107d86364b1628b8"
     },
     "windows/amd64": {
-      "fileName": "ContentWorkbench-v0.0.91-win-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.91/ContentWorkbench-v0.0.91-win-x64.zip",
-      "size": 17161882,
-      "sha256": "7d1858ae9236b78b0bf3a5fec3cc64da1458013a3f39ab1efc8c2724d84348dd"
+      "fileName": "ContentWorkbench-v0.0.93-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.93/ContentWorkbench-v0.0.93-win-x64.zip",
+      "size": 17161851,
+      "sha256": "8b87bb3f1219210844b7206dba72cd7427b9c0426f9afb59fea398d91f89f556"
     },
     "windows/arm64": {
-      "fileName": "ContentWorkbench-v0.0.91-win-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.91/ContentWorkbench-v0.0.91-win-arm64.zip",
-      "size": 15879038,
-      "sha256": "639037edd3c78baa53ff5b860a7e9c08a26db66cc60ff8b9d5e5720b3ad43494"
+      "fileName": "ContentWorkbench-v0.0.93-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.93/ContentWorkbench-v0.0.93-win-arm64.zip",
+      "size": 15879007,
+      "sha256": "2b21fcba2c15c2d36d39db0c29386e26415c085dfa60b940dd290bab91b9fc10"
     }
   },
   "browserExtensions": {
