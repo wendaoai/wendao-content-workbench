@@ -3,11 +3,13 @@
   "product": "wendao-ai",
   "channel": "stable",
   "version": "0.0.103",
-  "publishedAt": "2026-09-12T16:06:37Z",
+  "publishedAt": "2026-09-13T03:06:04Z",
   "releaseNotes": [
     "新增：首次进入桌面应用时支持选择经典金棕或莓果玫瑰主题，并在主题确认后继续启动提示流程。",
     "新增：新增知识库与营销创作工作台，支持管理本地资料、接入 IMA 知识库搜索，并基于知识内容生成和继续编辑营销文案。",
     "新增：图片生成新增“我的提示词”，支持连接梦精灵账号、同步提示词及封面，并按关键词和分类查找后一键用于创作。",
+    "优化：内容助手新增询问、点评和改写三种明确模式：询问与点评直接返回对话结果且不创建正文版本，长回答支持展开全文，改写会明确生成新的当前正文版本，并改善发送状态、服务错误说明和输入可访问性。",
+    "优化：公众号正文、知识库资料和小红书卡片正文统一使用紧凑的 Tiptap 可视化编辑内核及单行工具栏，移除重复操作和嵌套面板，并保留 Markdown 方言原文、公众号预览复制导出链路及小红书块 ID、字号、公式和表格数据。",
     "修复：修复梦精灵服务 API 地址配置错误导致授权或同步请求不可用的问题。",
     "修复：修复部分已有数据库升级时提示词同步字段重复写入导致迁移失败的问题。"
   ],
@@ -27,26 +29,26 @@
     "macos/arm64": {
       "fileName": "ContentWorkbench-v0.0.103-mac-arm64.zip",
       "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.103/ContentWorkbench-v0.0.103-mac-arm64.zip",
-      "size": 20868576,
-      "sha256": "06df613b96b18587aa152229826768334a4b01be10d68ef95190489a451e9ff5"
+      "size": 20699270,
+      "sha256": "ec352e092202b6b88ce81bc88637f6cd49c42829e8f0eacf55c11adbb64d966e"
     },
     "macos/amd64": {
       "fileName": "ContentWorkbench-v0.0.103-mac-x64.zip",
       "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.103/ContentWorkbench-v0.0.103-mac-x64.zip",
-      "size": 22153643,
-      "sha256": "de964d1ebdeda63f66e244bf48892de2295176b4998ea8c8cedaec9319f58664"
+      "size": 21987840,
+      "sha256": "bd7e1469dd4db3f473baa4a2ce984351255cb9585864e43f6d6765ca89b2e793"
     },
     "windows/amd64": {
       "fileName": "ContentWorkbench-v0.0.103-win-x64.zip",
       "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.103/ContentWorkbench-v0.0.103-win-x64.zip",
-      "size": 21511721,
-      "sha256": "88fa268ad2eb2958dac8a2efea83b37318958a59407173d417978d0b8bcc8c59"
+      "size": 21350238,
+      "sha256": "203290f4f6c4fd59507df3e13e53f4527f227b8fc750bd31d9240f977107e84c"
     },
     "windows/arm64": {
       "fileName": "ContentWorkbench-v0.0.103-win-arm64.zip",
       "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.103/ContentWorkbench-v0.0.103-win-arm64.zip",
-      "size": 20222336,
-      "sha256": "04ac2c49eae980aa389bdfed965b445527cdafafc5250e0b86b50a1bbdd72ade"
+      "size": 20058154,
+      "sha256": "695039def955c1c80309dc40f0efb2f0202039ae7837e56a2608da04b8661cc8"
     }
   },
   "browserExtensions": {
