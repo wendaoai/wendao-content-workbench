@@ -3,9 +3,13 @@
   "product": "wendao-ai",
   "channel": "stable",
   "version": "0.0.107",
-  "publishedAt": "2026-09-15T05:42:26Z",
+  "publishedAt": "2026-09-15T08:55:44Z",
   "releaseNotes": [
-    "优化：重整侧边栏功能菜单：将菜单入口前置到新建下方，按创作、工作台和帮助支持分组集中展示功能，增加任务提醒一键已读与主题切换入口，并补充轻量展开与交互反馈动画。"
+    "新增：资产中心新增封面模板和内页模板管理，支持上传参考图、使用图片模型生成结构化设计提示词、保存到本地模板库，并从官方资源市场下载模板。",
+    "优化：优化功能菜单与外观主题弹框的间距、滚动和交互状态，并增加吉祥物选择。",
+    "优化：重整侧边栏功能菜单：将菜单入口前置到新建下方，按创作、工作台和帮助支持分组集中展示功能，增加任务提醒一键已读与主题切换入口，并补充轻量展开与交互反馈动画。",
+    "修复：修复后台任务通知在任务中心打开时重复弹出，并让通知点击定位到对应任务状态。",
+    "修复：修复营销创作详情页的图片移除、生成进度和失败提示遮罩未适配主题的问题，确保不同主题下文字与背景保持清晰可见。"
   ],
   "policy": {
     "minimumSupportedVersion": "",
@@ -23,26 +27,26 @@
     "macos/arm64": {
       "fileName": "ContentWorkbench-v0.0.107-mac-arm64.zip",
       "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.107/ContentWorkbench-v0.0.107-mac-arm64.zip",
-      "size": 21057998,
-      "sha256": "b614034cf3accec0e2fd9af6731a04a8d15ae6ee3f46e9c0cb2b0b38366cd7e6"
+      "size": 21069244,
+      "sha256": "dfa22b182d96a7e23d381ce74334470b3285a5293d199d65598e03edd8a33f77"
     },
     "macos/amd64": {
       "fileName": "ContentWorkbench-v0.0.107-mac-x64.zip",
       "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.107/ContentWorkbench-v0.0.107-mac-x64.zip",
-      "size": 22428928,
-      "sha256": "a932f60ff0cb99bee9d9d7deb17224058fdf63a44355200cee9d4c85f9e24488"
+      "size": 22438068,
+      "sha256": "e6a1bbb9a18ca67b1d81ccde0e5cd1520ea1e27f918d865d9e87c4585d0f6e57"
     },
     "windows/amd64": {
       "fileName": "ContentWorkbench-v0.0.107-win-x64.zip",
       "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.107/ContentWorkbench-v0.0.107-win-x64.zip",
-      "size": 21792981,
-      "sha256": "081d613fc834ead706e016e55a15209cbb035d9f22f252147503f3011415fe02"
+      "size": 21800441,
+      "sha256": "31b1eabf486ce60304b4f664b415b5d1e6aa5c7aa2ecd335cb6618270437f179"
     },
     "windows/arm64": {
       "fileName": "ContentWorkbench-v0.0.107-win-arm64.zip",
       "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.107/ContentWorkbench-v0.0.107-win-arm64.zip",
-      "size": 20412157,
-      "sha256": "c9109c83d090731ca8b45417efc30161c16194aa1abd3e15c3cdadbf45efe782"
+      "size": 20421092,
+      "sha256": "db86475b01a35463a394402a6cc2a17d227e6e008e8a308076c91443e9f4915e"
     }
   },
   "browserExtensions": {
