@@ -2,16 +2,14 @@
   "schemaVersion": 2,
   "product": "wendao-ai",
   "channel": "stable",
-  "version": "0.0.104",
-  "publishedAt": "2026-09-13T03:10:55Z",
+  "version": "0.0.105",
+  "publishedAt": "2026-09-15T00:09:52Z",
   "releaseNotes": [
-    "新增：首次进入桌面应用时支持选择经典金棕或莓果玫瑰主题，并在主题确认后继续启动提示流程。",
-    "新增：新增知识库与营销创作工作台，支持管理本地资料、接入 IMA 知识库搜索，并基于知识内容生成和继续编辑营销文案。",
-    "新增：图片生成新增“我的提示词”，支持连接梦精灵账号、同步提示词及封面，并按关键词和分类查找后一键用于创作。",
-    "优化：内容助手新增询问、点评和改写三种明确模式：询问与点评直接返回对话结果且不创建正文版本，长回答支持展开全文，改写会明确生成新的当前正文版本，并改善发送状态、服务错误说明和输入可访问性。",
-    "优化：公众号正文、知识库资料和小红书卡片正文统一使用紧凑的 Tiptap 可视化编辑内核及单行工具栏，移除重复操作和嵌套面板，并保留 Markdown 方言原文、公众号预览复制导出链路及小红书块 ID、字号、公式和表格数据。",
-    "修复：修复梦精灵服务 API 地址配置错误导致授权或同步请求不可用的问题。",
-    "修复：修复部分已有数据库升级时提示词同步字段重复写入导致迁移失败的问题。"
+    "新增：公众号正文页新增一键智能排版与三套受控候选轮换：规则预览即时返回，AI 分析和安全校验过程流式可见，验证通过后原子切换为 AI 推荐模板、阅读参数与结构方案；AI 超时或结果无效时明确降级到稳定排版，所有建议仍需用户确认并通过签名校验后应用。",
+    "优化：优化公众号智能排版候选切换：返回已浏览方案或命中预生成候选时立即更新预览，不再重复显示加载状态或发起相同请求；连续换一版会携带最近 12 个已看方案，AI 和规则排版均避免重复模板与阅读参数组合。",
+    "优化：内容助手改善低高度窗口、多任务队列和长对话的滚动体验：输入区保持可见，用户上滚后不再被自动拉回，支持平滑回到最新；轮次元信息截断时可通过悬浮或键盘聚焦查看完整内容；同时统一询问、点评和改写的输入文案与技能边界，并阻止只读模式携带改写动作。",
+    "优化：首页创作输入区将营销创作、模型配置、自动配图、生成前预览和高级设置收敛到单行图标工具栏，补充状态提示、悬浮说明和减少动态效果兼容，避免低频操作挤占输入空间。",
+    "修复：修复图片结果迁移到数据目录后，已完成或失败的图片任务无法永久删除，以及历史导入失败时残留任务目录的问题；目录越界与符号链接防护保持不变。"
   ],
   "policy": {
     "minimumSupportedVersion": "",
@@ -27,28 +25,28 @@
   ],
   "packages": {
     "macos/arm64": {
-      "fileName": "ContentWorkbench-v0.0.104-mac-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.104/ContentWorkbench-v0.0.104-mac-arm64.zip",
-      "size": 20699273,
-      "sha256": "0dd6eb65d32826b83d307c403cf6833c05d0c8221ca3cf3ea361584d8791b24d"
+      "fileName": "ContentWorkbench-v0.0.105-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.105/ContentWorkbench-v0.0.105-mac-arm64.zip",
+      "size": 21162666,
+      "sha256": "1432e523bbf80d5318a5744ca32cd182b4153d88b69b37d5a3587cf4e2630f00"
     },
     "macos/amd64": {
-      "fileName": "ContentWorkbench-v0.0.104-mac-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.104/ContentWorkbench-v0.0.104-mac-x64.zip",
-      "size": 21987842,
-      "sha256": "008e348578fcd28c2ef9a49ef2368e990d6b1c8bd3183c3fb0812e197dcce583"
+      "fileName": "ContentWorkbench-v0.0.105-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.105/ContentWorkbench-v0.0.105-mac-x64.zip",
+      "size": 22552597,
+      "sha256": "fa53c54f9c816e8d796cd7595ccb83313498f479a4841f435854cdd14a5780f0"
     },
     "windows/amd64": {
-      "fileName": "ContentWorkbench-v0.0.104-win-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.104/ContentWorkbench-v0.0.104-win-x64.zip",
-      "size": 21350243,
-      "sha256": "90ec537a9abd58b8d4765b0a14cab9e0035b67336fd653b2654f0b4b6f551cdb"
+      "fileName": "ContentWorkbench-v0.0.105-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.105/ContentWorkbench-v0.0.105-win-x64.zip",
+      "size": 21905127,
+      "sha256": "5b1f94865f607420d0d09a1fd8c3c60cd08bae1977ff563c869038a454c45fba"
     },
     "windows/arm64": {
-      "fileName": "ContentWorkbench-v0.0.104-win-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.104/ContentWorkbench-v0.0.104-win-arm64.zip",
-      "size": 20058155,
-      "sha256": "f69683c9f96c819e94c940fef3a7455634a5e41c0070e3df9e203f7c2fabbd17"
+      "fileName": "ContentWorkbench-v0.0.105-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.105/ContentWorkbench-v0.0.105-win-arm64.zip",
+      "size": 20516946,
+      "sha256": "6b718838c9e0f0f7cbea553342eb7646bdbe188ed5acd5338f1baf6f9faa8609"
     }
   },
   "browserExtensions": {
