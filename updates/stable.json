@@ -2,12 +2,13 @@
   "schemaVersion": 2,
   "product": "wendao-ai",
   "channel": "stable",
-  "version": "0.0.109",
-  "publishedAt": "2026-09-16T00:37:10Z",
+  "version": "0.0.110",
+  "publishedAt": "2026-09-16T02:00:55Z",
   "releaseNotes": [
-    "新增：营销创作支持按单页使用 AI 重写图片提示词并重新生成图片，可结合商品图、模特、场景及封面或内页模板逐页调整方案。",
-    "优化：优化营销创作入口、能力说明、素材选择和图片生成流程，并补充图片模型与参考图参数传递。",
-    "修复：修复营销工作流数据保存、图片生成状态回传和参考图处理异常的问题。"
+    "新增：智能排版改为后台并发生成三套候选方案，支持逐套返回可用结果、展示校验进度并停止进行中的任务。",
+    "优化：优化初稿与正文改写的实时预览、思考反馈和自动滚动，精简内容助手结果卡的重复操作，并统一展示真实任务耗时。",
+    "优化：统一系统弹框品牌插图与关闭样式，收紧主题选择布局并支持更多主题滚动提示，完善文章修订状态与通知表现。",
+    "修复：放宽目标字数的合理容差范围，避免模型输出接近用户要求时因过窄限制被反复纠正或错误拒绝。"
   ],
   "policy": {
     "minimumSupportedVersion": "",
@@ -23,28 +24,28 @@
   ],
   "packages": {
     "macos/arm64": {
-      "fileName": "ContentWorkbench-v0.0.109-mac-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.109/ContentWorkbench-v0.0.109-mac-arm64.zip",
-      "size": 21064228,
-      "sha256": "1bf2e40de1c1b2425a8c388ffc2266950e8fd92716ed926b0ce299ba43b2b50a"
+      "fileName": "ContentWorkbench-v0.0.110-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.110/ContentWorkbench-v0.0.110-mac-arm64.zip",
+      "size": 21086654,
+      "sha256": "b66bb960c449d16d93d0a5ee5ec5fae8fd983757a20128e474bffd5171057d5f"
     },
     "macos/amd64": {
-      "fileName": "ContentWorkbench-v0.0.109-mac-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.109/ContentWorkbench-v0.0.109-mac-x64.zip",
-      "size": 22454311,
-      "sha256": "44db656a55350795e1ea64b4e4d312d4631ff2c773144d12a86f3f53c61dfdde"
+      "fileName": "ContentWorkbench-v0.0.110-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.110/ContentWorkbench-v0.0.110-mac-x64.zip",
+      "size": 22486826,
+      "sha256": "a8d1630c4c6e11a228603821a930567293ede99591710630e681c400e04b0291"
     },
     "windows/amd64": {
-      "fileName": "ContentWorkbench-v0.0.109-win-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.109/ContentWorkbench-v0.0.109-win-x64.zip",
-      "size": 21818794,
-      "sha256": "b6182392ddcead5a59934fbfb76b51b86f5a969f782ed1a3093b1c83e1089bca"
+      "fileName": "ContentWorkbench-v0.0.110-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.110/ContentWorkbench-v0.0.110-win-x64.zip",
+      "size": 21842579,
+      "sha256": "3d539f8863807f24bd8178738e513235239a1cd6d56f7544b8b1b711470166df"
     },
     "windows/arm64": {
-      "fileName": "ContentWorkbench-v0.0.109-win-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.109/ContentWorkbench-v0.0.109-win-arm64.zip",
-      "size": 20434046,
-      "sha256": "ddfdbed67d1482888d661639b46c9ad53eb9baed773948e60a354b917037a5f9"
+      "fileName": "ContentWorkbench-v0.0.110-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.110/ContentWorkbench-v0.0.110-win-arm64.zip",
+      "size": 20464351,
+      "sha256": "935abd2769929cb20529c3dcdc99d97b00b1448b084a26828a151472ee75b3eb"
     }
   },
   "browserExtensions": {
