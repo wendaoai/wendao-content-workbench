@@ -3,7 +3,7 @@
   "product": "wendao-ai",
   "channel": "stable",
   "version": "0.0.115",
-  "publishedAt": "2026-09-18T09:21:10Z",
+  "publishedAt": "2026-09-18T15:20:26Z",
   "releaseNotes": [
     "修复：调整ai设置"
   ],
@@ -23,8 +23,8 @@
     "macos/arm64": {
       "fileName": "ContentWorkbench-v0.0.115-mac-arm64.zip",
       "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.115/ContentWorkbench-v0.0.115-mac-arm64.zip",
-      "size": 21159908,
-      "sha256": "b1252e7f06a7d035fccc1482d18db3c09e7b4cab41ee5afb25edafb5e1a917ad"
+      "size": 21166912,
+      "sha256": "2cfeb641f3eeb798a42f9fb59573f582abb9f7b6fff4c75aafd6e72bdcc9e12b"
     },
     "macos/amd64": {
       "fileName": "ContentWorkbench-v0.0.115-mac-x64.zip",
