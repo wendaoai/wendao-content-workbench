@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.120",
+  "publishedAt": "2026-09-21T09:25:08Z",
+  "releaseNotes": [
+    "新增：macOS 绿色版新增首次打开图文流程和安全提示。",
+    "优化：AI 服务配置改用统一服务商目录，支持配置资源中心与自定义服务商的文字、图片和音频能力；各业务模型选择器统一提供搜索和服务商分类，并可查看模型能力详情。资源目录新增阿里云百炼 Token Plan，完善图片模型分类。",
+    "优化：AI 服务配置新增按能力管理模型：支持搜索、全选或隐藏模型，并可分别设置文字、图片和音频能力的默认模型；资源目录新增模型不会覆盖已有的显示与默认选择。",
+    "优化：优化官网与公开仓库的搜索描述、免费定位、站点地图和官方入口，并在首屏提供自动识别系统的四版本下载选择器与最新桌面界面。",
+    "优化：整理主题与吉祥物公共资源，移除重复的源码资源并增加资源结构校验；营销能力卡片改为按当前主题动态加载吉祥物素材。",
+    "优化：智能排版支持并发生成公众号 CSS 主题候选，首个有效方案完成后立即展示，其余候选继续后台生成；换版优先使用缓存并按需补充，同时完善超时、取消、去重和 CSS 校验，输出可直接复制到微信公众号的内联样式。",
+    "修复：恢复商用绿色版中的官方内容创作、公众号排版、封面、标题、小红书海报和工作台登记 Skill。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/amd64",
+    "macos/arm64",
+    "windows/amd64",
+    "windows/arm64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "fileName": "ContentWorkbench-v0.0.120-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.120/ContentWorkbench-v0.0.120-mac-arm64.zip",
+      "size": 21184361,
+      "sha256": "701c6b6f5cf2c1a8a9ecde11a47e330903f444d70e974eb4f7ec76393de0ad31"
+    },
+    "macos/amd64": {
+      "fileName": "ContentWorkbench-v0.0.120-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.120/ContentWorkbench-v0.0.120-mac-x64.zip",
+      "size": 22593209,
+      "sha256": "e7967422edc8dbfc6b5fa21a3c129db1c5670cd4dad594d2e9c5b7fb556fa045"
+    },
+    "windows/amd64": {
+      "fileName": "ContentWorkbench-v0.0.120-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.120/ContentWorkbench-v0.0.120-win-x64.zip",
+      "size": 21939179,
+      "sha256": "3794dc7cf3e3367f465346992d6889c07e451f637cd68dd54fc963f9ca25bc2c"
+    },
+    "windows/arm64": {
+      "fileName": "ContentWorkbench-v0.0.120-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.120/ContentWorkbench-v0.0.120-win-arm64.zip",
+      "size": 20553033,
+      "sha256": "627c5aaf756c600e44508dfd2d6a9ac646380e58d534a0f113df185e2a6dcd5a"
+    }
+  },
+  "browserExtensions": {
+    "version": "0.1.0",
+    "minimumChromiumVersion": "116",
+    "packages": {
+      "chrome": {
+        "fileName": "wendao-ai-browser-ext-v0.1.0-chrome.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.0/wendao-ai-browser-ext-v0.1.0-chrome.zip",
+        "size": 124890,
+        "sha256": "d66f3039c0a825cf48b7d69dac1437302ca1ff1c789b94538dd0d44a2b528205"
+      },
+      "edge": {
+        "fileName": "wendao-ai-browser-ext-v0.1.0-edge.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.0/wendao-ai-browser-ext-v0.1.0-edge.zip",
+        "size": 124890,
+        "sha256": "d66f3039c0a825cf48b7d69dac1437302ca1ff1c789b94538dd0d44a2b528205"
+      }
+    }
+  }
+}
