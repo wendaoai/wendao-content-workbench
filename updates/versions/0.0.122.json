@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.122",
+  "publishedAt": "2026-09-22T01:50:15Z",
+  "releaseNotes": [
+    "优化：移除 React 迁移前端及临时参考实现，恢复 Vue 作为唯一的 Web 与桌面前端。",
+    "修复：修复 Vue 文章详情内容被无效模板节点隐藏、进入详情后只显示空白工作区的问题。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/arm64",
+    "windows/amd64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "fileName": "ContentWorkbench-v0.0.122-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.122/ContentWorkbench-v0.0.122-mac-arm64.zip",
+      "size": 21184989,
+      "sha256": "74bcded9dfa64a0432894e536ef3be3f14bbeefd7341ec0a484e22a4b669aa01"
+    },
+    "windows/amd64": {
+      "fileName": "ContentWorkbench-v0.0.122-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.122/ContentWorkbench-v0.0.122-win-x64.zip",
+      "size": 21939419,
+      "sha256": "3e07e173842b18be51bd19bafdc9439e9c8a53a707e9fea54139a11c8d54baae"
+    }
+  },
+  "browserExtensions": {
+    "version": "0.1.0",
+    "minimumChromiumVersion": "116",
+    "packages": {
+      "chrome": {
+        "fileName": "wendao-ai-browser-ext-v0.1.0-chrome.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.0/wendao-ai-browser-ext-v0.1.0-chrome.zip",
+        "size": 124890,
+        "sha256": "d66f3039c0a825cf48b7d69dac1437302ca1ff1c789b94538dd0d44a2b528205"
+      },
+      "edge": {
+        "fileName": "wendao-ai-browser-ext-v0.1.0-edge.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.0/wendao-ai-browser-ext-v0.1.0-edge.zip",
+        "size": 124890,
+        "sha256": "d66f3039c0a825cf48b7d69dac1437302ca1ff1c789b94538dd0d44a2b528205"
+      }
+    }
+  }
+}

@@ -2,38 +2,11 @@
   "schemaVersion": 2,
   "product": "wendao-ai",
   "channel": "stable",
-  "version": "0.0.121",
-  "publishedAt": "2026-09-22T01:00:19Z",
+  "version": "0.0.122",
+  "publishedAt": "2026-09-22T01:50:15Z",
   "releaseNotes": [
-    "优化：启动 React 19 与 shadcn/ui 前端迁移：建立 Content Workbench 产品壳层、TanStack Router 目标路由、中文命令面板和六套主题切换机制，并清理原基座中的登录及演示功能。",
-    "优化：对齐 React 图片生成工作区与 Vue 版本的三栏布局、会话管理、生成参数、统一模型与模式选择、看图分析选项、批次任务、参考图入口、任务结果、历史记录及图片缩放预览交互。",
-    "优化：官方体验文字模型调整为阿里云百炼，并完善体验服务的配置与测试覆盖。",
-    "修复：修复模板、标题及模型数据不完整时文章操作面板无法正常打开的问题。",
-    "修复：优化文章操作面板打开时的预览调度，避免长正文渲染阻塞工作台交互。",
-    "修复：修复长文章模板预览阻塞模板面板打开的问题。",
-    "修复：兼容旧版 AI 服务记录，避免可用的标题生成模型被错误禁用。",
-    "修复：修复模板与标题操作面板遇到不完整接口数据时崩溃的问题。",
-    "修复：为文章详情加载增加超时与重试状态，避免工作台长期停留在空白骨架屏。",
-    "修复：恢复文章保存版本与模板最新版本之间的预览切换。",
-    "修复：恢复文章标题、封面和模板辅助操作的配置弹层。",
-    "修复：修复隐藏的模板市场预览触发文章工作台重复渲染的问题。",
-    "修复：为文章模板和正文预览增加渲染异常降级，避免打开模板入口时未捕获异常导致工作区崩溃。",
-    "修复：保护文章工作区的小红书图文跳转，避免项目创建或路由异常导致页面崩溃。",
-    "修复：修正内容助手消息卡片头像与正文列布局",
-    "修复：修正内容助手消息气泡溢出和失败重试按钮样式",
-    "修复：对齐 React 内容工作台与 Vue 版本的文章助手、正文预览、操作面板和主题交互。",
-    "修复：对齐 React 首次工作台主题选择弹窗与 Vue 基准的垂直间距和底部留白。",
-    "修复：对齐内容助手失败和停止回执卡片状态样式",
-    "修复：对齐文章工作区返回上下文和预览入口文案",
-    "修复：对齐文章正文保存与编辑面板的标题归一化逻辑",
-    "修复：恢复内容列表顶部与 Vue 一致的“页面引导”文字按钮。",
-    "修复：恢复内容助手失败和停止消息的重试发送入口",
-    "修复：恢复内容助手用户与 AI 消息头像布局",
-    "修复：恢复文章工作区标题、素材和正文配图辅助面板的真实操作入口",
-    "修复：补齐 React 迁移页面使用的主题兼容 token，恢复内容列表侧栏等区域的 Vue 深色主题表现。",
-    "修复：避免文章预览重复渲染文档级标题",
-    "修复：限制内容助手失败回执长接口错误的气泡宽度",
-    "修复：隐藏营销能力模块中的多余测试元素。"
+    "优化：移除 React 迁移前端及临时参考实现，恢复 Vue 作为唯一的 Web 与桌面前端。",
+    "修复：修复 Vue 文章详情内容被无效模板节点隐藏、进入详情后只显示空白工作区的问题。"
   ],
   "policy": {
     "minimumSupportedVersion": "",
@@ -47,16 +20,16 @@
   ],
   "packages": {
     "macos/arm64": {
-      "fileName": "ContentWorkbench-v0.0.121-mac-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.121/ContentWorkbench-v0.0.121-mac-arm64.zip",
-      "size": 21186157,
-      "sha256": "0a24aefd29594398606c37ea63a18d27a09edde7fa05ef20f97ed0d4c48a93ee"
+      "fileName": "ContentWorkbench-v0.0.122-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.122/ContentWorkbench-v0.0.122-mac-arm64.zip",
+      "size": 21184989,
+      "sha256": "74bcded9dfa64a0432894e536ef3be3f14bbeefd7341ec0a484e22a4b669aa01"
     },
     "windows/amd64": {
-      "fileName": "ContentWorkbench-v0.0.121-win-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.121/ContentWorkbench-v0.0.121-win-x64.zip",
-      "size": 21940600,
-      "sha256": "3cbfa18a073bf4e0bb53a4f41f43a270d7687245ab84951d49b3d8f4624744b3"
+      "fileName": "ContentWorkbench-v0.0.122-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.122/ContentWorkbench-v0.0.122-win-x64.zip",
+      "size": 21939419,
+      "sha256": "3e07e173842b18be51bd19bafdc9439e9c8a53a707e9fea54139a11c8d54baae"
     }
   },
   "browserExtensions": {
