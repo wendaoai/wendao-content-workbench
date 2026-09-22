@@ -2,16 +2,38 @@
   "schemaVersion": 2,
   "product": "wendao-ai",
   "channel": "stable",
-  "version": "0.0.120",
-  "publishedAt": "2026-09-21T09:25:08Z",
+  "version": "0.0.121",
+  "publishedAt": "2026-09-22T01:00:19Z",
   "releaseNotes": [
-    "新增：macOS 绿色版新增首次打开图文流程和安全提示。",
-    "优化：AI 服务配置改用统一服务商目录，支持配置资源中心与自定义服务商的文字、图片和音频能力；各业务模型选择器统一提供搜索和服务商分类，并可查看模型能力详情。资源目录新增阿里云百炼 Token Plan，完善图片模型分类。",
-    "优化：AI 服务配置新增按能力管理模型：支持搜索、全选或隐藏模型，并可分别设置文字、图片和音频能力的默认模型；资源目录新增模型不会覆盖已有的显示与默认选择。",
-    "优化：优化官网与公开仓库的搜索描述、免费定位、站点地图和官方入口，并在首屏提供自动识别系统的四版本下载选择器与最新桌面界面。",
-    "优化：整理主题与吉祥物公共资源，移除重复的源码资源并增加资源结构校验；营销能力卡片改为按当前主题动态加载吉祥物素材。",
-    "优化：智能排版支持并发生成公众号 CSS 主题候选，首个有效方案完成后立即展示，其余候选继续后台生成；换版优先使用缓存并按需补充，同时完善超时、取消、去重和 CSS 校验，输出可直接复制到微信公众号的内联样式。",
-    "修复：恢复商用绿色版中的官方内容创作、公众号排版、封面、标题、小红书海报和工作台登记 Skill。"
+    "优化：启动 React 19 与 shadcn/ui 前端迁移：建立 Content Workbench 产品壳层、TanStack Router 目标路由、中文命令面板和六套主题切换机制，并清理原基座中的登录及演示功能。",
+    "优化：对齐 React 图片生成工作区与 Vue 版本的三栏布局、会话管理、生成参数、统一模型与模式选择、看图分析选项、批次任务、参考图入口、任务结果、历史记录及图片缩放预览交互。",
+    "优化：官方体验文字模型调整为阿里云百炼，并完善体验服务的配置与测试覆盖。",
+    "修复：修复模板、标题及模型数据不完整时文章操作面板无法正常打开的问题。",
+    "修复：优化文章操作面板打开时的预览调度，避免长正文渲染阻塞工作台交互。",
+    "修复：修复长文章模板预览阻塞模板面板打开的问题。",
+    "修复：兼容旧版 AI 服务记录，避免可用的标题生成模型被错误禁用。",
+    "修复：修复模板与标题操作面板遇到不完整接口数据时崩溃的问题。",
+    "修复：为文章详情加载增加超时与重试状态，避免工作台长期停留在空白骨架屏。",
+    "修复：恢复文章保存版本与模板最新版本之间的预览切换。",
+    "修复：恢复文章标题、封面和模板辅助操作的配置弹层。",
+    "修复：修复隐藏的模板市场预览触发文章工作台重复渲染的问题。",
+    "修复：为文章模板和正文预览增加渲染异常降级，避免打开模板入口时未捕获异常导致工作区崩溃。",
+    "修复：保护文章工作区的小红书图文跳转，避免项目创建或路由异常导致页面崩溃。",
+    "修复：修正内容助手消息卡片头像与正文列布局",
+    "修复：修正内容助手消息气泡溢出和失败重试按钮样式",
+    "修复：对齐 React 内容工作台与 Vue 版本的文章助手、正文预览、操作面板和主题交互。",
+    "修复：对齐 React 首次工作台主题选择弹窗与 Vue 基准的垂直间距和底部留白。",
+    "修复：对齐内容助手失败和停止回执卡片状态样式",
+    "修复：对齐文章工作区返回上下文和预览入口文案",
+    "修复：对齐文章正文保存与编辑面板的标题归一化逻辑",
+    "修复：恢复内容列表顶部与 Vue 一致的“页面引导”文字按钮。",
+    "修复：恢复内容助手失败和停止消息的重试发送入口",
+    "修复：恢复内容助手用户与 AI 消息头像布局",
+    "修复：恢复文章工作区标题、素材和正文配图辅助面板的真实操作入口",
+    "修复：补齐 React 迁移页面使用的主题兼容 token，恢复内容列表侧栏等区域的 Vue 深色主题表现。",
+    "修复：避免文章预览重复渲染文档级标题",
+    "修复：限制内容助手失败回执长接口错误的气泡宽度",
+    "修复：隐藏营销能力模块中的多余测试元素。"
   ],
   "policy": {
     "minimumSupportedVersion": "",
@@ -20,35 +42,21 @@
     "reason": ""
   },
   "supportedPlatforms": [
-    "macos/amd64",
     "macos/arm64",
-    "windows/amd64",
-    "windows/arm64"
+    "windows/amd64"
   ],
   "packages": {
     "macos/arm64": {
-      "fileName": "ContentWorkbench-v0.0.120-mac-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.120/ContentWorkbench-v0.0.120-mac-arm64.zip",
-      "size": 21184361,
-      "sha256": "701c6b6f5cf2c1a8a9ecde11a47e330903f444d70e974eb4f7ec76393de0ad31"
-    },
-    "macos/amd64": {
-      "fileName": "ContentWorkbench-v0.0.120-mac-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.120/ContentWorkbench-v0.0.120-mac-x64.zip",
-      "size": 22593209,
-      "sha256": "e7967422edc8dbfc6b5fa21a3c129db1c5670cd4dad594d2e9c5b7fb556fa045"
+      "fileName": "ContentWorkbench-v0.0.121-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.121/ContentWorkbench-v0.0.121-mac-arm64.zip",
+      "size": 21186157,
+      "sha256": "0a24aefd29594398606c37ea63a18d27a09edde7fa05ef20f97ed0d4c48a93ee"
     },
     "windows/amd64": {
-      "fileName": "ContentWorkbench-v0.0.120-win-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.120/ContentWorkbench-v0.0.120-win-x64.zip",
-      "size": 21939179,
-      "sha256": "3794dc7cf3e3367f465346992d6889c07e451f637cd68dd54fc963f9ca25bc2c"
-    },
-    "windows/arm64": {
-      "fileName": "ContentWorkbench-v0.0.120-win-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.120/ContentWorkbench-v0.0.120-win-arm64.zip",
-      "size": 20553033,
-      "sha256": "627c5aaf756c600e44508dfd2d6a9ac646380e58d534a0f113df185e2a6dcd5a"
+      "fileName": "ContentWorkbench-v0.0.121-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.121/ContentWorkbench-v0.0.121-win-x64.zip",
+      "size": 21940600,
+      "sha256": "3cbfa18a073bf4e0bb53a4f41f43a270d7687245ab84951d49b3d8f4624744b3"
     }
   },
   "browserExtensions": {
