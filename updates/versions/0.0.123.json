@@ -3,7 +3,7 @@
   "product": "wendao-ai",
   "channel": "stable",
   "version": "0.0.123",
-  "publishedAt": "2026-09-23T11:42:38Z",
+  "publishedAt": "2026-09-23T12:04:37Z",
   "releaseNotes": [
     "修复：修复自定义 OpenAI 兼容图片服务使用 gpt-image-2 时无法添加参考图的问题。"
   ],
@@ -14,8 +14,10 @@
     "reason": ""
   },
   "supportedPlatforms": [
+    "macos/amd64",
     "macos/arm64",
-    "windows/amd64"
+    "windows/amd64",
+    "windows/arm64"
   ],
   "packages": {
     "macos/arm64": {
@@ -29,6 +31,18 @@
       "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.123/ContentWorkbench-v0.0.123-win-x64.zip",
       "size": 21940135,
       "sha256": "c429c5cd7219c4dce57bae8230831bf63432b6dbd1c8fd6efcf47853a95be8ab"
+    },
+    "macos/amd64": {
+      "fileName": "ContentWorkbench-v0.0.123-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.123/ContentWorkbench-v0.0.123-mac-x64.zip",
+      "size": 22595165,
+      "sha256": "669cff8734fa880a91e2acffe5d17a104cf14c366706d318980a36be07444d27"
+    },
+    "windows/arm64": {
+      "fileName": "ContentWorkbench-v0.0.123-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.123/ContentWorkbench-v0.0.123-win-arm64.zip",
+      "size": 20554398,
+      "sha256": "f576792a05ae1579989d59d7df531d5edb2421e95d651cdf49aeb4fafa0517f0"
     }
   },
   "browserExtensions": {
