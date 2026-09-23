@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.123",
+  "publishedAt": "2026-09-23T11:42:38Z",
+  "releaseNotes": [
+    "修复：修复自定义 OpenAI 兼容图片服务使用 gpt-image-2 时无法添加参考图的问题。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/arm64",
+    "windows/amd64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "fileName": "ContentWorkbench-v0.0.123-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.123/ContentWorkbench-v0.0.123-mac-arm64.zip",
+      "size": 21185733,
+      "sha256": "c5eccc0cc24322a0faae264f2915345beddf556b771771fc7cd3f72d6c100077"
+    },
+    "windows/amd64": {
+      "fileName": "ContentWorkbench-v0.0.123-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.123/ContentWorkbench-v0.0.123-win-x64.zip",
+      "size": 21940135,
+      "sha256": "c429c5cd7219c4dce57bae8230831bf63432b6dbd1c8fd6efcf47853a95be8ab"
+    }
+  },
+  "browserExtensions": {
+    "version": "0.1.0",
+    "minimumChromiumVersion": "116",
+    "packages": {
+      "chrome": {
+        "fileName": "wendao-ai-browser-ext-v0.1.0-chrome.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.0/wendao-ai-browser-ext-v0.1.0-chrome.zip",
+        "size": 124890,
+        "sha256": "d66f3039c0a825cf48b7d69dac1437302ca1ff1c789b94538dd0d44a2b528205"
+      },
+      "edge": {
+        "fileName": "wendao-ai-browser-ext-v0.1.0-edge.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.0/wendao-ai-browser-ext-v0.1.0-edge.zip",
+        "size": 124890,
+        "sha256": "d66f3039c0a825cf48b7d69dac1437302ca1ff1c789b94538dd0d44a2b528205"
+      }
+    }
+  }
+}

@@ -2,11 +2,10 @@
   "schemaVersion": 2,
   "product": "wendao-ai",
   "channel": "stable",
-  "version": "0.0.122",
-  "publishedAt": "2026-09-22T01:50:15Z",
+  "version": "0.0.123",
+  "publishedAt": "2026-09-23T11:42:38Z",
   "releaseNotes": [
-    "优化：移除 React 迁移前端及临时参考实现，恢复 Vue 作为唯一的 Web 与桌面前端。",
-    "修复：修复 Vue 文章详情内容被无效模板节点隐藏、进入详情后只显示空白工作区的问题。"
+    "修复：修复自定义 OpenAI 兼容图片服务使用 gpt-image-2 时无法添加参考图的问题。"
   ],
   "policy": {
     "minimumSupportedVersion": "",
@@ -20,16 +19,16 @@
   ],
   "packages": {
     "macos/arm64": {
-      "fileName": "ContentWorkbench-v0.0.122-mac-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.122/ContentWorkbench-v0.0.122-mac-arm64.zip",
-      "size": 21184989,
-      "sha256": "74bcded9dfa64a0432894e536ef3be3f14bbeefd7341ec0a484e22a4b669aa01"
+      "fileName": "ContentWorkbench-v0.0.123-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.123/ContentWorkbench-v0.0.123-mac-arm64.zip",
+      "size": 21185733,
+      "sha256": "c5eccc0cc24322a0faae264f2915345beddf556b771771fc7cd3f72d6c100077"
     },
     "windows/amd64": {
-      "fileName": "ContentWorkbench-v0.0.122-win-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.122/ContentWorkbench-v0.0.122-win-x64.zip",
-      "size": 21939419,
-      "sha256": "3e07e173842b18be51bd19bafdc9439e9c8a53a707e9fea54139a11c8d54baae"
+      "fileName": "ContentWorkbench-v0.0.123-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.123/ContentWorkbench-v0.0.123-win-x64.zip",
+      "size": 21940135,
+      "sha256": "c429c5cd7219c4dce57bae8230831bf63432b6dbd1c8fd6efcf47853a95be8ab"
     }
   },
   "browserExtensions": {
