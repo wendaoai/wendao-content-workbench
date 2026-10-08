@@ -3,7 +3,7 @@
   "product": "wendao-ai",
   "channel": "stable",
   "version": "0.0.133",
-  "publishedAt": "2026-10-08T12:45:57Z",
+  "publishedAt": "2026-10-08T12:51:34Z",
   "releaseNotes": [
     "优化：正文完成后立即可编辑，标题和排版独立后台生成，带字封面等待标题确定；附加任务支持单项取消、重试和重启恢复，用户修改后旧自动结果不会覆盖，过期结果显示待更新。",
     "优化：首页指定排版支持跨页多选 1–10 种风格、确认保存及多候选生成；历史封面图片明确标注来源，已删除会话中的图片不再列入可选封面。",
@@ -20,7 +20,10 @@
     "reason": ""
   },
   "supportedPlatforms": [
-    "macos/arm64"
+    "macos/amd64",
+    "macos/arm64",
+    "windows/amd64",
+    "windows/arm64"
   ],
   "packages": {
     "macos/arm64": {
@@ -28,6 +31,24 @@
       "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.133/ContentWorkbench-v0.0.133-mac-arm64.zip",
       "size": 19782987,
       "sha256": "a72ffd9a91bc1669ae95d0f07673bc5e2b45c4a0e191e5b182cd110d55025c3e"
+    },
+    "macos/amd64": {
+      "fileName": "ContentWorkbench-v0.0.133-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.133/ContentWorkbench-v0.0.133-mac-x64.zip",
+      "size": 21309683,
+      "sha256": "261bbd957696eebd1d4bf7ebbf1ef570825633df1c229a705ab4bece98774b7a"
+    },
+    "windows/amd64": {
+      "fileName": "ContentWorkbench-v0.0.133-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.133/ContentWorkbench-v0.0.133-win-x64.zip",
+      "size": 20637035,
+      "sha256": "499e7d801b3d396d4fb2f89d67fbdc10b549ae0323bd665a977c377741a49abf"
+    },
+    "windows/arm64": {
+      "fileName": "ContentWorkbench-v0.0.133-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.133/ContentWorkbench-v0.0.133-win-arm64.zip",
+      "size": 19144050,
+      "sha256": "2670d5208faf76048f6618f4d15725432b08039a564197cf2143ea1e8e1b1ecb"
     }
   },
   "browserExtensions": {
