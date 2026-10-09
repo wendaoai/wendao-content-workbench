@@ -3,7 +3,7 @@
   "product": "wendao-ai",
   "channel": "stable",
   "version": "0.0.142",
-  "publishedAt": "2026-10-09T05:31:52Z",
+  "publishedAt": "2026-10-09T05:36:56Z",
   "releaseNotes": [
     "新增：产品、场景和图片模板支持批量导出及整包导入，备份包含资料与原图；旧单项备份包仍可导入。",
     "新增：新增公众号清晰解读预设，以清晰的导语、章节编号和重点区块呈现原文内容，不增添文章事实。",
@@ -35,20 +35,20 @@
     "macos/amd64": {
       "fileName": "ContentWorkbench-v0.0.142-mac-x64.zip",
       "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.142/ContentWorkbench-v0.0.142-mac-x64.zip",
-      "size": 21512777,
-      "sha256": "f203895a071c0171975eaff34ef8288b536b706191bf3c0f92e652a3d9b50bcd"
+      "size": 21512304,
+      "sha256": "11c79a0bf974335f621f72abd369dd3710e27fe28641961abb747b56fb4350c8"
     },
     "windows/amd64": {
       "fileName": "ContentWorkbench-v0.0.142-win-x64.zip",
       "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.142/ContentWorkbench-v0.0.142-win-x64.zip",
-      "size": 20833366,
-      "sha256": "300ddbf51c74b99527f97f5c8c84d6bf9505a68b276fd8ed030b42b03582bca6"
+      "size": 20832049,
+      "sha256": "6f88d00e28c7dcfd5bbab6e14754dc213a43e33b62024750eb3bd39c69e12607"
     },
     "windows/arm64": {
       "fileName": "ContentWorkbench-v0.0.142-win-arm64.zip",
       "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.142/ContentWorkbench-v0.0.142-win-arm64.zip",
-      "size": 19329028,
-      "sha256": "18abda0cb2fae1bfb5dfbfd13e5e269640be8c4030aae1157b642d1f86b66309"
+      "size": 19328316,
+      "sha256": "a319137bd7da5628d0ed82d20123123d3f0e021ef81016af6cf294c5270e4ec6"
     }
   },
   "browserExtensions": {
