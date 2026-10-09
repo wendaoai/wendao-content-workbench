@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.147",
+  "publishedAt": "2026-10-09T13:57:50Z",
+  "releaseNotes": [
+    "新增：画布新增多尺寸适配节点，支持一张成品图生成多种比例或明确像素尺寸，按批次分组展示；支持停止、单张原位重试与中断恢复，并修复视口裁剪、跨画布及状态覆盖导致的取消问题。",
+    "优化：图片模板支持选择商品规格和参考图，更换原图保留手动商品绑定，读取失败或超时可重试；生成结果提供文字、商品位置和描边的快捷修改要求，并保留商品来源。",
+    "修复：事件文章增加原题答案复核，避免缺少关键事实时用泛化核查指南代替回答并标记完成；允许使用模型已有的可靠知识，缺事实或复核失败时保留草稿并明确提示，联网开关继续严格生效。",
+    "修复：发布构建同步桌面应用的系统版本信息，修复 macOS 应用详情仍显示旧版本的问题。",
+    "修复：小红书个人笔记发布按钮仅在启动请求期间禁用，交接启动结束后可再次发送；修复旧任务状态或进度查询失败导致按钮持续锁定的问题。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/arm64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "fileName": "ContentWorkbench-v0.0.147-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.147/ContentWorkbench-v0.0.147-mac-arm64.zip",
+      "size": 20094602,
+      "sha256": "ab8c85958333596f1056236029f49cda16d5f6448e9f74919741af55f783ed8e"
+    }
+  },
+  "browserExtensions": {
+    "version": "0.1.0",
+    "minimumChromiumVersion": "116",
+    "packages": {
+      "chrome": {
+        "fileName": "wendao-ai-browser-ext-v0.1.0-chrome.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.0/wendao-ai-browser-ext-v0.1.0-chrome.zip",
+        "size": 124890,
+        "sha256": "d66f3039c0a825cf48b7d69dac1437302ca1ff1c789b94538dd0d44a2b528205"
+      },
+      "edge": {
+        "fileName": "wendao-ai-browser-ext-v0.1.0-edge.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.0/wendao-ai-browser-ext-v0.1.0-edge.zip",
+        "size": 124890,
+        "sha256": "d66f3039c0a825cf48b7d69dac1437302ca1ff1c789b94538dd0d44a2b528205"
+      }
+    }
+  }
+}
