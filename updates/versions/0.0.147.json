@@ -3,7 +3,7 @@
   "product": "wendao-ai",
   "channel": "stable",
   "version": "0.0.147",
-  "publishedAt": "2026-10-09T13:57:50Z",
+  "publishedAt": "2026-10-09T14:19:03Z",
   "releaseNotes": [
     "新增：画布新增多尺寸适配节点，支持一张成品图生成多种比例或明确像素尺寸，按批次分组展示；支持停止、单张原位重试与中断恢复，并修复视口裁剪、跨画布及状态覆盖导致的取消问题。",
     "优化：图片模板支持选择商品规格和参考图，更换原图保留手动商品绑定，读取失败或超时可重试；生成结果提供文字、商品位置和描边的快捷修改要求，并保留商品来源。",
@@ -18,7 +18,10 @@
     "reason": ""
   },
   "supportedPlatforms": [
-    "macos/arm64"
+    "macos/amd64",
+    "macos/arm64",
+    "windows/amd64",
+    "windows/arm64"
   ],
   "packages": {
     "macos/arm64": {
@@ -26,6 +29,24 @@
       "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.147/ContentWorkbench-v0.0.147-mac-arm64.zip",
       "size": 20094602,
       "sha256": "ab8c85958333596f1056236029f49cda16d5f6448e9f74919741af55f783ed8e"
+    },
+    "macos/amd64": {
+      "fileName": "ContentWorkbench-v0.0.147-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.147/ContentWorkbench-v0.0.147-mac-x64.zip",
+      "size": 21647642,
+      "sha256": "9bf0a91434e1c9af459c41842ecbc122eb21471833147d21e15727c4f767dfa8"
+    },
+    "windows/amd64": {
+      "fileName": "ContentWorkbench-v0.0.147-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.147/ContentWorkbench-v0.0.147-win-x64.zip",
+      "size": 20958675,
+      "sha256": "3b8976a31eda6e08dd0a47b9af75e0da1038a09be906ed8abea3d338c0cbeb70"
+    },
+    "windows/arm64": {
+      "fileName": "ContentWorkbench-v0.0.147-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.147/ContentWorkbench-v0.0.147-win-arm64.zip",
+      "size": 19441528,
+      "sha256": "6527eaa1fe7376e7315b63654d226ccb73f67c2587898d986444d6624e7714e8"
     }
   },
   "browserExtensions": {
