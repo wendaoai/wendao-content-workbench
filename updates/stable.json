@@ -2,25 +2,14 @@
   "schemaVersion": 2,
   "product": "wendao-ai",
   "channel": "stable",
-  "version": "0.0.155",
-  "publishedAt": "2026-10-10T16:49:39Z",
+  "version": "0.0.156",
+  "publishedAt": "2026-10-10T18:16:18Z",
   "releaseNotes": [
-    "新增：内容助手的正文生成消息可复制或下载对应版本的 Markdown，当前版本优先读取编辑区最新正文。",
-    "新增：首页写作和内容助手可按用户选择联网检索，自动复用支持搜索的写作模型或使用预置 SearXNG 实例；来源、进度和失败设置入口随任务保存并恢复。",
-    "新增：首页可选生成正文配图，文章工作区提供配图管理入口，配图任务支持持久化进度、单张重试和安全写回正文。",
-    "优化：完善知识库分类、文档管理和详情工作区，支持独立新增及编辑文档，修复保存校验和加载恢复。",
-    "优化：模型选择保存为同能力全局默认，首页、文章助手等入口同步使用；已启动任务继续使用提交时的模型快照。",
-    "优化：移除发布计划页面和手动发布登记入口，保留文章内的历史发布记录及公众号采集写入链路。",
-    "优化：精简配图面板的重复描述和操作，支持 AI 重写提示词与紧凑预览，并完善旧记录、单张重试和插入状态。",
-    "优化：统一产品编辑和详情布局，增加类型字段配置、草稿恢复、批量图片上传与排序，完善字段校验并保留保存后的列表位置。",
-    "优化：缩小内容助手工具栏与输入区字号，去掉重复设置入口，并将联网继续提示调整为紧凑布局。",
-    "修复：保留资产参考图与用户参考图的传递顺序，支持读取失败后重试，避免重试时丢失参考图片。",
-    "修复：修复切换排版风格时旧任务进度覆盖新预览的问题，正文配图在切换风格和刷新后保留。",
-    "修复：商品采集增加回调防重与恢复提示，完善引导页重新打开后的连接检查，避免重复入库或连接状态卡住。",
-    "修复：完善个人与商家笔记的发布交接，传递段落、标题和图片，并修复发布任务状态同步。",
-    "修复：完善模特资源备份的图片角色与资料校验，保留多图顺序和人物资料，兼容旧备份包。",
-    "修复：排版预览支持安全的本地正文配图地址，恢复历史预览中被误删的图片，并统一预览纸张宽度。",
-    "修复：统一首页、正文助手和继续写作的联网选择，主动关闭后刷新仍保留，并兼容已有搜索字段的本地数据库升级。"
+    "优化：收紧检测页面的概览、操作和历史记录布局，改善规则检查与 AI 检测在桌面窗口中的阅读和切换。",
+    "优化：统一内容助手和正文预览的顶部间距，收紧助手标题栏，使用实色背景和轻量折叠图标，改善顶部衔接。",
+    "优化：联网开关使用统一的悬停提示，说明当前开启或关闭状态、联网用途及点击后的操作；任务进行中也可查看提示。",
+    "优化：配图面板采用主图与缩略图布局，共用提示词和重做操作，支持放大轮播；生成耗时实时显示并保存，完成或停止后保持不变；长提示词在输入框内滚动，操作按钮保持可见。",
+    "优化：首页联网选项简化为“联网”，新用户默认开启，已保存的联网选择继续保留；仅启用配图时也正确显示生成内容菜单的选中状态。"
   ],
   "policy": {
     "minimumSupportedVersion": "",
@@ -36,28 +25,28 @@
   ],
   "packages": {
     "macos/arm64": {
-      "fileName": "ContentWorkbench-v0.0.155-mac-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.155/ContentWorkbench-v0.0.155-mac-arm64.zip",
-      "size": 20286962,
-      "sha256": "b771a07d19198123ef9b618f91e29785e47d2892e4870a775917a45711a076c7"
+      "fileName": "ContentWorkbench-v0.0.156-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.156/ContentWorkbench-v0.0.156-mac-arm64.zip",
+      "size": 20292725,
+      "sha256": "663db20ac14298190c4911cbce5feb3fa89d9d995a2058442fe018fe8225d11b"
     },
     "macos/amd64": {
-      "fileName": "ContentWorkbench-v0.0.155-mac-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.155/ContentWorkbench-v0.0.155-mac-x64.zip",
-      "size": 21853645,
-      "sha256": "5274a02db662b440b4cca72f8472a26185792ad0eced60f263a4d25ea998388e"
+      "fileName": "ContentWorkbench-v0.0.156-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.156/ContentWorkbench-v0.0.156-mac-x64.zip",
+      "size": 21861804,
+      "sha256": "a2423b9a2b3c54c6194441ed9aa6f06c64152c5859d41da236773f2aaf6e42da"
     },
     "windows/amd64": {
-      "fileName": "ContentWorkbench-v0.0.155-win-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.155/ContentWorkbench-v0.0.155-win-x64.zip",
-      "size": 21169597,
-      "sha256": "6a5de1e0c5b8c883068df3319fe1790f0b9e55a11d42dfee268d46ddb6ff264e"
+      "fileName": "ContentWorkbench-v0.0.156-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.156/ContentWorkbench-v0.0.156-win-x64.zip",
+      "size": 21179976,
+      "sha256": "809287c844d5f37838c6bb879886c93820ebb8eaf7d1aa5cfbc12d813e986678"
     },
     "windows/arm64": {
-      "fileName": "ContentWorkbench-v0.0.155-win-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.155/ContentWorkbench-v0.0.155-win-arm64.zip",
-      "size": 19641780,
-      "sha256": "6681ad5a73972c949c9cb442891ca44090351ce2ca836744de043bd30c7157c5"
+      "fileName": "ContentWorkbench-v0.0.156-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.156/ContentWorkbench-v0.0.156-win-arm64.zip",
+      "size": 19643092,
+      "sha256": "afca2ae906598df9420db600f1cfdeca014625bb729ed18c0fbbe8abfe6909c6"
     }
   },
   "browserExtensions": {
