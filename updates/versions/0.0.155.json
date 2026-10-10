@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.155",
+  "publishedAt": "2026-10-10T16:49:39Z",
+  "releaseNotes": [
+    "新增：内容助手的正文生成消息可复制或下载对应版本的 Markdown，当前版本优先读取编辑区最新正文。",
+    "新增：首页写作和内容助手可按用户选择联网检索，自动复用支持搜索的写作模型或使用预置 SearXNG 实例；来源、进度和失败设置入口随任务保存并恢复。",
+    "新增：首页可选生成正文配图，文章工作区提供配图管理入口，配图任务支持持久化进度、单张重试和安全写回正文。",
+    "优化：完善知识库分类、文档管理和详情工作区，支持独立新增及编辑文档，修复保存校验和加载恢复。",
+    "优化：模型选择保存为同能力全局默认，首页、文章助手等入口同步使用；已启动任务继续使用提交时的模型快照。",
+    "优化：移除发布计划页面和手动发布登记入口，保留文章内的历史发布记录及公众号采集写入链路。",
+    "优化：精简配图面板的重复描述和操作，支持 AI 重写提示词与紧凑预览，并完善旧记录、单张重试和插入状态。",
+    "优化：统一产品编辑和详情布局，增加类型字段配置、草稿恢复、批量图片上传与排序，完善字段校验并保留保存后的列表位置。",
+    "优化：缩小内容助手工具栏与输入区字号，去掉重复设置入口，并将联网继续提示调整为紧凑布局。",
+    "修复：保留资产参考图与用户参考图的传递顺序，支持读取失败后重试，避免重试时丢失参考图片。",
+    "修复：修复切换排版风格时旧任务进度覆盖新预览的问题，正文配图在切换风格和刷新后保留。",
+    "修复：商品采集增加回调防重与恢复提示，完善引导页重新打开后的连接检查，避免重复入库或连接状态卡住。",
+    "修复：完善个人与商家笔记的发布交接，传递段落、标题和图片，并修复发布任务状态同步。",
+    "修复：完善模特资源备份的图片角色与资料校验，保留多图顺序和人物资料，兼容旧备份包。",
+    "修复：排版预览支持安全的本地正文配图地址，恢复历史预览中被误删的图片，并统一预览纸张宽度。",
+    "修复：统一首页、正文助手和继续写作的联网选择，主动关闭后刷新仍保留，并兼容已有搜索字段的本地数据库升级。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/amd64",
+    "macos/arm64",
+    "windows/amd64",
+    "windows/arm64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "fileName": "ContentWorkbench-v0.0.155-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.155/ContentWorkbench-v0.0.155-mac-arm64.zip",
+      "size": 20286962,
+      "sha256": "b771a07d19198123ef9b618f91e29785e47d2892e4870a775917a45711a076c7"
+    },
+    "macos/amd64": {
+      "fileName": "ContentWorkbench-v0.0.155-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.155/ContentWorkbench-v0.0.155-mac-x64.zip",
+      "size": 21853645,
+      "sha256": "5274a02db662b440b4cca72f8472a26185792ad0eced60f263a4d25ea998388e"
+    },
+    "windows/amd64": {
+      "fileName": "ContentWorkbench-v0.0.155-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.155/ContentWorkbench-v0.0.155-win-x64.zip",
+      "size": 21169597,
+      "sha256": "6a5de1e0c5b8c883068df3319fe1790f0b9e55a11d42dfee268d46ddb6ff264e"
+    },
+    "windows/arm64": {
+      "fileName": "ContentWorkbench-v0.0.155-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.155/ContentWorkbench-v0.0.155-win-arm64.zip",
+      "size": 19641780,
+      "sha256": "6681ad5a73972c949c9cb442891ca44090351ce2ca836744de043bd30c7157c5"
+    }
+  },
+  "browserExtensions": {
+    "version": "0.1.0",
+    "minimumChromiumVersion": "116",
+    "packages": {
+      "chrome": {
+        "fileName": "wendao-ai-browser-ext-v0.1.0-chrome.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.0/wendao-ai-browser-ext-v0.1.0-chrome.zip",
+        "size": 124890,
+        "sha256": "d66f3039c0a825cf48b7d69dac1437302ca1ff1c789b94538dd0d44a2b528205"
+      },
+      "edge": {
+        "fileName": "wendao-ai-browser-ext-v0.1.0-edge.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.0/wendao-ai-browser-ext-v0.1.0-edge.zip",
+        "size": 124890,
+        "sha256": "d66f3039c0a825cf48b7d69dac1437302ca1ff1c789b94538dd0d44a2b528205"
+      }
+    }
+  }
+}
