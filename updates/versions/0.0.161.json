@@ -3,7 +3,7 @@
   "product": "wendao-ai",
   "channel": "stable",
   "version": "0.0.161",
-  "publishedAt": "2026-10-11T03:25:07Z",
+  "publishedAt": "2026-10-11T04:11:31Z",
   "releaseNotes": [
     "修复：内容助手普通追问不再继承初始写作或查证续写的联网状态，避免无关消息反复触发搜索。"
   ],
@@ -14,14 +14,35 @@
     "reason": ""
   },
   "supportedPlatforms": [
-    "macos/arm64"
+    "macos/amd64",
+    "macos/arm64",
+    "windows/amd64",
+    "windows/arm64"
   ],
   "packages": {
     "macos/arm64": {
       "fileName": "ContentWorkbench-v0.0.161-mac-arm64.zip",
       "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.161/ContentWorkbench-v0.0.161-mac-arm64.zip",
-      "size": 20336098,
-      "sha256": "7deec5aa5de1df81cb1cb590f052b6c3c3a9ede33a65eaca23b08c29d117449e"
+      "size": 20336093,
+      "sha256": "5f65e0301e51e4546297d9ea3d6fc7f5289539bf2357f32fd3b3b688a7623ada"
+    },
+    "macos/amd64": {
+      "fileName": "ContentWorkbench-v0.0.161-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.161/ContentWorkbench-v0.0.161-mac-x64.zip",
+      "size": 21912698,
+      "sha256": "b89000957b433ec58c39f3940d24c70ee658f739521ea7c993de8bbb13a5a636"
+    },
+    "windows/amd64": {
+      "fileName": "ContentWorkbench-v0.0.161-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.161/ContentWorkbench-v0.0.161-win-x64.zip",
+      "size": 21228395,
+      "sha256": "e35237f0bb3101e4666b2d8a87ade723df978ca677369e399e76c17df1e22602"
+    },
+    "windows/arm64": {
+      "fileName": "ContentWorkbench-v0.0.161-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.161/ContentWorkbench-v0.0.161-win-arm64.zip",
+      "size": 19696258,
+      "sha256": "216df6a3422819a82dc434de7e525e4f7600795a39b32597343f8372d0752da4"
     }
   },
   "browserExtensions": {
