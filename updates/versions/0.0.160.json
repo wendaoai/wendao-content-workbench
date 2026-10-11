@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.160",
+  "publishedAt": "2026-10-11T02:50:48Z",
+  "releaseNotes": [
+    "修复：检测配置里的开通说明改用系统浏览器打开，避免桌面窗口内跳转影响设置流程。",
+    "修复：润色保留文章的思考设置并分配配套额度，临时故障或确认截断最多恢复一次；等待时显示耗时，失败时显示具体原因并保留原文。",
+    "修复：联网搜索改为单次生效，普通追问不再反复触发搜索；手动开启后仅对下一轮请求生效。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/arm64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "fileName": "ContentWorkbench-v0.0.160-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.160/ContentWorkbench-v0.0.160-mac-arm64.zip",
+      "size": 20337206,
+      "sha256": "5105beb0d8ff9877e957a45e3f06b72ed30456ee34bf3e171549f84449e374d7"
+    }
+  },
+  "browserExtensions": {
+    "version": "0.1.0",
+    "minimumChromiumVersion": "116",
+    "packages": {
+      "chrome": {
+        "fileName": "wendao-ai-browser-ext-v0.1.0-chrome.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.0/wendao-ai-browser-ext-v0.1.0-chrome.zip",
+        "size": 124890,
+        "sha256": "d66f3039c0a825cf48b7d69dac1437302ca1ff1c789b94538dd0d44a2b528205"
+      },
+      "edge": {
+        "fileName": "wendao-ai-browser-ext-v0.1.0-edge.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.0/wendao-ai-browser-ext-v0.1.0-edge.zip",
+        "size": 124890,
+        "sha256": "d66f3039c0a825cf48b7d69dac1437302ca1ff1c789b94538dd0d44a2b528205"
+      }
+    }
+  }
+}
