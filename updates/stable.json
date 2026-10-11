@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "product": "wendao-ai",
   "channel": "stable",
-  "version": "0.0.161",
-  "publishedAt": "2026-10-11T04:11:31Z",
+  "version": "0.0.162",
+  "publishedAt": "2026-10-11T04:46:00Z",
   "releaseNotes": [
-    "修复：内容助手普通追问不再继承初始写作或查证续写的联网状态，避免无关消息反复触发搜索。"
+    "修复：修复新消息追加后被底部输入框和“最新消息”按钮遮挡的问题。"
   ],
   "policy": {
     "minimumSupportedVersion": "",
@@ -21,28 +21,28 @@
   ],
   "packages": {
     "macos/arm64": {
-      "fileName": "ContentWorkbench-v0.0.161-mac-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.161/ContentWorkbench-v0.0.161-mac-arm64.zip",
-      "size": 20336093,
-      "sha256": "5f65e0301e51e4546297d9ea3d6fc7f5289539bf2357f32fd3b3b688a7623ada"
+      "fileName": "ContentWorkbench-v0.0.162-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.162/ContentWorkbench-v0.0.162-mac-arm64.zip",
+      "size": 20336558,
+      "sha256": "a1cca845b7ef1f1bef97802f5174804836b8e8a520ba567a4869365a5faff702"
     },
     "macos/amd64": {
-      "fileName": "ContentWorkbench-v0.0.161-mac-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.161/ContentWorkbench-v0.0.161-mac-x64.zip",
-      "size": 21912698,
-      "sha256": "b89000957b433ec58c39f3940d24c70ee658f739521ea7c993de8bbb13a5a636"
+      "fileName": "ContentWorkbench-v0.0.162-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.162/ContentWorkbench-v0.0.162-mac-x64.zip",
+      "size": 21913002,
+      "sha256": "fb3b8cc446e8037bebf8ec9e629c8dbe254eb9261aa8a418b95850ecc407267c"
     },
     "windows/amd64": {
-      "fileName": "ContentWorkbench-v0.0.161-win-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.161/ContentWorkbench-v0.0.161-win-x64.zip",
-      "size": 21228395,
-      "sha256": "e35237f0bb3101e4666b2d8a87ade723df978ca677369e399e76c17df1e22602"
+      "fileName": "ContentWorkbench-v0.0.162-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.162/ContentWorkbench-v0.0.162-win-x64.zip",
+      "size": 21228396,
+      "sha256": "d1e9111be329bc6fc930ae91c554ab673ee7515ecee12a6a72ae3892301e966c"
     },
     "windows/arm64": {
-      "fileName": "ContentWorkbench-v0.0.161-win-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.161/ContentWorkbench-v0.0.161-win-arm64.zip",
-      "size": 19696258,
-      "sha256": "216df6a3422819a82dc434de7e525e4f7600795a39b32597343f8372d0752da4"
+      "fileName": "ContentWorkbench-v0.0.162-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.162/ContentWorkbench-v0.0.162-win-arm64.zip",
+      "size": 19696462,
+      "sha256": "6be2d1a29dd2aabb57f1c5a3344bfd25e97dae666fa026a537d8f176b6555d01"
     }
   },
   "browserExtensions": {
