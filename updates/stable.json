@@ -2,12 +2,10 @@
   "schemaVersion": 2,
   "product": "wendao-ai",
   "channel": "stable",
-  "version": "0.0.160",
-  "publishedAt": "2026-10-11T02:50:48Z",
+  "version": "0.0.161",
+  "publishedAt": "2026-10-11T03:25:07Z",
   "releaseNotes": [
-    "修复：检测配置里的开通说明改用系统浏览器打开，避免桌面窗口内跳转影响设置流程。",
-    "修复：润色保留文章的思考设置并分配配套额度，临时故障或确认截断最多恢复一次；等待时显示耗时，失败时显示具体原因并保留原文。",
-    "修复：联网搜索改为单次生效，普通追问不再反复触发搜索；手动开启后仅对下一轮请求生效。"
+    "修复：内容助手普通追问不再继承初始写作或查证续写的联网状态，避免无关消息反复触发搜索。"
   ],
   "policy": {
     "minimumSupportedVersion": "",
@@ -20,10 +18,10 @@
   ],
   "packages": {
     "macos/arm64": {
-      "fileName": "ContentWorkbench-v0.0.160-mac-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.160/ContentWorkbench-v0.0.160-mac-arm64.zip",
-      "size": 20337206,
-      "sha256": "5105beb0d8ff9877e957a45e3f06b72ed30456ee34bf3e171549f84449e374d7"
+      "fileName": "ContentWorkbench-v0.0.161-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.161/ContentWorkbench-v0.0.161-mac-arm64.zip",
+      "size": 20336098,
+      "sha256": "7deec5aa5de1df81cb1cb590f052b6c3c3a9ede33a65eaca23b08c29d117449e"
     }
   },
   "browserExtensions": {
