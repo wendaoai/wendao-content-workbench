@@ -2,10 +2,15 @@
   "schemaVersion": 2,
   "product": "wendao-ai",
   "channel": "stable",
-  "version": "0.0.173",
-  "publishedAt": "2026-10-15T05:15:30Z",
+  "version": "0.0.174",
+  "publishedAt": "2026-10-15T07:04:56Z",
   "releaseNotes": [
-    "优化：随机排版每次生成三套不同风格，复用三路并发，已完成的方案可提前预览和切换，减少逐次点击等待。"
+    "优化：公众号排版支持直接推送当前排版到草稿箱；推送面板新增添加公众号入口，配置连接后返回自动选中账号并恢复作者和摘要。",
+    "修复：优化独立文章标题为适中字号和左对齐展示，并与模板正文共用连续纸面、配色和边距；标题仍可单独编辑和复制，正文导出继续分离标题。",
+    "修复：修复标题分离后开篇容器残留上下留白，收紧独立标题栏和预览顶部间距；复制与HTML导出保持一致，保留导语背景及章节样式。",
+    "修复：修复账号 Excel 导入误拒绝包含合法目录条目的 XLSX 文件，并细化大小、宏、外部链接及路径错误提示。",
+    "修复：去掉公众号模板预览额外的白底和左右包边，直接呈现模板背景，保留模板自身的正文阅读边距。",
+    "修复：文章标题独立展示、编辑和复制，正文排版预览、复制、HTML导出及推送统一分离首标题，保留导语、章节和背景样式。"
   ],
   "policy": {
     "minimumSupportedVersion": "",
@@ -21,28 +26,28 @@
   ],
   "packages": {
     "macos/arm64": {
-      "fileName": "ContentWorkbench-v0.0.173-mac-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.173/ContentWorkbench-v0.0.173-mac-arm64.zip",
-      "size": 22895910,
-      "sha256": "3c1609b3d30487bcf27b718b8c7c23b172bd40002ba46fb5489831ab68e00f1f"
+      "fileName": "ContentWorkbench-v0.0.174-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.174/ContentWorkbench-v0.0.174-mac-arm64.zip",
+      "size": 22899735,
+      "sha256": "f190a6ae1b685b37cf83fc47061a14f8ea1c17d043e5beac024bf1c3239c299d"
     },
     "macos/amd64": {
-      "fileName": "ContentWorkbench-v0.0.173-mac-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.173/ContentWorkbench-v0.0.173-mac-x64.zip",
-      "size": 24595701,
-      "sha256": "54aef568349edc4d862b6e1841419b0e9049fcdbd1e4665250407d52ec46e7ce"
+      "fileName": "ContentWorkbench-v0.0.174-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.174/ContentWorkbench-v0.0.174-mac-x64.zip",
+      "size": 24605866,
+      "sha256": "39621a7863723b61f89acb12d64284a9e2eca87fb3471bb4b22d431f574350d1"
     },
     "windows/amd64": {
-      "fileName": "ContentWorkbench-v0.0.173-win-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.173/ContentWorkbench-v0.0.173-win-x64.zip",
-      "size": 23887317,
-      "sha256": "01586e54b0d30ac9e0567ebfe95c99f9ae16f85a17b0af5a7be9bc286683a04f"
+      "fileName": "ContentWorkbench-v0.0.174-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.174/ContentWorkbench-v0.0.174-win-x64.zip",
+      "size": 23895108,
+      "sha256": "b948adfebb2e888b0bf39573d946593d3e958c0c66114034b5f1247312a2702d"
     },
     "windows/arm64": {
-      "fileName": "ContentWorkbench-v0.0.173-win-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.173/ContentWorkbench-v0.0.173-win-arm64.zip",
-      "size": 22248588,
-      "sha256": "a4669851737bb6b4668038d8e8e38fbe720c6a30fecc9d187356cbf97517fc79"
+      "fileName": "ContentWorkbench-v0.0.174-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.174/ContentWorkbench-v0.0.174-win-arm64.zip",
+      "size": 22254426,
+      "sha256": "816c292b9364528202ede7f6ddc735e8b125fa08914c3ee9533b78f1681af884"
     }
   },
   "browserExtensions": {
