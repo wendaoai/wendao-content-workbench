@@ -2,12 +2,10 @@
   "schemaVersion": 2,
   "product": "wendao-ai",
   "channel": "stable",
-  "version": "0.0.172",
-  "publishedAt": "2026-10-15T04:15:05Z",
+  "version": "0.0.173",
+  "publishedAt": "2026-10-15T05:15:30Z",
   "releaseNotes": [
-    "新增：随机排版接入当前选用的文本模型，结合内置风格和正文节选调整视觉设计，保留完整正文与背景装饰；修复恢复排版消息时的页面异常。",
-    "修复：排版区分连接服务超时与模型响应超时，恢复有限自动重试与可取消等待，失败时保存实际耗时并在手动重试时清除旧状态。",
-    "修复：联网写作默认在左侧保留来源，正文不再要求添加检索引用编号；首稿、续写、改写与段落润色统一来源呈现规则。"
+    "优化：随机排版每次生成三套不同风格，复用三路并发，已完成的方案可提前预览和切换，减少逐次点击等待。"
   ],
   "policy": {
     "minimumSupportedVersion": "",
@@ -23,28 +21,28 @@
   ],
   "packages": {
     "macos/arm64": {
-      "fileName": "ContentWorkbench-v0.0.172-mac-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.172/ContentWorkbench-v0.0.172-mac-arm64.zip",
-      "size": 22896284,
-      "sha256": "ade43361d80b7bcd3896007d11334febce201ffd3099cce0e752b9b97b6908a5"
+      "fileName": "ContentWorkbench-v0.0.173-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.173/ContentWorkbench-v0.0.173-mac-arm64.zip",
+      "size": 22895910,
+      "sha256": "3c1609b3d30487bcf27b718b8c7c23b172bd40002ba46fb5489831ab68e00f1f"
     },
     "macos/amd64": {
-      "fileName": "ContentWorkbench-v0.0.172-mac-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.172/ContentWorkbench-v0.0.172-mac-x64.zip",
-      "size": 24595905,
-      "sha256": "00cbfdcf92f7a96fd40e5a53b2937bcfb337bcf2bb2571519cd9b95e7242e3ed"
+      "fileName": "ContentWorkbench-v0.0.173-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.173/ContentWorkbench-v0.0.173-mac-x64.zip",
+      "size": 24595701,
+      "sha256": "54aef568349edc4d862b6e1841419b0e9049fcdbd1e4665250407d52ec46e7ce"
     },
     "windows/amd64": {
-      "fileName": "ContentWorkbench-v0.0.172-win-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.172/ContentWorkbench-v0.0.172-win-x64.zip",
-      "size": 23887700,
-      "sha256": "bf348bf5b93ba5e5fccccdcad2068793034e528b4773c86dea1f0faad77c695e"
+      "fileName": "ContentWorkbench-v0.0.173-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.173/ContentWorkbench-v0.0.173-win-x64.zip",
+      "size": 23887317,
+      "sha256": "01586e54b0d30ac9e0567ebfe95c99f9ae16f85a17b0af5a7be9bc286683a04f"
     },
     "windows/arm64": {
-      "fileName": "ContentWorkbench-v0.0.172-win-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.172/ContentWorkbench-v0.0.172-win-arm64.zip",
-      "size": 22248671,
-      "sha256": "d5d4f6a59d174ec927c340a3ee4179f00aed15320bb9af5b7e021601134949e6"
+      "fileName": "ContentWorkbench-v0.0.173-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.173/ContentWorkbench-v0.0.173-win-arm64.zip",
+      "size": 22248588,
+      "sha256": "a4669851737bb6b4668038d8e8e38fbe720c6a30fecc9d187356cbf97517fc79"
     }
   },
   "browserExtensions": {
