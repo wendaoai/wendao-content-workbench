@@ -2,30 +2,16 @@
   "schemaVersion": 2,
   "product": "wendao-ai",
   "channel": "stable",
-  "version": "0.0.183",
-  "publishedAt": "2026-10-17T06:24:14Z",
+  "version": "0.0.184",
+  "publishedAt": "2026-10-17T10:23:57Z",
   "releaseNotes": [
-    "新增：具体账号可单独关注热榜平台，平台热榜默认显示当前账号的关注范围，切号、刷新和重启后自动恢复；支持临时查看全部。",
-    "新增：平台热点支持两列展示，按从左到右的顺序排列；工作区较窄时自动显示单列，标题最多显示两行。",
-    "新增：无需添加账号即可使用通用创作、默认热点偏好和 AI 选题助手，保存选题、创建系列与文章；通用历史与账号历史独立，后来添加账号不会自动接管已有内容。",
-    "新增：程序启动后在后台按账号准备个性化选题，切换账号直接查看各自的今日机会；当天有效结果复用，配置变化自动更新，支持采用、隐藏、停止和失败后保留上次推荐。修复旧库推荐不显示、改回原配置后无法恢复、多窗口反馈覆盖、启动短暂断线无法恢复及模型停用或删除后仍提交失效模型的问题。",
-    "新增：账号 Excel、CSV 导出支持系列、选题及必要写作模板，换电脑可恢复创作配置；导入预览显示数量，重复导入默认保留本机配置，支持明确更新和失败回滚。",
-    "新增：账号设置支持 AI 帮填定位、读者、风格、热点偏好和排除词，建议先编辑、勾选采用再保存，默认保留已有设置；Excel、CSV 导出携带跟随默认时的实际热点偏好，跨电脑导入不改变本机默认设置。",
-    "新增：首次启动可用品牌通用弹框设置默认关注行业、关键词和热榜平台；保存、跳过或关闭后不再重复询问。通用创作支持我的关注，具体账号可跟随默认平台或独立设置。启动弹框按协议、更新、内容偏好、新手引导依次显示。",
-    "优化：今日推荐、平台热点、营销日历、灵感库、收藏和我的选题的状态、搜索筛选及全局操作统一移至选题页头，窄桌面窗口自动换行。",
-    "优化：统一画布库标题、分隔线与卡片网格的页面边界，收紧额外留白，并统一侧栏选中背景。",
-    "修复：今日机会移除重复标题与大块技术报错，将推荐状态和恢复操作合并为紧凑工具栏；生成失败可重新准备，读取失败仅重新加载，已有推荐可继续使用，错误详情按需查看。",
-    "修复：修复今日推荐详情底部操作栏及分隔线宽度收缩的问题，操作区铺满侧栏，更多操作按钮靠右排列。",
-    "修复：修复启动内容偏好遇到服务暂时不可用后停在读取失败的问题；增加有限自动重试和窗口恢复重试，区分启动检查与偏好读取，保留已加载表单和未保存修改。",
-    "修复：修复平台热点超过 200 条时筛选提示被压扁的问题；封面加载成功后再显示图片列，慢加载或失效封面不再留下大块空白及半截图片，列表标题与封面顶部对齐。",
-    "修复：平台热点将五行顶部控制区收拢为紧凑工具栏，日期和发散风格改为下拉选择，搜索与更新并排；窄桌面展开 AI 面板时控件完整可用，保留平台筛选、多选与批量发送。",
-    "修复：热点雷达失败时去除重复重试入口，收紧状态、筛选与选择栏；当前搜索模式不再被历史策划结果覆盖，并明确失败后已有选题仍可使用。",
-    "修复：热点雷达将任务状态、日志、模型设置和开始/进度/重试操作上移至选题页头，宽窗口与账号操作同排，窄桌面窗口自动换行，结果区从筛选开始。",
-    "修复：统一各套主题中的强调文字、链接和操作按钮配色，改善深色界面可读性；删除、重置等确认使用独立的危险操作颜色。",
-    "修复：统一多选复选框为方形并保留选中对勾，修复行业、关注平台等选项外观像单选按钮的问题。",
-    "修复：账号编辑按账号与人设、选题偏好、品牌与发布分为三个页签，合并重复人设展示并支持直接修改、恢复分组；切换保留未保存内容，底部统一保存。",
-    "修复：选题页按今日推荐、找灵感和我的选题重组，详情与 AI 共用右栏并保留讨论草稿，推荐可直接开始创作或稍后写；批量发散仅在勾选素材后显示，修复保存选题后列表未更新及讨论提示词重复回填的问题。",
-    "修复：首次内容偏好设置弹框的标题和说明合并到品牌横幅右侧，使用暖棕色文字并优化说明换行，减少表单上方占用。"
+    "新增：新增收入中心，主动开通后按公众号采集收入，查看趋势、广告位、账号排行及同步问题详情；支持本机定时邮件日报，需中转服务端配套支持。",
+    "新增：画布新增表情包制作，支持多参考图、独立候选、裁剪与单张调整、配套图制作和整套 ZIP 导出，保存后可恢复继续编辑。",
+    "优化：生成图片存在透明度、留白或跨格问题时保留原图并提示，允许继续裁剪；历史质量检查失败的候选可尝试恢复已生成原图。",
+    "修复：修复合并后新增数据库迁移编号冲突，兼容保留旧版账号、选题偏好和正文数据。",
+    "修复：修复授权连接和文章预览中的外链打开方式，桌面端统一调用系统浏览器，文章 HTML 预览增加沙箱保护。",
+    "修复：修复预览将节点布局尺寸当作原图尺寸的问题，支持按实际像素查看、缩放及保存原图。",
+    "修复：打开公众号连接配置时收起账号编辑侧栏，避免叠层影响操作。"
   ],
   "policy": {
     "minimumSupportedVersion": "",
@@ -41,28 +27,28 @@
   ],
   "packages": {
     "macos/arm64": {
-      "fileName": "ContentWorkbench-v0.0.183-mac-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.183/ContentWorkbench-v0.0.183-mac-arm64.zip",
-      "size": 23506699,
-      "sha256": "5d67fcc56c1ba1481800766d315b1dda6bdcb9d4ab7eaddf0f1a2613679f19a5"
+      "fileName": "ContentWorkbench-v0.0.184-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.184/ContentWorkbench-v0.0.184-mac-arm64.zip",
+      "size": 23704073,
+      "sha256": "9d73a431eb3b3575371f2d374ad26cdfb00c282d94afd8c5e95d04d39b4b99b5"
     },
     "macos/amd64": {
-      "fileName": "ContentWorkbench-v0.0.183-mac-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.183/ContentWorkbench-v0.0.183-mac-x64.zip",
-      "size": 25251918,
-      "sha256": "363e27f0a76d1031ccafb7e1949c071772a095c9eb637ca212709ed3b8f50689"
+      "fileName": "ContentWorkbench-v0.0.184-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.184/ContentWorkbench-v0.0.184-mac-x64.zip",
+      "size": 25449772,
+      "sha256": "fdd9b1513bbc7403e036e2e0721fc6053de360bf7257ed7f30bfa2a140c159f5"
     },
     "windows/amd64": {
-      "fileName": "ContentWorkbench-v0.0.183-win-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.183/ContentWorkbench-v0.0.183-win-x64.zip",
-      "size": 24518719,
-      "sha256": "a7595dcbaa8b1ed5068f79cb30ace232ba4506d018b73b7b9e4dce77c2604204"
+      "fileName": "ContentWorkbench-v0.0.184-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.184/ContentWorkbench-v0.0.184-win-x64.zip",
+      "size": 24728151,
+      "sha256": "ff51ce66214afed789504428fd87a1a587e5b3522574cf9baf0aef34e8f9371f"
     },
     "windows/arm64": {
-      "fileName": "ContentWorkbench-v0.0.183-win-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.183/ContentWorkbench-v0.0.183-win-arm64.zip",
-      "size": 22862455,
-      "sha256": "6a40f709e293351bf40667f7f4f70480ddd3fa07ba2691361a5ad7dece825a2d"
+      "fileName": "ContentWorkbench-v0.0.184-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.184/ContentWorkbench-v0.0.184-win-arm64.zip",
+      "size": 23045061,
+      "sha256": "96750a4c2692633e0b45c74c6a0ecb91abe626617a18572e21b591fab9ffc493"
     }
   },
   "browserExtensions": {
