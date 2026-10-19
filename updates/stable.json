@@ -2,14 +2,17 @@
   "schemaVersion": 2,
   "product": "wendao-ai",
   "channel": "stable",
-  "version": "0.0.189",
-  "publishedAt": "2026-10-18T15:36:09Z",
+  "version": "0.0.190",
+  "publishedAt": "2026-10-19T02:18:01Z",
   "releaseNotes": [
-    "新增：公众号收入增加累计金额、单号趋势筛选与首页入口，支持当天重新获取收入，优化分组、日期和公众号筛选。",
-    "优化：优化公众号收入日报邮件排版，清晰展示昨日、本月、累计收入和七日趋势，区分缺失数据与真实零收入。",
-    "优化：更多菜单按创作素材、任务运营、偏好扩展和帮助支持分组，采用紧凑双列并优化窄桌面窗口滚动。",
-    "修复：修复昨日收入受日期筛选影响、部分账号缺失提示及并发读取金额不一致；重新采集失败保留已保存收入，重试冷却显示明确提示。",
-    "修复：修复画布表情包候选来源、参考图和任务恢复，支持单张自由选区与重叠裁剪；组件重挂载保留本地处理，失败可重新裁剪，连续缩放和移动正确累加。"
+    "新增：个人朱雀检测支持保存最多 10 个命名 Key，可切换、查看、替换或删除；共用个人月度预算并保留原单 Key 配置。",
+    "新增：朱雀文本检测新增工作台赠送的 10 万 token，支持选择 3 个官方账号并共用赠送额度，切换或重启保持用量。",
+    "优化：8 款开屏统一约 2.5 秒，增加定格与柔和淡出；素材准备、窗口可见后计时，后台暂停，页面就绪后支持点击或 Esc 跳过。",
+    "优化：公众号收入日报支持最多 10 个收件邮箱，兼容中英文逗号、分号及顿号分隔，自动去重并保留原单邮箱配置。",
+    "优化：超过 500KB 的表情和配图可继续保存与导出，并提示上传平台前压缩；保留尺寸、透明度和图标大小校验。",
+    "修复：修复内容库账号侧栏输入框与选择器的主题配色、边框和长文本截断，改善深色主题可读性。",
+    "修复：修复离开画布中断已接受的表情包生成任务，后台生成可继续并在重回画布或刷新后恢复。",
+    "修复：单张表情调整保存回原集合，保留节点位置、其他表情与配套图关系，避免重复新增整套集合。"
   ],
   "policy": {
     "minimumSupportedVersion": "",
@@ -25,28 +28,28 @@
   ],
   "packages": {
     "macos/arm64": {
-      "fileName": "ContentWorkbench-v0.0.189-mac-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.189/ContentWorkbench-v0.0.189-mac-arm64.zip",
-      "size": 23866907,
-      "sha256": "cbf442bc5dfcf5e66259530508b55a6caf3da4d52834df8ec07396a265c13a45"
+      "fileName": "ContentWorkbench-v0.0.190-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.190/ContentWorkbench-v0.0.190-mac-arm64.zip",
+      "size": 23904742,
+      "sha256": "b8d03c0f04f2bceaac616542fd15a8e770987e0dbdb8bcabc8e33043f5453419"
     },
     "macos/amd64": {
-      "fileName": "ContentWorkbench-v0.0.189-mac-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.189/ContentWorkbench-v0.0.189-mac-x64.zip",
-      "size": 25618848,
-      "sha256": "4f58491b0c4d1c3037985eb443910e629b9d69af3d773473c64c74fb92059db8"
-    },
-    "windows/arm64": {
-      "fileName": "ContentWorkbench-v0.0.189-win-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.189/ContentWorkbench-v0.0.189-win-arm64.zip",
-      "size": 23210850,
-      "sha256": "8939fe2a4c518d74a4580cc68170430b810cd8b5119ce7ace39ef352f93850b1"
+      "fileName": "ContentWorkbench-v0.0.190-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.190/ContentWorkbench-v0.0.190-mac-x64.zip",
+      "size": 25658168,
+      "sha256": "608edf50395b387f121eb856771c8b209e1e239286ea10c77606f23a6ba7885c"
     },
     "windows/amd64": {
-      "fileName": "ContentWorkbench-v0.0.189-win-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.189/ContentWorkbench-v0.0.189-win-x64.zip",
-      "size": 24888510,
-      "sha256": "0a0d31f55dfc297168916760203206d6a8a9bb07e678aa657649ff7afc5d013c"
+      "fileName": "ContentWorkbench-v0.0.190-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.190/ContentWorkbench-v0.0.190-win-x64.zip",
+      "size": 24926408,
+      "sha256": "f37a1f5c87428ca5130c28bff5408fd912129201b76ad4c0fd9c230ae9ae71a3"
+    },
+    "windows/arm64": {
+      "fileName": "ContentWorkbench-v0.0.190-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.190/ContentWorkbench-v0.0.190-win-arm64.zip",
+      "size": 23245808,
+      "sha256": "ec4730d5ad33daff725a925433a29401d9046e70119707dffa912101df160d70"
     }
   },
   "browserExtensions": {
