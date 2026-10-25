@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.200",
+  "publishedAt": "2026-10-25T14:54:04Z",
+  "releaseNotes": [
+    "优化：收紧模板市场下载栏，将勾选数量、下载状态和常用操作集中对齐；失败详情按需展开，保留停止、继续和失败重试，改善窄桌面窗口中的空间占用。",
+    "修复：模板下载和预览遇到 HTTP 429 限流时自动等待并有限重试，遵守服务器要求的等待时间；官方市场共享请求节奏，减少集中请求，失败后仍可手动重试预览或下载。",
+    "修复：画布“重置视图”改为“适应内容”，可找回远处节点；低缩放比例直接显示恢复入口，缩放栏与主工具栏自动避让，并降低极小比例下的网格密度。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/arm64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "fileName": "ContentWorkbench-v0.0.200-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.200/ContentWorkbench-v0.0.200-mac-arm64.zip",
+      "size": 26579634,
+      "sha256": "d5a415a6a8136cb50bdea4be02e0f5154519949ab82dd000651c657de621cdb9"
+    }
+  },
+  "browserExtensions": {
+    "version": "0.1.9",
+    "minimumChromiumVersion": "116",
+    "packages": {
+      "chrome": {
+        "fileName": "wendao-ai-browser-ext-v0.1.9-chrome.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.9/wendao-ai-browser-ext-v0.1.9-chrome.zip",
+        "size": 572056,
+        "sha256": "ea22bc5819c7fef4336502de353eda01c8bf218f769e8670824c9121c58f48de"
+      },
+      "edge": {
+        "fileName": "wendao-ai-browser-ext-v0.1.9-edge.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.9/wendao-ai-browser-ext-v0.1.9-edge.zip",
+        "size": 572056,
+        "sha256": "ea22bc5819c7fef4336502de353eda01c8bf218f769e8670824c9121c58f48de"
+      }
+    }
+  }
+}
