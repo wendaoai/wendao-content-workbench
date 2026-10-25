@@ -2,12 +2,11 @@
   "schemaVersion": 2,
   "product": "wendao-ai",
   "channel": "stable",
-  "version": "0.0.200",
-  "publishedAt": "2026-10-25T14:54:04Z",
+  "version": "0.0.201",
+  "publishedAt": "2026-10-25T22:53:27Z",
   "releaseNotes": [
-    "优化：收紧模板市场下载栏，将勾选数量、下载状态和常用操作集中对齐；失败详情按需展开，保留停止、继续和失败重试，改善窄桌面窗口中的空间占用。",
-    "修复：模板下载和预览遇到 HTTP 429 限流时自动等待并有限重试，遵守服务器要求的等待时间；官方市场共享请求节奏，减少集中请求，失败后仍可手动重试预览或下载。",
-    "修复：画布“重置视图”改为“适应内容”，可找回远处节点；低缩放比例直接显示恢复入口，缩放栏与主工具栏自动避让，并降低极小比例下的网格密度。"
+    "新增：新增“狐文 · 逐段自然改写”，未保存润色技能时默认使用当前模型逐块改写，直接返回正文；单段失败保留原文，可继续未完成段落，检测页也可显式选用。",
+    "修复：修复长文海报概念图使用原始画布比例而被图片任务拒绝的问题，生图比例与缩放后的实际宽高一致；保留完整正文和逻辑画布高度，失败方案可继续生成。"
   ],
   "policy": {
     "minimumSupportedVersion": "",
@@ -20,10 +19,10 @@
   ],
   "packages": {
     "macos/arm64": {
-      "fileName": "ContentWorkbench-v0.0.200-mac-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.200/ContentWorkbench-v0.0.200-mac-arm64.zip",
-      "size": 26579634,
-      "sha256": "d5a415a6a8136cb50bdea4be02e0f5154519949ab82dd000651c657de621cdb9"
+      "fileName": "ContentWorkbench-v0.0.201-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.201/ContentWorkbench-v0.0.201-mac-arm64.zip",
+      "size": 26589463,
+      "sha256": "c9e28f174fb3c42fdcab772d43e444f92e1cc674b8b9b270b130095075ec25a5"
     }
   },
   "browserExtensions": {
