@@ -6,7 +6,9 @@
 
 公众号运营支持 **联网搜索、定时生成文章、系列内容管理、收入趋势查看与日报设置**。稿件与创作记录在本机管理，文本、图片和视频模型可以自行配置。
 
-![狐文桌面创作工作台](assets/desktop-home.png)
+![狐文桌面创作首页：主题输入、写作技能与模型选择](assets/screens/v204-home.png)
+
+以下产品界面截图来自 v0.0.204，可点击查看大图。
 
 ## 下载与开始使用
 
@@ -22,6 +24,8 @@
 
 [了解选题与热点功能](https://www.asfop.top/features/topic-planning/)
 
+![选题工作台：整理选题、查看策划并进入创作](assets/screens/v204-topic-library.png)
+
 ## 公众号 AI 写作与联网搜索：从主题和资料开始起稿
 
 输入主题，加入参考正文、链接、图片或知识资料，生成文章初稿。需要查找网上资料时开启联网搜索，也可以在文章助手中手动补充搜索，保留结果与来源，继续修改正文。
@@ -29,6 +33,8 @@
 写作模板和技能用于指定场景与表达方法，文章生成后可以继续对话修改、扩写、精简和调整结构。
 
 [了解 AI 文章写作](https://www.asfop.top/features/ai-writing/) · [创作模板与写作技能](https://www.asfop.top/features/creation-templates/)
+
+![文章编辑与排版预览：在同一工作区修改正文、查看图文效果](assets/screens/v204-editor.png)
 
 ## 专业写作赛道与短视频口播文案
 
@@ -68,11 +74,15 @@
 
 [公众号智能排版](https://www.asfop.top/features/wechat-layout/) · [公众号草稿与发布交接](https://www.asfop.top/features/publishing/)
 
+![公众号排版效果：月白朱红模板与数字章节，右侧提供导出入口](assets/screens/v204-vermilion-layout.png)
+
 ## AI 自动配图与图片工作台
 
 为文章准备 AI 配图，结合提示词和参考图生成图片，在图片工作台管理生成任务、历史结果与重试。图片可以继续用于正文、产品营销图和画布作品。
 
 [了解 AI 图片工作台](https://www.asfop.top/features/image-studio/)
+
+![图片素材库：分类查看配图与已有图片资源](assets/screens/v204-image-gallery.png)
 
 图片创作还覆盖 [AI 表情包制作](https://www.asfop.top/features/stickers/)与[壁纸生成](https://www.asfop.top/features/wallpaper/)，可以结合参考素材生成、调整并导出。
 
@@ -84,11 +94,17 @@
 
 [小红书图文笔记](https://www.asfop.top/features/xiaohongshu/) · [多页可编辑海报](https://www.asfop.top/features/multi-page-posters/) · [图文卡片工坊](https://www.asfop.top/features/card-maker/)
 
+![小红书成品预览：同时查看笔记文案、封面与多页配图](assets/screens/v204-xhs-preview.png)
+
+![多页海报成品组：在创作画布管理、预览与编辑整组作品](assets/screens/v204-poster-group.png)
+
 ## 产品营销套图与 AI 视频分镜
 
 导入产品资料和视觉素材，在创作画布连接策划、镜头、图片与成品。制作产品介绍、种草图文与营销套图，也可以组织视频分镜，接入支持视频生成的模型继续制作。
 
 [产品营销套图](https://www.asfop.top/features/product-images/) · [视频分镜与生成](https://www.asfop.top/features/video-storyboard/) · [可视化创作画布](https://www.asfop.top/features/canvas/)
+
+![可视化创作画布：从内容策划连接到图片与成品](assets/screens/v204-canvas-plan.png)
 
 ## 多账号管理、定时创作与公众号收入查看
 
