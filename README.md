@@ -1,4 +1,4 @@
-# 狐文（原文到 AI）｜微信公众号 AI 写作、智能排版与多账号运营工具
+# 狐文｜微信公众号 AI 写作、智能排版与多账号运营工具
 
 [官网下载](https://www.asfop.top/#download) · [GitHub 下载](https://github.com/wendaoai/wendao-content-workbench/releases/latest) · [全部功能](https://www.asfop.top/features/) · [使用反馈](https://github.com/wendaoai/wendao-content-workbench/issues)
 
