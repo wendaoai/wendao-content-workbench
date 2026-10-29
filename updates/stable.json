@@ -2,16 +2,21 @@
   "schemaVersion": 2,
   "product": "wendao-ai",
   "channel": "stable",
-  "version": "0.0.210",
-  "publishedAt": "2026-10-28T22:42:04Z",
+  "version": "0.0.211",
+  "publishedAt": "2026-10-29T03:40:31Z",
   "releaseNotes": [
-    "新增：桌面端在独立本地数据库记录启动、正常退出及已完成会话时长，本版不上传使用记录；同步更新隐私说明与协议确认界面，保留异常退出的未知时长。",
-    "新增：首页创作支持草稿自动保存与刷新恢复、历史图库、自定义风格预设，以及图片排序、分组和批量管理；图片默认仅作配图，可主动识别并设置后台并发，识别期间可离页、取消或失败重试，等待生成任务可恢复。",
-    "优化：公众号草稿推送支持直接选择正文图片作为封面，集中展示封面与正文图片体积，并提供可选 PNG 无损压缩；精简多图预览与帮助说明，保留原图、失败重试和取消操作。",
-    "优化：公众号草稿新增可选的“适配微信大小”：超限静态图片按需缩小尺寸或调整画质，保留透明度和本地原图；区分原图、无损压缩与适配模式，仅临时读取故障显示重试。",
-    "优化：精简首页图片素材管理：直接点击预览查看大图，将精确排序收进更多操作，减少重复数量与保存提示，并保留识别状态、停止、失败重试和保存异常操作。",
-    "修复：修复带关键截图的 GitCode 版本发布中断：同步版本说明时保留接口要求的版本标识字段，支持复用已有安装包继续发布和同步 GitHub。",
-    "修复：修复文章素材图片在排版和发布预览中被误删的问题，统一内部图片资源识别；排版结果遗漏正文图片时明确提示并保留原稿，兼容可编辑海报归档图片。"
+    "新增：首页增加公众号昨日与本月收入轮播，支持暂停、切换和临时收起；收入页面增加返回首页入口。",
+    "优化：推送配图与封面合并为大图网格，图片按原始比例完整显示，图下直接显示体积并可设为封面，去掉重复候选区，支持查看原图和读取失败重试。",
+    "优化：整理文章标题与版本、保存信息的层级，统一内容助手输入区样式，分组显示写作选项和模型工具。",
+    "优化：首页图片支持直接拖动排序与清晰预览，图片管理增加多选网格、批量属性和键盘排序；保存与识别状态统一通过固定入口和浮层展示，避免素材区上下抖动。",
+    "修复：修复官网版本列表和更新配图代理未指定来源分支导致的读取异常。",
+    "修复：修复推送配图原图弹窗关闭后焦点未返回缩略图的问题，便于继续使用键盘查看其他图片。",
+    "修复：修复逐节润色因数字写法、标题层级或列表调整被误判失败的问题，支持候选刷新恢复、采用保存和继续编辑。",
+    "修复：修复首页连续编辑后立即刷新可能恢复旧主题的问题，并保持正文与排版标签切换时的预览宽度稳定。",
+    "修复：完善公众号服务连接、草稿推送和收入查询的代理错误提示，区分鉴权、上传限制、上游连接及超时，避免误导排查。",
+    "修复：文章转图片默认保留原标题、正文和原图，以本地分页排版生成成品，避免生图模型替换案例照片；发布配文改为主动生成，支持临时网络错误重试及排版取消后继续。",
+    "修复：清理公众号推送中图片 1MB、50 张/50MiB、文本字数及短文和纯图片稿的本地拦截，保留可选压缩，按实际推送结果反馈。",
+    "修复：顶部增加通用刷新界面按钮，刷新前等待首页草稿、正文编辑与画布保存，刷新时跳过开屏动画；修复首页没有素材时仍显示空白素材栏的问题。"
   ],
   "policy": {
     "minimumSupportedVersion": "",
@@ -28,31 +33,31 @@
   "packages": {
     "macos/arm64": {
       "format": "dmg",
-      "fileName": "ContentWorkbench-v0.0.210-mac-arm64.dmg",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.210/ContentWorkbench-v0.0.210-mac-arm64.dmg",
-      "size": 26721208,
-      "sha256": "77ab62607c9d357e50fbeda345d8a69103a5eb4961a9e52ba0da59093faca859"
+      "fileName": "ContentWorkbench-v0.0.211-mac-arm64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.211/ContentWorkbench-v0.0.211-mac-arm64.dmg",
+      "size": 26746444,
+      "sha256": "e36aa52427b15b0121241dff4ca99902930facfb952cec4d336afc6547672421"
     },
     "macos/amd64": {
       "format": "dmg",
-      "fileName": "ContentWorkbench-v0.0.210-mac-x64.dmg",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.210/ContentWorkbench-v0.0.210-mac-x64.dmg",
-      "size": 28734090,
-      "sha256": "359e11d2394a8b1be9c906f241bc88d77bccf08f9ba0d8a0705c32a8178dda26"
+      "fileName": "ContentWorkbench-v0.0.211-mac-x64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.211/ContentWorkbench-v0.0.211-mac-x64.dmg",
+      "size": 28768339,
+      "sha256": "266b17955a077a7a110b09be186af0d6f5e9928a485791c0578fd13c8a530f22"
     },
     "windows/amd64": {
       "format": "zip",
-      "fileName": "ContentWorkbench-v0.0.210-win-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.210/ContentWorkbench-v0.0.210-win-x64.zip",
-      "size": 28540586,
-      "sha256": "760b568cbec8ea0390158f6024da7edce6d818c358df684040a4b2dca3136755"
+      "fileName": "ContentWorkbench-v0.0.211-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.211/ContentWorkbench-v0.0.211-win-x64.zip",
+      "size": 28568816,
+      "sha256": "65f5bac72fb07a2edad26a98c616f40952a17b5e4a323da5f59c2c14af697c25"
     },
     "windows/arm64": {
       "format": "zip",
-      "fileName": "ContentWorkbench-v0.0.210-win-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.210/ContentWorkbench-v0.0.210-win-arm64.zip",
-      "size": 26724226,
-      "sha256": "193baff427b390ec389443bc633268749de08745dbf3fc20bbd8bc4692efa357"
+      "fileName": "ContentWorkbench-v0.0.211-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.211/ContentWorkbench-v0.0.211-win-arm64.zip",
+      "size": 26755652,
+      "sha256": "96a4c2c54e34dbf3ca8e6909e58451d3d7c6e562f19c210c1feb72a62e0e132d"
     }
   },
   "browserExtensions": {
