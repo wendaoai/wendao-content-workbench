@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.214",
+  "publishedAt": "2026-10-30T10:44:34Z",
+  "releaseNotes": [
+    "新增：单张图片修改支持上传、粘贴和拖入排版参考图，可结合文字或仅参考图片生成新候选，自动筛选识图模型，参考图随画布保存并支持更换、移除和取消上传。",
+    "新增：原文图文排版新增极简杂志、大图画册、暖色生活志等12种本地模板，支持预览选择、保存恢复及继续编辑，沿用正文和原图生成分页作品。",
+    "新增：封面新增实景大字种草等快捷风格及9种内置社交封面模板，支持风格示意、补充文案、底图预览和人物动作方案选择。",
+    "新增：新增奶油中古家居图文模板，支持米白底、居中导语、椭圆章节自动编号、右齐标题和全宽图片；原文动态轮播按静态顺序图片适配。",
+    "新增：首页支持选择或拖入图片文件夹，递归导入子文件夹中的图片，保留相对路径并沿用素材去重、保存和识别流程。",
+    "优化：全文 AI 设计支持看原照片编排图文，保留独立原图及原始色彩，默认完整展示，并可主动选择展示裁切。",
+    "修复：修复原文模板作品生成单张新候选时沿用旧模板参数而被拒绝的问题，支持结合参考图重新设计并保留原稿。",
+    "修复：修复奶油中古模板市场预览长图左侧被裁切的问题，完整显示正文、列表和椭圆章节编号。",
+    "修复：修复批量成品PNG偶发遗漏原图，打开旧作品自动更新成品预览；小红书发布前后端统一支持18张图片，生成和草稿继续保留完整图片组。",
+    "修复：修复浏览器填入入口仍按15张拦截小红书笔记的问题，统一支持18张；转入草稿箱保留完整图片组。",
+    "修复：修正底图封面提示词的场景约束，防止按正文或动作方案凭空新增人物和替换原场景；精简即时生效的封面方案弹框操作。",
+    "修复：刷新界面时增加创作空间加载提示，在页面就绪后移除，减少跳过开屏动画后的空白等待。",
+    "修复：取消文章图片导入、排版、编辑、导出与转入公众号的累计体积拦截，超过 50 MiB 的原图组也可继续制作，保留原始图片。",
+    "修复：取消生成与原文排版阶段的小红书15张拦截，多页作品可完整制作、保存和继续编辑。",
+    "修复：封面继续通过真实图片模型生成：底图默认保留原有光色，默认带入的写作要求自动提炼为可编辑短标题，手填与无标题选择保持原意，修复无标题时单独生成提示词被拦截的问题。",
+    "修复：小红书发布统一校验正文与话题合计1000字、单个话题30字符的限制，显示实时计数，并支持一键截短超限文案及撤销修复，旧稿读取保留原文案。",
+    "修复：小红书发布草稿保留完整图片组，取消进入草稿、选图和读取时的15张拦截与静默截断；图层编辑器同步更新保存后的缩略图。",
+    "修复：整理封面自动生成、底图制作和上传入口，统一风格弹框，隔离各入口草稿与生成提示词，并收紧提示词工具和底部生成操作区。",
+    "修复：清理公众号服务器测试页残留的 50 MiB 图片总量拦截，使大稿件可按服务器上传预算提交。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/amd64",
+    "macos/arm64",
+    "windows/amd64",
+    "windows/arm64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "format": "dmg",
+      "fileName": "ContentWorkbench-v0.0.214-mac-arm64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.214/ContentWorkbench-v0.0.214-mac-arm64.dmg",
+      "size": 32146466,
+      "sha256": "4bbf1b1014bccb3e4ba7e3a7757d247189b159399ebb4484619c99791e1920ad"
+    },
+    "macos/amd64": {
+      "format": "dmg",
+      "fileName": "ContentWorkbench-v0.0.214-mac-x64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.214/ContentWorkbench-v0.0.214-mac-x64.dmg",
+      "size": 34902678,
+      "sha256": "b4db1373af92438ff26d9ec016a16b6f093425e29deaaac22a82f68c8d3c23ce"
+    },
+    "windows/amd64": {
+      "format": "zip",
+      "fileName": "ContentWorkbench-v0.0.214-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.214/ContentWorkbench-v0.0.214-win-x64.zip",
+      "size": 34777405,
+      "sha256": "41dc16aed7a52a2fd92aa5b4a854e9dbabd7229341ee77e4992f754571bc926b"
+    },
+    "windows/arm64": {
+      "format": "zip",
+      "fileName": "ContentWorkbench-v0.0.214-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.214/ContentWorkbench-v0.0.214-win-arm64.zip",
+      "size": 32253115,
+      "sha256": "e72afed3716661c28cdcb94e40790e53a01f544c433d3cc0ff6dc324d52aaafb"
+    }
+  },
+  "browserExtensions": {
+    "version": "0.1.9",
+    "minimumChromiumVersion": "116",
+    "packages": {
+      "chrome": {
+        "fileName": "wendao-ai-browser-ext-v0.1.9-chrome.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.9/wendao-ai-browser-ext-v0.1.9-chrome.zip",
+        "size": 572056,
+        "sha256": "ea22bc5819c7fef4336502de353eda01c8bf218f769e8670824c9121c58f48de"
+      },
+      "edge": {
+        "fileName": "wendao-ai-browser-ext-v0.1.9-edge.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.9/wendao-ai-browser-ext-v0.1.9-edge.zip",
+        "size": 572056,
+        "sha256": "ea22bc5819c7fef4336502de353eda01c8bf218f769e8670824c9121c58f48de"
+      }
+    }
+  }
+}
