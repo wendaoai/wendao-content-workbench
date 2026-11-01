@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.216",
+  "publishedAt": "2026-11-01T05:02:54Z",
+  "releaseNotes": [
+    "新增：字体选择新增资源市场弹框，支持搜索、预览和下载后应用，并接入撤销重做、保存恢复和离线导出；优化大字库读取，避免流式 Blob 失败阻断恢复与导出。",
+    "新增：官方字体资源新增寒蝉端黑宋和思源宋体 SC 的字重与变体，并取消字体文件的固定 16 MiB 下载上限，支持完整大字库安装。",
+    "新增：支持小红书多账号扫码登录和画布图文直接发布，默认仅自己可见，并保留浏览器发布及异常恢复入口。",
+    "新增：新增今日头条长文创作、独立转换与插件填稿，支持用户确认发布后的链接登记和数据复盘。",
+    "新增：更新失败时支持一键复制脱敏诊断信息，包含版本、平台、失败步骤和错误详情；复制失败时可手动复制，并改善低窗口下长错误的滚动。",
+    "优化：公众号草稿推送默认选择压缩体积，接入本地 Oxipng 无损优化与 MozJPEG 编码，显示逐张处理进度和节省体积；保留原图、透明图片、动图及失败重试。",
+    "优化：内置风格策划先读取原图及比例，区分封面与内页文字层级；新增内页随内容定高与统一尺寸选择，并修复封面移图后分页预览重复显示照片。",
+    "优化：复用重复内联样式的解析结果，减少模板排版与微信导出耗时；缓存容量受限，保留每次资源校验和独立样式副本。",
+    "优化：收紧参考创作各步骤的工具栏与布局，整合生成设置、阶段进度和结果操作，改善分页预览与失败后继续制作体验。",
+    "优化：精简侧栏重复标题、说明和分隔线，将对齐目标与标题合并显示并收紧属性分组间距；合并字体操作反馈，切换图层后清除旧提示，保留字体缺失恢复指引。",
+    "优化：素材任务完成后及时继续海报设计，减少逐阶段等待；保留超时、取消和状态查询兜底。",
+    "修复：修复参考准备后台任务启动时与应用初始化之间的并发竞争，保留原有读取、分析和恢复处理。",
+    "修复：修复双语章节标题分行后连接符与尾部空格导致中文偏离中轴的问题，保留原稿，并兼容已有样例的字体样式。",
+    "修复：按参考 HTML 的正文宽度换算字体大小，分别承接中英文标题与正文的颜色和字重，修复双语标题样式回退及照片组间异常留白。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/amd64",
+    "macos/arm64",
+    "windows/amd64",
+    "windows/arm64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "format": "dmg",
+      "fileName": "ContentWorkbench-v0.0.216-mac-arm64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.216/ContentWorkbench-v0.0.216-mac-arm64.dmg",
+      "size": 42050172,
+      "sha256": "97404be586be921dd0e2ff34b2472659d56d0f448cc923ab07b50be9891a0c3c"
+    },
+    "macos/amd64": {
+      "format": "dmg",
+      "fileName": "ContentWorkbench-v0.0.216-mac-x64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.216/ContentWorkbench-v0.0.216-mac-x64.dmg",
+      "size": 44962664,
+      "sha256": "c9617da4adc65698f541621937f8a5187d6d082f0fac69efdb280764db24d721"
+    },
+    "windows/amd64": {
+      "format": "zip",
+      "fileName": "ContentWorkbench-v0.0.216-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.216/ContentWorkbench-v0.0.216-win-x64.zip",
+      "size": 43769864,
+      "sha256": "928057a93b5df826d17692dc4987d88183b248ab36f10312be7dc25544bd0c95"
+    },
+    "windows/arm64": {
+      "format": "zip",
+      "fileName": "ContentWorkbench-v0.0.216-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.216/ContentWorkbench-v0.0.216-win-arm64.zip",
+      "size": 41149199,
+      "sha256": "e1c5b4726b1c3bf705fa70fe5ba628685176c601735c5b001e4a6339f81bc7ca"
+    }
+  },
+  "browserExtensions": {
+    "version": "0.1.9",
+    "minimumChromiumVersion": "116",
+    "packages": {
+      "chrome": {
+        "fileName": "wendao-ai-browser-ext-v0.1.9-chrome.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.9/wendao-ai-browser-ext-v0.1.9-chrome.zip",
+        "size": 572056,
+        "sha256": "ea22bc5819c7fef4336502de353eda01c8bf218f769e8670824c9121c58f48de"
+      },
+      "edge": {
+        "fileName": "wendao-ai-browser-ext-v0.1.9-edge.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.9/wendao-ai-browser-ext-v0.1.9-edge.zip",
+        "size": 572056,
+        "sha256": "ea22bc5819c7fef4336502de353eda01c8bf218f769e8670824c9121c58f48de"
+      }
+    }
+  }
+}
