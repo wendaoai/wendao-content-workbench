@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.219",
+  "publishedAt": "2026-11-02T15:07:24Z",
+  "releaseNotes": [
+    "新增：创作入口支持公众号、小红书笔记、头条长文和微头条；小红书可直接生成正文，携带原图进入笔记编辑与发布工作区，同一稿件重新打开可继续编辑。",
+    "新增：发布流程新增 Gitee 版本说明与安装包同步，复用本地已校验发布包，支持中断补传、失败后核对恢复和同名附件冲突保护；GitHub 或 Gitee 单站失败不再阻止尝试另一站。",
+    "新增：找灵感新增订阅资讯，可管理RSS/Atom订阅、手动采集、链接去重并保留多来源，查看资料后讨论或加入选题继续写作；支持暂停、取消后重试和重启恢复，采集本身不调用AI。",
+    "新增：资源中心新增四类离线资源包，每类支持独立分包选择、下载并安装、保存ZIP或本地导入；单包小于90MB，失败与取消后可只重试对应分包，连续导入保留此前资源。兼容旧整包与单项安装，相同版本模板重复导入保留个人编辑。",
+    "新增：首页支持导入 RAR、7z 素材，解压组件首次使用时按需下载，支持取消和失败重试，安装后可离线使用；下载进度适配统一主题，按任务类型显示文件保存说明。",
+    "优化：公众号排版检查改为兼容建议，默认保留原稿，可主动开启适配并对照预览；复制、填稿与草稿推送不再被本地排版建议阻断。标题和作者保留完整输入，微信实际拒绝后可修改重推，安全与资源检查继续执行。",
+    "优化：参考创作支持保存与复用参考风格、分批分析和阶段进度展示，优化素材交接与策划编辑；画布优化图层点选、局部重绘模型选择和返回位置。",
+    "优化：移除应用内置的设计与启动字体，默认使用系统字体；保留资源市场下载、本地导入和作品字体导出，并禁止打包字体资源以减小安装包。",
+    "优化：精简14项重复或套路较重的内置创作模板，保留个人修改和历史引用；合并场景分类并隐藏空分类。参考分析完成后可从各步骤及成品画布顶栏保存风格，首页可直接选用已存风格。",
+    "优化：资源市场按分类加载并优先复用缓存，合并并发刷新；接入字体、视觉素材独立仓库及 GitCode、GitHub、Gitee 三平台镜像，限流或内容校验失败时自动切换下载来源。",
+    "修复：修复 GitCode 仓库首页仍将旧版本显示为最新发行版的问题：稳定索引发布成功后更新并复查最新标记，截图说明更新保留已有标记，重试不会将最新版本回退。",
+    "修复：小红书笔记交接会等待标题生成状态就绪，避免带入临时标题；正文按 Markdown 语义转换为纯文本，保留小标题空格、手动换行、多段列表及源稿和笔记工作区的独立编辑。",
+    "修复：搜索、独立评分、检测润色、v11 逐节润色及旧版改稿按每次请求保存完整实际提示词，刷新后可查看；保留失败、取消与自动重试记录，旧任务继续读取原有已保存指令。",
+    "修复：更新弹窗与设置支持自动选择或手动指定 GitCode、Gitee、GitHub；遇到限流或网络故障可切换来源，保留版本、摘要及签名校验；更新弹窗清理横幅文字区，合并下载源与操作底栏，突出更新内容和主按钮，正文与菜单适配当前主题。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/amd64",
+    "macos/arm64",
+    "windows/amd64",
+    "windows/arm64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "format": "dmg",
+      "fileName": "ContentWorkbench-v0.0.219-mac-arm64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.219/ContentWorkbench-v0.0.219-mac-arm64.dmg",
+      "size": 37288283,
+      "sha256": "1dd5f6182692cf51c27fbdf92ce568fa3fda3ff206066a16478f08d4ad660dcf"
+    },
+    "macos/amd64": {
+      "format": "dmg",
+      "fileName": "ContentWorkbench-v0.0.219-mac-x64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.219/ContentWorkbench-v0.0.219-mac-x64.dmg",
+      "size": 40245886,
+      "sha256": "eb8fd9460445e183386c5dc486264ed7df4fc9360cadacc736f57ee76bc1b066"
+    },
+    "windows/amd64": {
+      "format": "zip",
+      "fileName": "ContentWorkbench-v0.0.219-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.219/ContentWorkbench-v0.0.219-win-x64.zip",
+      "size": 39102575,
+      "sha256": "382b4531e6c52276e81d43753dbb5405670c31132a98b8fa73108ecb0cfd7e02"
+    },
+    "windows/arm64": {
+      "format": "zip",
+      "fileName": "ContentWorkbench-v0.0.219-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.219/ContentWorkbench-v0.0.219-win-arm64.zip",
+      "size": 36434908,
+      "sha256": "1de17bf6e6f130a780c9e196d9db906193fe4a50987ce88e6aa7face9da6202e"
+    }
+  },
+  "browserExtensions": {
+    "version": "0.1.9",
+    "minimumChromiumVersion": "116",
+    "packages": {
+      "chrome": {
+        "fileName": "wendao-ai-browser-ext-v0.1.9-chrome.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.9/wendao-ai-browser-ext-v0.1.9-chrome.zip",
+        "size": 572056,
+        "sha256": "ea22bc5819c7fef4336502de353eda01c8bf218f769e8670824c9121c58f48de"
+      },
+      "edge": {
+        "fileName": "wendao-ai-browser-ext-v0.1.9-edge.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.9/wendao-ai-browser-ext-v0.1.9-edge.zip",
+        "size": 572056,
+        "sha256": "ea22bc5819c7fef4336502de353eda01c8bf218f769e8670824c9121c58f48de"
+      }
+    }
+  }
+}

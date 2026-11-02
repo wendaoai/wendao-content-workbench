@@ -2,19 +2,23 @@
   "schemaVersion": 2,
   "product": "wendao-ai",
   "channel": "stable",
-  "version": "0.0.218",
-  "publishedAt": "2026-11-02T01:01:20Z",
+  "version": "0.0.219",
+  "publishedAt": "2026-11-02T15:07:24Z",
   "releaseNotes": [
-    "新增：参考创作新增独立执行日志，可按阶段查看模型请求、响应、重试、取消与保存结果；日志脱敏后保存在本地，支持刷新后继续查看。",
-    "新增：头条账号支持今日头条 App 扫码连接、登录检查和断开，长文与微头条共用本机连接；浏览器插件填稿仍使用浏览器登录。",
-    "新增：更多菜单新增统一资源库与独立图片看板，支持跨来源检索和选用、按类型分组浏览、原专业资源管理、引用保护、安全清理、可选同文件去重及含业务依赖的资源包；本地字体持久化，修复本地模板读取被远端目录阻塞以及切换手写纸张后可能导出旧预览的问题。",
-    "新增：画布支持按项目管理、归档恢复、批量移动和关联内容系列，可在编辑器插入项目要求与公共图片。",
-    "优化：优化参考图文的排版决策与原图分组，支持每个模型连接设置规划并发；保存规划及修复上下文，失败后可刷新恢复、继续修复或手动改用原文排版。",
-    "优化：图文卡片悬停时可直接编辑、预览和下载，更新文章风格预览；小红书账号连接增加扫码及浏览器登录进度提示。",
-    "优化：改进中英文混排、手写文字与图片标注，修复部分文字碰撞；全部页面可合并导出单个 HTML，统一下载进度、取消和失败重试入口。",
-    "优化：普通启动备份至少间隔三十天，复用最近的完整手动备份和安全快照，源库未检测到变化时跳过；新增空间预算与备份前清理，保护最近恢复点、升级及恢复安全快照和待安装更新所需备份，减少重复备份占用。",
-    "优化：首页参考记录支持快速退出后恢复任务及读取失败重试；图片素材新增一键清空，保留文字、配置和素材原件，并放缓输入卡片边框动效。",
-    "修复：修复多页 HTML 在较早页面已加载时未计算高度、打开后仅见末页的问题，普通与压缩 HTML 均可连续浏览全部页面。"
+    "新增：创作入口支持公众号、小红书笔记、头条长文和微头条；小红书可直接生成正文，携带原图进入笔记编辑与发布工作区，同一稿件重新打开可继续编辑。",
+    "新增：发布流程新增 Gitee 版本说明与安装包同步，复用本地已校验发布包，支持中断补传、失败后核对恢复和同名附件冲突保护；GitHub 或 Gitee 单站失败不再阻止尝试另一站。",
+    "新增：找灵感新增订阅资讯，可管理RSS/Atom订阅、手动采集、链接去重并保留多来源，查看资料后讨论或加入选题继续写作；支持暂停、取消后重试和重启恢复，采集本身不调用AI。",
+    "新增：资源中心新增四类离线资源包，每类支持独立分包选择、下载并安装、保存ZIP或本地导入；单包小于90MB，失败与取消后可只重试对应分包，连续导入保留此前资源。兼容旧整包与单项安装，相同版本模板重复导入保留个人编辑。",
+    "新增：首页支持导入 RAR、7z 素材，解压组件首次使用时按需下载，支持取消和失败重试，安装后可离线使用；下载进度适配统一主题，按任务类型显示文件保存说明。",
+    "优化：公众号排版检查改为兼容建议，默认保留原稿，可主动开启适配并对照预览；复制、填稿与草稿推送不再被本地排版建议阻断。标题和作者保留完整输入，微信实际拒绝后可修改重推，安全与资源检查继续执行。",
+    "优化：参考创作支持保存与复用参考风格、分批分析和阶段进度展示，优化素材交接与策划编辑；画布优化图层点选、局部重绘模型选择和返回位置。",
+    "优化：移除应用内置的设计与启动字体，默认使用系统字体；保留资源市场下载、本地导入和作品字体导出，并禁止打包字体资源以减小安装包。",
+    "优化：精简14项重复或套路较重的内置创作模板，保留个人修改和历史引用；合并场景分类并隐藏空分类。参考分析完成后可从各步骤及成品画布顶栏保存风格，首页可直接选用已存风格。",
+    "优化：资源市场按分类加载并优先复用缓存，合并并发刷新；接入字体、视觉素材独立仓库及 GitCode、GitHub、Gitee 三平台镜像，限流或内容校验失败时自动切换下载来源。",
+    "修复：修复 GitCode 仓库首页仍将旧版本显示为最新发行版的问题：稳定索引发布成功后更新并复查最新标记，截图说明更新保留已有标记，重试不会将最新版本回退。",
+    "修复：小红书笔记交接会等待标题生成状态就绪，避免带入临时标题；正文按 Markdown 语义转换为纯文本，保留小标题空格、手动换行、多段列表及源稿和笔记工作区的独立编辑。",
+    "修复：搜索、独立评分、检测润色、v11 逐节润色及旧版改稿按每次请求保存完整实际提示词，刷新后可查看；保留失败、取消与自动重试记录，旧任务继续读取原有已保存指令。",
+    "修复：更新弹窗与设置支持自动选择或手动指定 GitCode、Gitee、GitHub；遇到限流或网络故障可切换来源，保留版本、摘要及签名校验；更新弹窗清理横幅文字区，合并下载源与操作底栏，突出更新内容和主按钮，正文与菜单适配当前主题。"
   ],
   "policy": {
     "minimumSupportedVersion": "",
@@ -31,31 +35,31 @@
   "packages": {
     "macos/arm64": {
       "format": "dmg",
-      "fileName": "ContentWorkbench-v0.0.218-mac-arm64.dmg",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.218/ContentWorkbench-v0.0.218-mac-arm64.dmg",
-      "size": 43296005,
-      "sha256": "b2c5526bb86a00fb1be963c1534a328191758c49f238c6d5ac1a1b3ee3076d15"
+      "fileName": "ContentWorkbench-v0.0.219-mac-arm64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.219/ContentWorkbench-v0.0.219-mac-arm64.dmg",
+      "size": 37288283,
+      "sha256": "1dd5f6182692cf51c27fbdf92ce568fa3fda3ff206066a16478f08d4ad660dcf"
     },
     "macos/amd64": {
       "format": "dmg",
-      "fileName": "ContentWorkbench-v0.0.218-mac-x64.dmg",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.218/ContentWorkbench-v0.0.218-mac-x64.dmg",
-      "size": 46257969,
-      "sha256": "7c3611d471ad47106411a3775a6e08fe0f68e2aef493578ba657baa5c52cb9e0"
+      "fileName": "ContentWorkbench-v0.0.219-mac-x64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.219/ContentWorkbench-v0.0.219-mac-x64.dmg",
+      "size": 40245886,
+      "sha256": "eb8fd9460445e183386c5dc486264ed7df4fc9360cadacc736f57ee76bc1b066"
     },
     "windows/amd64": {
       "format": "zip",
-      "fileName": "ContentWorkbench-v0.0.218-win-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.218/ContentWorkbench-v0.0.218-win-x64.zip",
-      "size": 45062268,
-      "sha256": "089d2c2413daf9d94bba3cc8fa58a83078fead6861a468ab46efc38e058ed20c"
+      "fileName": "ContentWorkbench-v0.0.219-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.219/ContentWorkbench-v0.0.219-win-x64.zip",
+      "size": 39102575,
+      "sha256": "382b4531e6c52276e81d43753dbb5405670c31132a98b8fa73108ecb0cfd7e02"
     },
     "windows/arm64": {
       "format": "zip",
-      "fileName": "ContentWorkbench-v0.0.218-win-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.218/ContentWorkbench-v0.0.218-win-arm64.zip",
-      "size": 42414769,
-      "sha256": "c2e4d864caff0d756be8c350b91c71225db0b5911a07ec70ec8a93bc438600a3"
+      "fileName": "ContentWorkbench-v0.0.219-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.219/ContentWorkbench-v0.0.219-win-arm64.zip",
+      "size": 36434908,
+      "sha256": "1de17bf6e6f130a780c9e196d9db906193fe4a50987ce88e6aa7face9da6202e"
     }
   },
   "browserExtensions": {
