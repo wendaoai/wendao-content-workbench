@@ -2,16 +2,19 @@
   "schemaVersion": 2,
   "product": "wendao-ai",
   "channel": "stable",
-  "version": "0.0.217",
-  "publishedAt": "2026-11-01T11:34:37Z",
+  "version": "0.0.218",
+  "publishedAt": "2026-11-02T01:01:20Z",
   "releaseNotes": [
-    "新增：新增微头条创作与独立转换，按无标题短内容保存，并支持浏览器插件填入微头条正文与配图。",
-    "新增：新增本地图层封面制作，支持原图、标题与透明渐变独立编辑、自动保存恢复及本地导出；首页支持 ZIP 图片导入和可选智能分组。",
-    "新增：项目资料支持保存多份常用资料，首页与参考创作可搜索选用、新增、更新、重命名和删除；资料与各项目独立保存，保留失败重试与覆盖确认。",
-    "优化：新增图片画布简洁输入模式，收紧图片参数、参考素材与画布工具；画册成稿直接提供图片查看和 HTML 图文生成，保留编辑、导出与异常恢复入口。",
-    "优化：自动图文设计先读取原照片，分别规划封面与内页构图并继承确认样稿；参考画册沿用用户所选文风、篇幅与独立文字组，改善内置风格预览与制作进度。",
-    "修复：修复原图资源地址替换、标题视觉分行还原及满页图文异常撑高，改善方案分页、封面预览和画册导出后的版式一致性。",
-    "修复：修复小红书直接发布的段落校验、重复填入与可见范围等待，新增账号扫码引导和独立发布确认；完善图片与图层导出的进度、取消及失败恢复。"
+    "新增：参考创作新增独立执行日志，可按阶段查看模型请求、响应、重试、取消与保存结果；日志脱敏后保存在本地，支持刷新后继续查看。",
+    "新增：头条账号支持今日头条 App 扫码连接、登录检查和断开，长文与微头条共用本机连接；浏览器插件填稿仍使用浏览器登录。",
+    "新增：更多菜单新增统一资源库与独立图片看板，支持跨来源检索和选用、按类型分组浏览、原专业资源管理、引用保护、安全清理、可选同文件去重及含业务依赖的资源包；本地字体持久化，修复本地模板读取被远端目录阻塞以及切换手写纸张后可能导出旧预览的问题。",
+    "新增：画布支持按项目管理、归档恢复、批量移动和关联内容系列，可在编辑器插入项目要求与公共图片。",
+    "优化：优化参考图文的排版决策与原图分组，支持每个模型连接设置规划并发；保存规划及修复上下文，失败后可刷新恢复、继续修复或手动改用原文排版。",
+    "优化：图文卡片悬停时可直接编辑、预览和下载，更新文章风格预览；小红书账号连接增加扫码及浏览器登录进度提示。",
+    "优化：改进中英文混排、手写文字与图片标注，修复部分文字碰撞；全部页面可合并导出单个 HTML，统一下载进度、取消和失败重试入口。",
+    "优化：普通启动备份至少间隔三十天，复用最近的完整手动备份和安全快照，源库未检测到变化时跳过；新增空间预算与备份前清理，保护最近恢复点、升级及恢复安全快照和待安装更新所需备份，减少重复备份占用。",
+    "优化：首页参考记录支持快速退出后恢复任务及读取失败重试；图片素材新增一键清空，保留文字、配置和素材原件，并放缓输入卡片边框动效。",
+    "修复：修复多页 HTML 在较早页面已加载时未计算高度、打开后仅见末页的问题，普通与压缩 HTML 均可连续浏览全部页面。"
   ],
   "policy": {
     "minimumSupportedVersion": "",
@@ -28,31 +31,31 @@
   "packages": {
     "macos/arm64": {
       "format": "dmg",
-      "fileName": "ContentWorkbench-v0.0.217-mac-arm64.dmg",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.217/ContentWorkbench-v0.0.217-mac-arm64.dmg",
-      "size": 42320681,
-      "sha256": "c689c1d9dcd26093323f71fbb47a4755f8ac25995de08b55b5067374ff1d64e8"
+      "fileName": "ContentWorkbench-v0.0.218-mac-arm64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.218/ContentWorkbench-v0.0.218-mac-arm64.dmg",
+      "size": 43296005,
+      "sha256": "b2c5526bb86a00fb1be963c1534a328191758c49f238c6d5ac1a1b3ee3076d15"
     },
     "macos/amd64": {
       "format": "dmg",
-      "fileName": "ContentWorkbench-v0.0.217-mac-x64.dmg",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.217/ContentWorkbench-v0.0.217-mac-x64.dmg",
-      "size": 45268244,
-      "sha256": "f63305438a991f62607ef918e38886bf345e17e432130ccf984ee9c41796e7b2"
+      "fileName": "ContentWorkbench-v0.0.218-mac-x64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.218/ContentWorkbench-v0.0.218-mac-x64.dmg",
+      "size": 46257969,
+      "sha256": "7c3611d471ad47106411a3775a6e08fe0f68e2aef493578ba657baa5c52cb9e0"
     },
     "windows/amd64": {
       "format": "zip",
-      "fileName": "ContentWorkbench-v0.0.217-win-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.217/ContentWorkbench-v0.0.217-win-x64.zip",
-      "size": 44050211,
-      "sha256": "eb5507cbbb125e1a816756d3fc4fdbe7c24b4ec1e1b91cffb48933c9e12220ef"
+      "fileName": "ContentWorkbench-v0.0.218-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.218/ContentWorkbench-v0.0.218-win-x64.zip",
+      "size": 45062268,
+      "sha256": "089d2c2413daf9d94bba3cc8fa58a83078fead6861a468ab46efc38e058ed20c"
     },
     "windows/arm64": {
       "format": "zip",
-      "fileName": "ContentWorkbench-v0.0.217-win-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.217/ContentWorkbench-v0.0.217-win-arm64.zip",
-      "size": 41440321,
-      "sha256": "d7f249cb012c090de5e5bac8bc2b2a9c22a3ab43f184f6611184db6b5320a5fb"
+      "fileName": "ContentWorkbench-v0.0.218-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.218/ContentWorkbench-v0.0.218-win-arm64.zip",
+      "size": 42414769,
+      "sha256": "c2e4d864caff0d756be8c350b91c71225db0b5911a07ec70ec8a93bc438600a3"
     }
   },
   "browserExtensions": {
