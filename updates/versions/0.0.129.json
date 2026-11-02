@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.129",
+  "publishedAt": "2026-10-08T06:35:14Z",
+  "releaseNotes": [
+    "优化：AI 服务模型设置新增批量开启能力操作，可一次为已启用的文本模型开启工具调用、推理、文档附件、原生联网和图片理解。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/amd64",
+    "macos/arm64",
+    "windows/amd64",
+    "windows/arm64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "fileName": "ContentWorkbench-v0.0.129-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.129/ContentWorkbench-v0.0.129-mac-arm64.zip",
+      "size": 19733155,
+      "sha256": "4683fcaf2dd18cd6ae0fddfd189ed225d37f5658544a3eba6cfdbb3ccd23e0d0"
+    },
+    "macos/amd64": {
+      "fileName": "ContentWorkbench-v0.0.129-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.129/ContentWorkbench-v0.0.129-mac-x64.zip",
+      "size": 21256549,
+      "sha256": "c9a357c60779e50754147d3af5499a8a7d1a198e26b4c9e09325f9ec0df973c7"
+    },
+    "windows/amd64": {
+      "fileName": "ContentWorkbench-v0.0.129-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.129/ContentWorkbench-v0.0.129-win-x64.zip",
+      "size": 20583763,
+      "sha256": "e52723d20b25811114ac9095012b5c9f69c658d83ae4099f53ad1ec7fef27033"
+    },
+    "windows/arm64": {
+      "fileName": "ContentWorkbench-v0.0.129-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.129/ContentWorkbench-v0.0.129-win-arm64.zip",
+      "size": 19090485,
+      "sha256": "53ebf54a985f371364ac9d12300ddc21578a0ccf70d9c160683fe3f2d64419b8"
+    }
+  },
+  "browserExtensions": {
+    "version": "0.1.0",
+    "minimumChromiumVersion": "116",
+    "packages": {
+      "chrome": {
+        "fileName": "wendao-ai-browser-ext-v0.1.0-chrome.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.0/wendao-ai-browser-ext-v0.1.0-chrome.zip",
+        "size": 124890,
+        "sha256": "d66f3039c0a825cf48b7d69dac1437302ca1ff1c789b94538dd0d44a2b528205"
+      },
+      "edge": {
+        "fileName": "wendao-ai-browser-ext-v0.1.0-edge.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.0/wendao-ai-browser-ext-v0.1.0-edge.zip",
+        "size": 124890,
+        "sha256": "d66f3039c0a825cf48b7d69dac1437302ca1ff1c789b94538dd0d44a2b528205"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.71",
+  "publishedAt": "2026-08-28T10:41:34Z",
+  "releaseNotes": [
+    "新增：公众号正文模板改为从官方签名模板库整库同步，支持 51 套风格、自动检查、失败缓存、目录回滚、本次更新筛选，以及按文章固定模板版本和渲染快照。",
+    "修复：优化桌面更新切换流程，等待旧服务端口释放并记录新版启动日志、退出状态和失败详情；前端改用运行时注入的 API 地址，避免固定端口导致更新后连接失败。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/amd64",
+    "macos/arm64",
+    "windows/amd64",
+    "windows/arm64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "fileName": "ContentWorkbench-v0.0.71-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.71/ContentWorkbench-v0.0.71-mac-arm64.zip",
+      "size": 21539640,
+      "sha256": "1b34fc3c60873a8f8a5dc43bc7b9403b6ebb42ac8a9bd629f03909ab9db1cf0e"
+    },
+    "macos/amd64": {
+      "fileName": "ContentWorkbench-v0.0.71-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.71/ContentWorkbench-v0.0.71-mac-x64.zip",
+      "size": 22845190,
+      "sha256": "e681263b8952869b0c04a78a5729ed72b9a27199483acfe8e07cdf95229624c1"
+    },
+    "windows/amd64": {
+      "fileName": "ContentWorkbench-v0.0.71-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.71/ContentWorkbench-v0.0.71-win-x64.zip",
+      "size": 22192665,
+      "sha256": "4107ca02f4195e01ea9db92c11fc6db8024f1d00e2d61120fa716e5c87ccedec"
+    },
+    "windows/arm64": {
+      "fileName": "ContentWorkbench-v0.0.71-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.71/ContentWorkbench-v0.0.71-win-arm64.zip",
+      "size": 20838188,
+      "sha256": "ca6e050c4b005e4a6ec8164c000ed0168786a60a69a166cdd2635feb2165da70"
+    }
+  }
+}

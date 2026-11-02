@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.73",
+  "publishedAt": "2026-08-29T14:40:42Z",
+  "releaseNotes": [
+    "优化：优化内容助手工作区布局：扩大改稿输入与正文画布，精简发送按钮和已采用候选稿信息，并将发布工具收进正文区域，提升宽屏下的阅读与操作效率。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/amd64",
+    "macos/arm64",
+    "windows/amd64",
+    "windows/arm64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "fileName": "ContentWorkbench-v0.0.73-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.73/ContentWorkbench-v0.0.73-mac-arm64.zip",
+      "size": 21832860,
+      "sha256": "8af5e472b24d9fef7cbd6c17ed34fbb89489e4b7a81a89df0a58fbd6d41ca34d"
+    },
+    "macos/amd64": {
+      "fileName": "ContentWorkbench-v0.0.73-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.73/ContentWorkbench-v0.0.73-mac-x64.zip",
+      "size": 23144692,
+      "sha256": "22f0778fa94902b8a1cd49bec73105eecf020c79ce69298bf2712da599edec72"
+    },
+    "windows/amd64": {
+      "fileName": "ContentWorkbench-v0.0.73-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.73/ContentWorkbench-v0.0.73-win-x64.zip",
+      "size": 22485763,
+      "sha256": "2069717890d608ff3bb737163a1dea3014bdfa9b075a41a12b94526dc93dd4bc"
+    },
+    "windows/arm64": {
+      "fileName": "ContentWorkbench-v0.0.73-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.73/ContentWorkbench-v0.0.73-win-arm64.zip",
+      "size": 21127108,
+      "sha256": "9a4ea7daed5ea11e1a346a0b3eefdb334e2be6f8053b82ef687d2439440a5a23"
+    }
+  }
+}

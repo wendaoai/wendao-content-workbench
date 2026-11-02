@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.146",
+  "publishedAt": "2026-10-09T12:30:22Z",
+  "releaseNotes": [
+    "优化：优化公众号文章的主线策划和系统提示词，减少固定分节、重复结论及虚构样稿经历；适用文章增加一次编辑复核，合并质量与篇幅问题修订，保留原稿和失败候选，显式篇幅不符时明确提示。",
+    "修复：图片模板生成加入商品主图参考并按模板安排商品展示，参考数量不支持时明确提示更换模型；修复首次选择模板或商品未生效、文本输入回退的问题。",
+    "修复：文章生成和助手失败后可继续原任务，保留策划、检索及已完成工具结果，避免重复检索、重复保存文章版本；临时网络与流内过载自动重试，清除失败片段并恢复进度。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/arm64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "fileName": "ContentWorkbench-v0.0.146-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.146/ContentWorkbench-v0.0.146-mac-arm64.zip",
+      "size": 20068457,
+      "sha256": "73e42c695029394f99d63fa41a50392978bc4eb04995d3f0af47d516e6d2df6f"
+    }
+  },
+  "browserExtensions": {
+    "version": "0.1.0",
+    "minimumChromiumVersion": "116",
+    "packages": {
+      "chrome": {
+        "fileName": "wendao-ai-browser-ext-v0.1.0-chrome.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.0/wendao-ai-browser-ext-v0.1.0-chrome.zip",
+        "size": 124890,
+        "sha256": "d66f3039c0a825cf48b7d69dac1437302ca1ff1c789b94538dd0d44a2b528205"
+      },
+      "edge": {
+        "fileName": "wendao-ai-browser-ext-v0.1.0-edge.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.0/wendao-ai-browser-ext-v0.1.0-edge.zip",
+        "size": 124890,
+        "sha256": "d66f3039c0a825cf48b7d69dac1437302ca1ff1c789b94538dd0d44a2b528205"
+      }
+    }
+  }
+}

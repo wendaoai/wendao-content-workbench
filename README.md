@@ -6,7 +6,7 @@
 
 [![GoFrame v2](https://img.shields.io/badge/GoFrame-v2-00ADD8?style=flat-square&logo=go&logoColor=white)](https://goframe.org/) [![Wails v2](https://img.shields.io/badge/Wails-v2-DF0000?style=flat-square)](https://wails.io/) [![React 19](https://img.shields.io/badge/React-19-149ECA?style=flat-square&logo=react&logoColor=white)](https://react.dev/) [![SQLite](https://img.shields.io/badge/SQLite-%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8-003B57?style=flat-square&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 
-[官网下载](https://www.asfop.top/#download) · [GitHub 下载](https://github.com/wendaoai/wendao-content-workbench/releases/latest) · [全部功能](https://www.asfop.top/features/) · [使用反馈](https://github.com/wendaoai/wendao-content-workbench/issues)
+[官网下载](https://www.asfop.top/#download) · [GitCode 下载](https://gitcode.com/wendao-ai/wendao-ai-updates/releases) · [GitHub 下载](https://github.com/wendaoai/wendao-content-workbench/releases/latest) · [Gitee 仓库](https://gitee.com/wendaoai/wendao-content-workbench) · [全部功能](https://www.asfop.top/features/) · [使用反馈](https://github.com/wendaoai/wendao-content-workbench/issues)
 
 狐文是一款面向微信公众号创作与运营的本地桌面工具。从热点选题、AI 写文章、去 AI 味和朱雀检测，到自动配图、公众号智能排版、草稿推送与多账号管理，在同一个工作台完成。文章还可以继续制作成小红书笔记和多页海报。
 
@@ -18,7 +18,7 @@
 
 ## 下载与开始使用
 
-公开安装包已在 [GitHub Releases](https://github.com/wendaoai/wendao-content-workbench/releases/latest) 提供。前往[官网下载页](https://www.asfop.top/#download)，按系统和芯片选择对应安装包；具体平台与格式以当前附件为准。
+公开安装包已在 [GitCode Releases](https://gitcode.com/wendao-ai/wendao-ai-updates/releases) 和 [GitHub Releases](https://github.com/wendaoai/wendao-content-workbench/releases/latest) 提供。前往[官网下载页](https://www.asfop.top/#download)，按系统和芯片选择对应安装包；具体平台与格式以当前附件为准。
 
 安装后，在设置中配置 AI 服务，也可以按应用提供的体验额度开始创作。软件本体免费，模型、图片、联网搜索、外部检测等服务的额度和费用按各自配置与服务商规则计算。
 

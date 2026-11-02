@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.72",
+  "publishedAt": "2026-08-29T12:22:00Z",
+  "releaseNotes": [
+    "新增：公众号文章模板完成专业化主题设计器和模板操作升级，补齐 WeMD 标记、提醒、脚注、公式与图表等语法，统一 578px 文章纸张及预览、复制、导出结果；修复主题切换残留旧样式、编辑草稿覆盖、排版设置失效、图表并发串扰、复制过期内容和文章模板刷新丢失，并随发布包提供 WeMD 第三方许可。",
+    "新增：公众号正文模板改为从官方 GitCode JSON 模板库整库同步，支持 51 套风格、自动检查、失败缓存、目录回滚、本次更新筛选，以及按文章固定模板版本和渲染快照。",
+    "新增：新增六步工作台快速导览和页面级操作引导，并提供可重复创建、可继续进度的“5 分钟完成第一篇内容”内置示例流程。",
+    "优化：为阅读助手增加确定性正文差异与敏感变化提示，重构本文约定和长期偏好记忆，并新增可恢复、可停止、可幂等重试的后台改稿任务与同轮候选分组，避免失败、停止或未采用正文污染记忆。",
+    "优化：优化内容阅读助手的正文修改与发布素材入口，明确基于、查看和当前版本，新增可逐条管理的记忆抽屉与场景化上下文，默认使用单模型并将正文改稿接入可断线恢复的后台候选任务，补充同轮候选、历史结果查看、对比和采用操作。",
+    "优化：热点雷达为本次实际新增的记录显示“新”标记，并确保列表实际展示后才确认已读，可靠处理七天过期和任务停止状态。",
+    "修复：优化内容助手智能改稿流程：按轮次归组候选稿，点击版本卡即可采用并同步右侧正文，提供基于当前稿件动态生成的下一步建议，并精简重复标题、按钮和生成状态文案。",
+    "修复：优化阅读助手生成动画和窄栏布局，合并重复进度信息，并将 AI 建议连接失败改为可重试的局部提示。",
+    "修复：修复公众号模板库默认地址缺少 master 分支参数导致同步返回 404，并在进入页面时由后端异步检查更新、失败后按间隔冷却。",
+    "修复：修复旧版图片任务迁移与平台热点迁移编号冲突导致桌面应用无法启动的问题，升级时自动补齐缺失的热点榜数据表。",
+    "修复：修复桌面端 AI 看图出方案错误置灰和失败任务缺少真实重试的问题，并优化图片生成输入区在紧凑布局下的控件宽度。",
+    "修复：修复系统更新弹框可通过点击遮罩意外关闭的问题，保留明确的稍后提醒、跳过版本和右上角关闭操作。",
+    "修复：热点雷达接入当天平台热榜作为候选证据，过滤模型编造的来源链接，并区分无候选、全部重复和来源不可用等结果提示。",
+    "修复：热点雷达改为持久化后台任务，支持关闭后继续、重新进入恢复进度、停止任务及失败原因展示，避免模型请求长时间占住弹框。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/amd64",
+    "macos/arm64",
+    "windows/amd64",
+    "windows/arm64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "fileName": "ContentWorkbench-v0.0.72-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.72/ContentWorkbench-v0.0.72-mac-arm64.zip",
+      "size": 21834157,
+      "sha256": "2514467c9bb8a601a4d5e17b73787299a1930477938bae997d34a846e51d2fd0"
+    },
+    "macos/amd64": {
+      "fileName": "ContentWorkbench-v0.0.72-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.72/ContentWorkbench-v0.0.72-mac-x64.zip",
+      "size": 23146028,
+      "sha256": "7a839a08e1783aa877306f06b99bda3359bfc370671c7919df2f2c041c16c732"
+    },
+    "windows/amd64": {
+      "fileName": "ContentWorkbench-v0.0.72-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.72/ContentWorkbench-v0.0.72-win-x64.zip",
+      "size": 22487188,
+      "sha256": "a5b0d14919c73e7c8883a505edccae1c4d021121873fa3e5a0c0cafb957b7565"
+    },
+    "windows/arm64": {
+      "fileName": "ContentWorkbench-v0.0.72-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.72/ContentWorkbench-v0.0.72-win-arm64.zip",
+      "size": 21128403,
+      "sha256": "5c49045d474bb803dbc39739d63923ea2eab67690b6168622a5de65fcd67b401"
+    }
+  }
+}

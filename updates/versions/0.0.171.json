@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.171",
+  "publishedAt": "2026-10-15T02:50:53Z",
+  "releaseNotes": [
+    "新增：新增 60 款含原创 PNG、GIF 装饰及渐变的背景模板，内置模板增至 143 款、背景模板增至 66 款；素材随程序提供，可选用、随机排版、保存与导出。",
+    "修复：在原分类菜单增加背景模板入口和背景类型标识，支持按背景图、GIF、渐变查找；修复浅色渐变题头、深色引用区及部分导语的文字对比度。",
+    "修复：重复选用同一内置模板时直接按模板生成，避免误继承当前候选并调用 AI；正文助手的同方向自然语言续改继续保留继承能力。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/amd64",
+    "macos/arm64",
+    "windows/amd64",
+    "windows/arm64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "fileName": "ContentWorkbench-v0.0.171-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.171/ContentWorkbench-v0.0.171-mac-arm64.zip",
+      "size": 22893145,
+      "sha256": "222f232d7de24e5e078a5d43283bb9faad043e1c911ed029973c96eb51f54799"
+    },
+    "macos/amd64": {
+      "fileName": "ContentWorkbench-v0.0.171-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.171/ContentWorkbench-v0.0.171-mac-x64.zip",
+      "size": 24591200,
+      "sha256": "78f131a65073bd0eecdf2f3f2bab591429febc718395a23a67aa6eb14ccab196"
+    },
+    "windows/amd64": {
+      "fileName": "ContentWorkbench-v0.0.171-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.171/ContentWorkbench-v0.0.171-win-x64.zip",
+      "size": 23881615,
+      "sha256": "5fab8bdac36021aaf41ea48a4a218c8345627b35f06bc565b014227e90873b63"
+    },
+    "windows/arm64": {
+      "fileName": "ContentWorkbench-v0.0.171-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.171/ContentWorkbench-v0.0.171-win-arm64.zip",
+      "size": 22243276,
+      "sha256": "2bc3ebc1f86d93aa7a0cb5efc3ebeeff7bc1a632218369d5b420864862c10df3"
+    }
+  },
+  "browserExtensions": {
+    "version": "0.1.0",
+    "minimumChromiumVersion": "116",
+    "packages": {
+      "chrome": {
+        "fileName": "wendao-ai-browser-ext-v0.1.0-chrome.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.0/wendao-ai-browser-ext-v0.1.0-chrome.zip",
+        "size": 124890,
+        "sha256": "d66f3039c0a825cf48b7d69dac1437302ca1ff1c789b94538dd0d44a2b528205"
+      },
+      "edge": {
+        "fileName": "wendao-ai-browser-ext-v0.1.0-edge.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.0/wendao-ai-browser-ext-v0.1.0-edge.zip",
+        "size": 124890,
+        "sha256": "d66f3039c0a825cf48b7d69dac1437302ca1ff1c789b94538dd0d44a2b528205"
+      }
+    }
+  }
+}

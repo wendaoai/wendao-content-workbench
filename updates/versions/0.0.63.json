@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.63",
+  "publishedAt": "2026-08-27T06:08:45Z",
+  "releaseNotes": [
+    "优化：统一确认弹窗的品牌图标样式，并优化首次使用协议弹窗的内容布局。",
+    "优化：优化官方体验开始与额度用尽提示，让试用状态和后续配置指引更清晰。",
+    "优化：优化图片创作页的操作栏布局和默认图标，提升常用操作的辨识度。",
+    "优化：统一选题、灵感和文章工作区的空状态为品牌小狐狸形象。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/amd64",
+    "macos/arm64",
+    "windows/amd64",
+    "windows/arm64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "fileName": "ContentWorkbench-v0.0.63-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.63/ContentWorkbench-v0.0.63-mac-arm64.zip",
+      "size": 20186798,
+      "sha256": "66cc33fb05c28bd3f1781ca26ea46339ac0d194f6a2f192503b128948bd7fc24"
+    },
+    "macos/amd64": {
+      "fileName": "ContentWorkbench-v0.0.63-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.63/ContentWorkbench-v0.0.63-mac-x64.zip",
+      "size": 21450537,
+      "sha256": "8c4b1e00d727e3df52bf4d7bd231b9cdf676e9e695ffea235a4059eea7f46b82"
+    },
+    "windows/amd64": {
+      "fileName": "ContentWorkbench-v0.0.63-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.63/ContentWorkbench-v0.0.63-win-x64.zip",
+      "size": 20841335,
+      "sha256": "cd15d2832ee0b9a3a02a7416ffc1193e011b666f8488488b1c57bde1cad321e5"
+    },
+    "windows/arm64": {
+      "fileName": "ContentWorkbench-v0.0.63-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.63/ContentWorkbench-v0.0.63-win-arm64.zip",
+      "size": 19532588,
+      "sha256": "875f9f03413abb8005fe690f27b926233837d03535741bcba1b0ce947c98c87a"
+    }
+  }
+}

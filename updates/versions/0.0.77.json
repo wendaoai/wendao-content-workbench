@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.77",
+  "publishedAt": "2026-08-30T02:33:13Z",
+  "releaseNotes": [
+    "新增：新增浏览器插件安装入口、图文教程和 Chrome、Edge 直达下载包，可从创作首页或官网完成安装。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/amd64",
+    "macos/arm64",
+    "windows/amd64",
+    "windows/arm64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "fileName": "ContentWorkbench-v0.0.77-mac-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.77/ContentWorkbench-v0.0.77-mac-arm64.zip",
+      "size": 21484324,
+      "sha256": "a14922f4a562f594c5a988f1fc02a62f422febb1b45064b60343624be8ad8d75"
+    },
+    "macos/amd64": {
+      "fileName": "ContentWorkbench-v0.0.77-mac-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.77/ContentWorkbench-v0.0.77-mac-x64.zip",
+      "size": 22781707,
+      "sha256": "8b0edab815b2dac8954e278e966313ed35cfc7d6d9ca736077cc694161a6f2e6"
+    },
+    "windows/amd64": {
+      "fileName": "ContentWorkbench-v0.0.77-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.77/ContentWorkbench-v0.0.77-win-x64.zip",
+      "size": 22154249,
+      "sha256": "b93c573775f35e86c81ce34cc6a03a1349c04e88f2c99c3d6ba947b61f1753d4"
+    },
+    "windows/arm64": {
+      "fileName": "ContentWorkbench-v0.0.77-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.77/ContentWorkbench-v0.0.77-win-arm64.zip",
+      "size": 20818427,
+      "sha256": "33e9f79aa4921542a1c954c6e2723c2bdd9508021fa5573115d2883ebcf5c73c"
+    }
+  }
+}
