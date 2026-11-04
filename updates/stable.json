@@ -2,18 +2,17 @@
   "schemaVersion": 2,
   "product": "wendao-ai",
   "channel": "stable",
-  "version": "0.0.222",
-  "publishedAt": "2026-11-03T15:56:56Z",
+  "version": "0.0.223",
+  "publishedAt": "2026-11-04T23:02:53Z",
   "releaseNotes": [
-    "新增：参考创作新增小红书、头条文章、微头条和微博读取，公众号、小红书、头条、微博使用各自独立流程页；按来源展示正文、配图和分析项，保留读取失败重试、取消和刷新恢复。",
-    "新增：新增智能压缩工具，支持本地批量压缩 JPG、PNG、WebP，解压 ZIP、RAR、7z 并将包内图片加入压缩队列，提供预览、取消重试和文件保存。",
-    "新增：新增独立热点页面，入口收纳至“更多”；提供综合榜、平台榜、爆文、低粉爆款、精选收藏和作者榜，顶部统一搜索排序，筛选支持宽窗口左右分区、窄窗口上下展开与收起，并保留 AI 选题和批量发散。",
-    "新增：首页及参考创作添加照片支持可选智能压缩，记住开关选择并保持图片尺寸；粘贴、拖入、文件夹和压缩包导入共用设置，动图保持原文件。",
-    "优化：参考创作支持拖动或键盘调整章节分组顺序，上传图片默认自动识别；原图区可继续识别失败或中断的图片，已完成结果保留，顺序同步到正文和画册制作。",
-    "修复：修复大图在本地归档、公众号推送准备、复制和导出时被固定大小门槛拦截的问题；原图按流式方式归档和上传，保留格式、完整性、归属校验及失败恢复，平台限制以实际接口响应为准。",
-    "修复：修复正文选字、取消选区及切换表格、链接、图片操作时的布局跳动；固定工具栏高度，限制弹出菜单滚动传播，窄面板中仍可访问格式与选区操作。",
-    "修复：开发环境强制禁用使用统计上报，禁止通过设置重新开启，并排除历史开发会话的补传；正式版的授权、开关和失败重试保持原有行为。",
-    "修复：画册成稿保存失败时显示具体原因和可复制诊断，支持改用整页图片、另存或重新读取；保留已完成页面、原稿保护及同次保存重试，避免重复创建成稿。"
+    "新增：升级成功后首次进入工作台时，左右两侧播放一轮庆祝彩带；自动去重、不遮挡操作，并尊重减少动态效果设置。",
+    "新增：文章列表新增文章与创作任务分栏，可查看参考创作进度、失败和取消状态，继续处理任务并保留列表筛选与刷新恢复。",
+    "新增：新增独立公众号文章采集模块：按名称或搜狗搜索链接分页保存已收录文章，支持去重、进度恢复，以及在采集浏览器完成验证后自动保存文章。",
+    "新增：新增账号内容分析，支持头条作者与已采集公众号文章、样本引用和历史报告；模型失败显示具体原因，临时故障有限重试，取消或失败后保留已有数据。",
+    "新增：长文转小红书新增整图与可编辑卡片、逐页策划、样图风格和导出恢复；截图页由程序统一排版文字与原图，避免遮字，并限制生图等待预算。",
+    "优化：优化侧栏设置与版本信息展示，支持直接查看更新记录，并完善加载失败提示与关闭后焦点恢复。",
+    "优化：图片素材优先按文件夹名和明确的图片名分类，无法判断时使用 AI 类别；保留手动分组、画面分析和失败恢复，并统一各平台参考创作的分组展示。",
+    "优化：整合热点入口与平台热榜，优化平台选择、搜索筛选和栏目切换，保留低粉爆款与微信榜单恢复能力，并修复作者发现默认日期无数据的问题。"
   ],
   "policy": {
     "minimumSupportedVersion": "",
@@ -30,31 +29,31 @@
   "packages": {
     "macos/arm64": {
       "format": "dmg",
-      "fileName": "ContentWorkbench-v0.0.222-mac-arm64.dmg",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.222/ContentWorkbench-v0.0.222-mac-arm64.dmg",
-      "size": 37547767,
-      "sha256": "623d539faa816f8a4eb98fc69b8ab993db68131355a05ff0cdfe010356c35714"
+      "fileName": "ContentWorkbench-v0.0.223-mac-arm64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.223/ContentWorkbench-v0.0.223-mac-arm64.dmg",
+      "size": 37695235,
+      "sha256": "6a40aa429828c97c5038aa71174501294f252f8543059a31ebadd792899a33ae"
     },
     "macos/amd64": {
       "format": "dmg",
-      "fileName": "ContentWorkbench-v0.0.222-mac-x64.dmg",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.222/ContentWorkbench-v0.0.222-mac-x64.dmg",
-      "size": 40520680,
-      "sha256": "a00ee7e62e7c533256488b0b338d593a04fb5e5fbed60a20a07d2ab8645a5e9e"
+      "fileName": "ContentWorkbench-v0.0.223-mac-x64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.223/ContentWorkbench-v0.0.223-mac-x64.dmg",
+      "size": 40669603,
+      "sha256": "0b53cb2283f7735d6ff7b40c2fde9c34ec24a60542c0e42f97fbdae844bd0985"
     },
     "windows/amd64": {
       "format": "zip",
-      "fileName": "ContentWorkbench-v0.0.222-win-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.222/ContentWorkbench-v0.0.222-win-x64.zip",
-      "size": 39374041,
-      "sha256": "fde29845666b2e993b18fff9a60405114078a2bf30fdf6be3a60806673a4a457"
+      "fileName": "ContentWorkbench-v0.0.223-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.223/ContentWorkbench-v0.0.223-win-x64.zip",
+      "size": 39532970,
+      "sha256": "68f649dec1de41ca2b631d051152c5fe83860e8c296a61d41145242df2ba824d"
     },
     "windows/arm64": {
       "format": "zip",
-      "fileName": "ContentWorkbench-v0.0.222-win-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.222/ContentWorkbench-v0.0.222-win-arm64.zip",
-      "size": 36703243,
-      "sha256": "229ef32518f7ebf5e2151ac4c2b52c7fcb13a092f7dd8acaec4a9162e7acb3b1"
+      "fileName": "ContentWorkbench-v0.0.223-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.223/ContentWorkbench-v0.0.223-win-arm64.zip",
+      "size": 36848405,
+      "sha256": "acb852c90a0494c88fd07b3e631797b546696e90bc250e9a502b8ea8d48bfbdc"
     }
   },
   "browserExtensions": {
