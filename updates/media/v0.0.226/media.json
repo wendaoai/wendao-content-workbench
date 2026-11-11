@@ -1,0 +1,19 @@
+{
+  "version": "0.0.226",
+  "images": [
+    {
+      "fileName": "667e93eaca4708d72ce0.webp",
+      "alt": "画布成品支持编辑、预览、平台发布与下载，视图控件独立放置于左下角。",
+      "width": 1440,
+      "height": 900,
+      "bytes": 35684
+    },
+    {
+      "fileName": "1b7cd0c60c0867f07ff6.webp",
+      "alt": "画布新增入口统一分类与搜索，可直接查找并创建节点。",
+      "width": 1440,
+      "height": 900,
+      "bytes": 17292
+    }
+  ]
+}
