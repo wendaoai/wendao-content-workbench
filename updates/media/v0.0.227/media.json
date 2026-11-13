@@ -1,0 +1,19 @@
+{
+  "version": "0.0.227",
+  "images": [
+    {
+      "fileName": "02c60d7ad44ded3e22dd.webp",
+      "alt": "小助手对话中的技能选择与资料阅读",
+      "width": 1440,
+      "height": 900,
+      "bytes": 68964
+    },
+    {
+      "fileName": "370aea001e4c2bcb64bc.webp",
+      "alt": "小助手生成的封面可在图层编辑器继续修改文字与排版",
+      "width": 1440,
+      "height": 900,
+      "bytes": 61642
+    }
+  ]
+}
