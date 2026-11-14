@@ -1,4 +1,4 @@
-# 狐文｜微信公众号 AI 写作、智能排版与多账号运营工具
+# 狐文｜AI 写作、图文设计与影音创作工坊
 
 [![最新版本](https://img.shields.io/github/v/release/wendaoai/wendao-content-workbench?label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC&style=flat-square&color=167D8D)](https://github.com/wendaoai/wendao-content-workbench/releases/latest) [![下载量](https://img.shields.io/github/downloads/wendaoai/wendao-content-workbench/total?label=%E4%B8%8B%E8%BD%BD%E9%87%8F&style=flat-square&color=07C160)](https://github.com/wendaoai/wendao-content-workbench/releases) [![收藏](https://img.shields.io/github/stars/wendaoai/wendao-content-workbench?label=%E6%94%B6%E8%97%8F&style=flat-square&color=D99428)](https://github.com/wendaoai/wendao-content-workbench/stargazers)
 
@@ -8,25 +8,25 @@
 
 [官网下载](https://www.asfop.top/#download) · [GitCode 下载](https://gitcode.com/wendao-ai/wendao-ai-updates/releases) · [GitHub 下载](https://github.com/wendaoai/wendao-content-workbench/releases/latest) · [Gitee 仓库](https://gitee.com/wendaoai/wendao-content-workbench) · [全部功能](https://www.asfop.top/features/) · [使用反馈](https://github.com/wendaoai/wendao-content-workbench/issues)
 
-狐文是一款面向微信公众号创作与运营的本地桌面工具。从热点选题、AI 写文章、去 AI 味和朱雀检测，到自动配图、公众号智能排版、草稿推送与多账号管理，在同一个工作台完成。文章还可以继续制作成小红书笔记和多页海报。
+狐文是一款面向自媒体创作者的本地桌面创作工坊，支持微信公众号写作与排版、小红书图文、多页海报、图片生成、图层动效和影音制作。从主题与资料开始写文章，再把内容制作成可编辑图文或带字幕、配音的视频，在同一个工作台继续加工。
 
-公众号运营支持 **联网搜索、定时生成文章、系列内容管理、收入趋势查看与日报设置**。稿件与创作记录在本机管理，文本、图片和视频模型可以自行配置。
+小助手可以搜索资料、创建草稿、改稿、生图和制作视频。创作工具还包括可视化工作流、角色与音色管理、剪辑字幕、3D 导演台、资源市场，以及多账号运营与收入查看。稿件、工程和创作记录在本机管理，AI 服务按需要配置。
 
 ![狐文桌面创作首页：主题输入、写作技能与模型选择](https://cdn.jsdelivr.net/gh/wendaoai/wendao-content-workbench@f4bf23153860d7dfd22528133a1b0c27a15654c3/assets/screens/v204-home.webp)
 
-以下产品界面截图来自 v0.0.204，可点击查看大图。
+以下产品界面截图来自 v0.0.204，可点击查看大图；文字介绍已补充至 v0.0.227 的功能，新增工作区以安装后的实际界面为准。
 
 ## 下载与开始使用
 
 公开安装包已在 [GitCode Releases](https://gitcode.com/wendao-ai/wendao-ai-updates/releases) 和 [GitHub Releases](https://github.com/wendaoai/wendao-content-workbench/releases/latest) 提供。前往[官网下载页](https://www.asfop.top/#download)，按系统和芯片选择对应安装包；具体平台与格式以当前附件为准。
 
-安装后，在设置中配置 AI 服务，也可以按应用提供的体验额度开始创作。软件本体免费，模型、图片、联网搜索、外部检测等服务的额度和费用按各自配置与服务商规则计算。
+安装后，在设置中配置 AI 服务，也可以按应用提供的体验额度开始创作。模型、图片、语音、音乐、视频、联网搜索和外部检测等服务的额度与费用，按实际配置及服务商规则计算。
 
-## 公众号热文榜、热点雷达与 AI 选题
+## 平台热点、订阅资讯与 AI 选题
 
 浏览平台热点、热点雷达和营销日历，结合账号定位整理选题，把临时灵感留下来。选定主题后进入写作，让热点发现和文章创作接在一起。
 
-今日热文榜支持采集与导入榜单、搜索标题、查看排名和来源，将感兴趣的热文用于选题。
+订阅资讯支持 RSS/Atom 来源管理、采集、链接去重与多来源整理，阅读后可讨论或加入选题。账号分析用于研究公众号和已有内容，热文榜单支持导入、搜索标题与查看来源；各平台在线采集能力以应用当前入口为准。
 
 [了解选题与热点功能](https://www.asfop.top/features/topic-planning/)
 
@@ -41,6 +41,12 @@
 [了解 AI 文章写作](https://www.asfop.top/features/ai-writing/) · [创作模板与写作技能](https://www.asfop.top/features/creation-templates/)
 
 ![文章编辑与排版预览：在同一工作区修改正文、查看图文效果](https://cdn.jsdelivr.net/gh/wendaoai/wendao-content-workbench@f4bf23153860d7dfd22528133a1b0c27a15654c3/assets/screens/v204-editor.webp)
+
+## 小助手：查资料、写稿、生图与制作视频
+
+在独立对话中梳理选题、搜索公开网页、阅读文章，查找工作台资料并创建真实草稿。选择写作技能后，可以继续改稿，也可以用对话中的图片与素材生成新图，打开图层编辑器修改封面文字。
+
+小助手支持按文章、主题或图片创建原生动效工程与 MP4，也能调用已配置的云端视频服务。对话保留关联资料、任务和作品入口，刷新后可继续查看和处理。
 
 ## 专业写作赛道与短视频口播文案
 
@@ -66,9 +72,9 @@
 
 ## 违禁词检测与修订
 
-公众号文章和小红书文案均可运行免费本地违禁词检测，定位问题，逐处预览替换、删除或手动修改，采用后可以撤销。支持维护个人词库，并按配置选择句无忧或 Chinaz 第三方复检。
+公众号文章和小红书文案均可运行本地违禁词检测，定位问题，逐处预览替换、删除或手动修改，采用后可以撤销。支持维护个人词库，并按配置选择句无忧或 Chinaz 第三方复检。
 
-词面检查用于提示需要处理的内容，不代表平台审核结论。
+词面检查用于提示需要处理的内容，最终发布按平台审核流程完成。
 
 [内容规则与违禁词检查](https://www.asfop.top/features/content-checks/)
 
@@ -104,6 +110,12 @@
 
 ![多页海报成品组：在创作画布管理、预览与编辑整组作品](https://cdn.jsdelivr.net/gh/wendaoai/wendao-content-workbench@f4bf23153860d7dfd22528133a1b0c27a15654c3/assets/screens/v204-poster-group.webp)
 
+## 统一图层编辑器：从整页设计到逐项修改
+
+卡片工坊、海报与图文设计共用多页图层编辑能力。支持原文直接排版、全文 AI 设计、长文转小红书和相册编排，生成后继续修改文字、图片、图表、表格、二维码与页面布局。
+
+使用页面与图层管理、参考线、吸附、格式刷和撤销重做整理作品，保留原图和版本，再按用途导出 PNG、JPG、PDF、长图或九宫格。
+
 ## 产品营销套图与 AI 视频分镜
 
 导入产品资料和视觉素材，在创作画布连接策划、镜头、图片与成品。制作产品介绍、种草图文与营销套图，也可以组织视频分镜，接入支持视频生成的模型继续制作。
@@ -111,6 +123,36 @@
 [产品营销套图](https://www.asfop.top/features/product-images/) · [视频分镜与生成](https://www.asfop.top/features/video-storyboard/) · [可视化创作画布](https://www.asfop.top/features/canvas/)
 
 ![可视化创作画布：从内容策划连接到图片与成品](https://cdn.jsdelivr.net/gh/wendaoai/wendao-content-workbench@f4bf23153860d7dfd22528133a1b0c27a15654c3/assets/screens/v204-canvas-plan.webp)
+
+## 图层动效与文章一键生成视频
+
+把文章转成分镜、画面文字、字幕与可选配音、背景音乐，生成可继续编辑的动效工程。支持钢笔手绘讲解、模块拼贴宣传、数字城市光场、人文纪录片和角色歌词 MV 等模板方向，也可以保存个人视觉风格供后续文章复用。
+
+在图层动效工作区调整场景、文字、图片、关键帧、音轨与字幕，导入 Lottie JSON 或 dotLottie 动画，保存自己的动效预设。工程可保存、恢复与导入导出，成片通过后台任务导出 MP4。
+
+## 影音工作室：剧本、分镜、剪辑与字幕
+
+在同一项目中组织文字、图片、语音、音乐和视频，连接剧本、镜头、素材与时间线。支持参考图生图、视频生成、媒体处理、AI 超分，以及持久素材库和本机 Eagle 素材检索与导入。
+
+剪辑工作台支持片段编排、音轨与字幕编辑、关键词高亮和 SRT 字幕重分段。可以让文本模型提出局部剪辑方案，预览后采用，再导出成片；任务中心保留进度、取消、失败重试和原任务恢复入口。
+
+## 固定角色、系统音色与声音克隆
+
+为项目保存角色参考和画风，生成图片与镜头时复用相应设定。配音可选择服务提供的系统音色，或接入支持的声音克隆服务，上传自己的授权样本后创建音色，再按角色与台词生成配音。
+
+音频支持试听、下载与加入作品，生成记录保留模型、音色、台词及任务关联。具体音色、克隆、表演指令和费用由所选服务提供，使用样本前需取得相应授权。
+
+## 可视化工作流、Agent 与专家批改
+
+在图片画布与影音工作室连接生成、处理和素材节点，把已完成的步骤或选中子图保存为固定版本工作流模板。支持结构化分镜、角色输入，以及图片、音视频处理结果的继续采用。
+
+原生 Agent 可准备制作计划、辅助剪辑与专家批改，先查看方案，再确认相应调用与采用结果。HTTP、CLI 和 MCP 提供相关能力入口，调用范围以实际授权为准，任务回执支持中断后的查询与恢复。
+
+## 3D 导演台与图解系列
+
+在 3D 导演台组织场景、模型、灯光、机位、姿态与关键帧，预演镜头并通过后台任务渲染视频。支持骨骼映射、姿态调整、撤销重做和工程保存，渲染任务可查看进度与恢复。
+
+图解系列用于制作可编辑的对比、流程、清单与数值图表，安排配音、字幕和横竖布局，批量渲染后继续管理成片与源工程。
 
 ## 多账号管理、定时创作与公众号收入查看
 
@@ -122,11 +164,19 @@
 
 ## 本地知识库、内容管理与离线导出
 
-集中管理文章、系列、版本、产品资料、图片和知识文档，让下一篇稿件继续复用已有素材。支持 Markdown、带图 HTML 和压缩 HTML 导出，下载中心统一查看进度、历史与保存位置。
+全部作品目录汇总文章、图文设计、画布、HTML、图片、视频与平台文案，支持搜索、筛选、媒体预览和返回原编辑器。产品资料、图片和知识文档可继续用于后续创作，文章保留系列与版本。
+
+文章支持 Markdown、带图 HTML 和压缩 HTML 导出；影音作品可导出包含编辑结构、配方与素材的作品包，迁入后继续编辑。下载中心统一查看进度、历史与保存位置。
 
 稿件保存在本地，调用 AI、搜索、检测和发布服务时会按任务与配置提交所需内容。
 
 [产品资产与知识库](https://www.asfop.top/features/assets-knowledge/) · [内容库与版本管理](https://www.asfop.top/features/content-library/) · [离线导出与下载中心](https://www.asfop.top/features/export-download/)
+
+## 资源市场、资源包与本地工具
+
+资源市场提供提示词、写作技能与风格、排版和图片模板、字体、视觉素材，以及音乐、音效、Lottie 动画和视频素材。按需预览与安装，也可到资源包页面下载独立 ZIP，保存到其他设备导入；各类资源遵循各自授权。
+
+应用默认使用系统字体，额外字体通过市场下载或本地导入。已用于作品的素材随作品保存，便于继续编辑和导出。智能压缩支持本地批量图片压缩，并提供 ZIP、RAR、7z 解压入口。
 
 ## 问题反馈
 
