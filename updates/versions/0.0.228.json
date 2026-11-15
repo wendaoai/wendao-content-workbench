@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.228",
+  "publishedAt": "2026-11-15T02:04:07Z",
+  "releaseNotes": [
+    "新增：新增独立资讯管理后台与 MySQL 使用统计，支持多维筛选、趋势和明细导出，加入狐狸动画登录及密码显隐。",
+    "优化：为双吉祥物加入睁眼、暖金眼光与开场后的持续眨眼、单眼轻眨，支持中断恢复和减少动画，并同步正式版下载快照。",
+    "优化：将选题与热点摘要整合为密集列表轮播，统一来源切换、筛选和翻页；平台筛选改为支持搜索与多选的弹框，可批量读取和更新所选平台，并保留失败重试。",
+    "优化：更新双吉祥物随机开场、依次播放的标题扫描动效与下载收尾，精简首页脚本请求并调整官网费用表述。",
+    "修复：FFmpeg 与视频渲染包优先通过国内镜像下载，镜像失败时切换原始来源，保持文件校验和已安装状态；渲染包暂停或退出时保留已下载文件，支持断点续传。",
+    "修复：为 macOS Apple 芯片提供国内可下载的语音转文字和视频景深完整组件包，修复景深隔离运行时找不到配套脚本的问题。",
+    "修复：修复回复已保存但首条确认事件丢失后误恢复输入、重复发送沿用旧问题及刷新后请求身份未清除的问题；侧栏列表读取失败仍可恢复已保存消息，并保留期间发生的改名错误与重试输入。",
+    "修复：修复已有待安装更新时反复下载返回冲突的问题，启动弹窗与设置页支持继续安装或安全清理；损坏状态提供清理恢复，更新源检查失败后保留安装诊断及强制更新退出入口，并避免安装与清理并发操作升级文件。",
+    "修复：修复流式回复时阅读位置跳动，保留独立草稿、编辑及改名失败后的输入；修复切换会话和迟到响应覆盖较新状态、分支保存顺序及停止后继续发送问题，并统一上海日期分组与影音助手草稿恢复。",
+    "修复：修复狐狸显现完成后标题仍长时间等待的问题，文字扫描立即衔接并缩短播放时间。",
+    "修复：修复陪伴助手和影音 Agent 的长消息、表格及编辑框样式，恢复编辑、改名和侧栏切换后的键盘焦点，避免编辑消息时按 Esc 误关 Agent，并让长标题与弹层动效遵循减少动态效果设置。",
+    "修复：将工具与模型统一纳入资源包，精简常驻说明与重复状态；支持在详情中直接安装和启用所选版本，修复刷新后的任务定位、安装中状态和平台列表滚动，并缩短详情弹窗。",
+    "修复：工具与模型按实际用途显示中文名称，明确可使用、待启用和暂未提供下载等状态，详情展示版本、大小及适用电脑。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/amd64",
+    "macos/arm64",
+    "windows/amd64",
+    "windows/arm64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "format": "dmg",
+      "fileName": "ContentWorkbench-v0.0.228-mac-arm64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.228/ContentWorkbench-v0.0.228-mac-arm64.dmg",
+      "size": 42446271,
+      "sha256": "1c4e457b9c25a40d533e24364c44e95642c36420706d398bed90ec4b2997e2ca"
+    },
+    "macos/amd64": {
+      "format": "dmg",
+      "fileName": "ContentWorkbench-v0.0.228-mac-x64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.228/ContentWorkbench-v0.0.228-mac-x64.dmg",
+      "size": 45950062,
+      "sha256": "70fc06722ad311dc3a616ac13735c40985cbadcd78f596c1912c267933420450"
+    },
+    "windows/amd64": {
+      "format": "zip",
+      "fileName": "ContentWorkbench-v0.0.228-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.228/ContentWorkbench-v0.0.228-win-x64.zip",
+      "size": 44895339,
+      "sha256": "f7b22855b2e8ff6a12f2568b6dcc4165a9169fd774621be4c0b45bfc7218326a"
+    },
+    "windows/arm64": {
+      "format": "zip",
+      "fileName": "ContentWorkbench-v0.0.228-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.228/ContentWorkbench-v0.0.228-win-arm64.zip",
+      "size": 41785376,
+      "sha256": "cc227699b4903a237aab38c95dc50e6cdb0e10c58d60ff1a195da1699f3b9a74"
+    }
+  },
+  "browserExtensions": {
+    "version": "0.1.9",
+    "minimumChromiumVersion": "116",
+    "packages": {
+      "chrome": {
+        "fileName": "wendao-ai-browser-ext-v0.1.9-chrome.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.9/wendao-ai-browser-ext-v0.1.9-chrome.zip",
+        "size": 572056,
+        "sha256": "ea22bc5819c7fef4336502de353eda01c8bf218f769e8670824c9121c58f48de"
+      },
+      "edge": {
+        "fileName": "wendao-ai-browser-ext-v0.1.9-edge.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.9/wendao-ai-browser-ext-v0.1.9-edge.zip",
+        "size": 572056,
+        "sha256": "ea22bc5819c7fef4336502de353eda01c8bf218f769e8670824c9121c58f48de"
+      }
+    }
+  }
+}
