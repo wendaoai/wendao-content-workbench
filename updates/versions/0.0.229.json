@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.229",
+  "publishedAt": "2026-11-17T01:11:54Z",
+  "releaseNotes": [
+    "新增：接入独立资讯服务与八栏目桌面阅读流，支持主题、来源和日期筛选、自动翻页、收藏采用及断线恢复；完善多源去重、异步整理、可选AI用量、来源复探和轻量数据清理，修复窄窗口操作列与长列表浏览。",
+    "新增：提供国内资源仓库下载的 Windows x64 语音转文字和视频景深完整离线组件包，补齐 Python、模型与微软运行库；Windows 真机测试待后续验证。",
+    "新增：新增关于我们页面，以真实产品界面、作品和按需播放的介绍片说明选题、创作与运营流程；同步导航、页脚、资源包和站点地图。",
+    "新增：新增可编辑沙画对象、铺砂与局部擦除、保护区域及笔触关键帧，提供24秒地图到展厅样片；沙画工程支持原生图层编排、保存恢复、便携导入导出和视频渲染。",
+    "新增：新增白板手绘工程和文章视频风格，支持原图分区、绘制顺序、保护区、逐步落墨与着色、配音字幕及 MP4 导出；生成中断后可复用已有素材继续制作。",
+    "新增：白板画面新增沙画材质，保留原图颜色、分区与保护区、先暗线后原色的绘制顺序及画笔开关；材质和固定砂纹种子随工程保存与导入导出，预览、定位和视频导出共用运行时。",
+    "优化：完善今天、昨天及指定日期筛选，聚合同事件报道并计算传播热度，优化关键词、分类重算、来源状态和可读日志；热点与话题支持虚拟滚动，图表使用 ECharts，近期索引默认保留30天并自动清理，保留订阅及人工维护记录。",
+    "优化：整合订阅素材、热点与我的选题入口，支持整理多份材料和用途笔记；订阅资讯改为紧凑虚拟表格，滚动自动续载，保留收藏、详情和共报入口，并修复分页过期后重试命中浏览器旧错误缓存的问题。",
+    "优化：新增按来源及上海时间范围查看采集执行、成功失败、首次收录文章和耗时统计，支持下钻详情；完善来源上下架、故障复验与队列状态、关键词维护和采集记录，统一日期及悬停帮助，精简后台重复信息并修复顶栏对齐和长原因显示。",
+    "优化：明确区分当前筛选结果与公共保留期累计篇数，增加红色免责声明入口及全文查看。",
+    "修复：修复 Intel Mac 视频导出组件待发行、视频风格菜单错位和文章配图控件边界不清；重构选题详情与材料编辑布局，完善笔记、删除和雷达历史资料的恢复路径。",
+    "修复：修复 Windows 升级时校验数据库备份的路径兼容问题；启动失败时保留具体环节与底层错误明细，复制信息和本地诊断同步提供可定位原因。",
+    "修复：修复 Windows 迁移存储位置时数据库路径解析失败，以及目录含特殊字符时内容检测库备份和恢复校验失败的问题；恢复失败时保留具体环节和错误明细。",
+    "修复：修复使用统计地区地图初始化顺序导致的整页白屏；图表异常时保留页面导航和其他内容，并提供图表重试。",
+    "修复：管理接口与品牌图片跟随部署基础路径，支持域名根目录和子路径部署；HTTP 环境自动复制不可用时提供供给凭据及原文链接的手动复制指引。",
+    "修复：补齐作者详情的分页作品样本并精确区分同名作者；整理灵感与收藏工具栏，修复侧栏 Esc 和历史状态显示。材料讨论队列改为主动发送，当前输入可先发，保留完整来源与长提示词；移除自动账号匹配评分。修复来源删除后片段快照、笔记保存覆盖新输入、服务切换缓存串用，以及 SQLite 重连约束、已删除选题回执和重新采用冲突；雷达查找保留全部有效来源。",
+    "修复：资讯服务默认连接官方 HTTPS 地址，服务连接直接显示生效地址；保留已有自定义地址与环境变量优先级，同址保存不清除服务身份和供给凭据。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/amd64",
+    "macos/arm64",
+    "windows/amd64",
+    "windows/arm64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "format": "dmg",
+      "fileName": "ContentWorkbench-v0.0.229-mac-arm64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.229/ContentWorkbench-v0.0.229-mac-arm64.dmg",
+      "size": 42599408,
+      "sha256": "5142a6b63d0a045f88c9d7f5752fa098c791f1d26fbebd64e50ddfd428bc8933"
+    },
+    "macos/amd64": {
+      "format": "dmg",
+      "fileName": "ContentWorkbench-v0.0.229-mac-x64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.229/ContentWorkbench-v0.0.229-mac-x64.dmg",
+      "size": 46124907,
+      "sha256": "bdd96e6bb16accaf13de03ea1a21472d403b1a1bdf36d8edbe2c738b1f39d06f"
+    },
+    "windows/amd64": {
+      "format": "zip",
+      "fileName": "ContentWorkbench-v0.0.229-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.229/ContentWorkbench-v0.0.229-win-x64.zip",
+      "size": 45070863,
+      "sha256": "8375159f6918ca8e766c0716058aaf658a55961577bef17283626938ed5a06b6"
+    },
+    "windows/arm64": {
+      "format": "zip",
+      "fileName": "ContentWorkbench-v0.0.229-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.229/ContentWorkbench-v0.0.229-win-arm64.zip",
+      "size": 41946625,
+      "sha256": "2ff95e81b7ccc58c993a99ba0ee0d4ab2aed209d6aee5a3c3c35b37f3427f83b"
+    }
+  },
+  "browserExtensions": {
+    "version": "0.1.9",
+    "minimumChromiumVersion": "116",
+    "packages": {
+      "chrome": {
+        "fileName": "wendao-ai-browser-ext-v0.1.9-chrome.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.9/wendao-ai-browser-ext-v0.1.9-chrome.zip",
+        "size": 572056,
+        "sha256": "ea22bc5819c7fef4336502de353eda01c8bf218f769e8670824c9121c58f48de"
+      },
+      "edge": {
+        "fileName": "wendao-ai-browser-ext-v0.1.9-edge.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.9/wendao-ai-browser-ext-v0.1.9-edge.zip",
+        "size": 572056,
+        "sha256": "ea22bc5819c7fef4336502de353eda01c8bf218f769e8670824c9121c58f48de"
+      }
+    }
+  }
+}
