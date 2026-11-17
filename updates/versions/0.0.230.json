@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.230",
+  "publishedAt": "2026-11-17T22:12:02Z",
+  "releaseNotes": [
+    "新增：完整视频工程可从模板资源包安装，并在图层动效中新建可编辑副本；修复大型工程误用图片下载上限及安装后重复下载的问题。",
+    "新增：小助手支持创建和继续修改可编辑的原生沙画；新增参考片分镜分析、实际语音词时间、持久事件关联、自定义逐帧组件、图片视频与音轨编排，以及固定模板变体与检查点复用，支持保存和故障恢复。",
+    "新增：新增“暖金卡片 · 产品宣传”风格，文章可生成暖白金色、倾斜卡片与文字入场的可编辑视频，保留配音字幕和场景继续编辑；有来源图片时使用前景展示卡片。",
+    "新增：白板手绘新增共享人物与完整背景的沙画故事生成，素材可独立编辑并逐步绘制，保留配音字幕、保存恢复及工程导入导出；生成等待页增加动态加载提示。",
+    "优化：将文章生成视频和参考视频创作迁入独立页面，以可搜索、分类的风格卡片替代下拉，支持浏览我的模板；保留模型、配音、参考片和比例设置，正文与设置刷新可恢复，待核对请求沿用原参数继续。",
+    "优化：文章生成的默认润色和检测页历史 v11 均先独立清理问题表达，再使用原版提示词润色；清理稿自动保存，停止或失败后可继续，检测页保留各段并发与手动采用，并复用文章生成动画和减少动态效果设置。",
+    "优化：移除首页底部重复的帮助与支持入口及分隔线，相关功能继续通过右上角帮助菜单访问。",
+    "优化：精简工具栏布局，将灵感与资料工具整合到页签区，合并时间筛选并移除篇数统计；补齐资讯表格边框与列对齐，优化工具菜单滚动和弹窗关闭后的焦点恢复。",
+    "优化：重整使用统计后台，增加周期对比、趋势图与数据表、地区地图、设备构成与回访分析；支持组合筛选、日统计导出和失败重试，明确首见设备、历史不足、未知时长与真实零的展示口径。",
+    "修复：AI 润色按每张检测卡所选技能独立执行，仅读取本卡内容，移除额外文章上下文和评分；明确区分历史 v11 与修改版，保留并发流式、停止继续和手动采用。",
+    "修复：AI润色按检测块并发流式生成，保留块内小标题；新增可选历史v11方法，减少重复上下文与无依据额度限制，支持已完成候选保存及失败、停止和重启后继续未完成块。",
+    "修复：使用时长改为前台累计快照，后台、锁屏和休眠时暂停；活跃期间每10分钟上报，支持异常退出保留、断网补传与重复去重，并优化后台环境筛选、时长口径及日期和版本排序。",
+    "修复：修复配音裁剪、换源、删除或解绑后仍沿用旧词时间，以及复制场景时不同对象同名导致语义绑定串联的问题；保留原字幕和动画，提示重新更新配音。",
+    "修复：官网与资讯登录页共享眼部动画，提前首次眨眼并补齐眼内闪光和标题扫描；修复使用统计与今日运营卡片高差造成的大块留白。",
+    "修复：整理单段润色、批量选择与候选采用操作；修复相邻检测卡原文范围重叠及旧候选重复、保存栏遮挡和来源菜单图标异常，恢复左右对比连接动画。",
+    "修复：采集统计增加次数升降序与结果筛选，固定分页统计时刻；修复无新增时采集频率不回退，精简重复展示并统一工具栏控件尺寸。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/amd64",
+    "macos/arm64",
+    "windows/amd64",
+    "windows/arm64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "format": "dmg",
+      "fileName": "ContentWorkbench-v0.0.230-mac-arm64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.230/ContentWorkbench-v0.0.230-mac-arm64.dmg",
+      "size": 42833763,
+      "sha256": "d85503a3b1c241603b0b231c2cadb3909a2d6dfd52db32222042efedd12c111f"
+    },
+    "macos/amd64": {
+      "format": "dmg",
+      "fileName": "ContentWorkbench-v0.0.230-mac-x64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.230/ContentWorkbench-v0.0.230-mac-x64.dmg",
+      "size": 46428265,
+      "sha256": "2fa34ec62fb04ed95d557e382e55864c2ca5caf65896f54550a6a78b602e95f1"
+    },
+    "windows/amd64": {
+      "format": "zip",
+      "fileName": "ContentWorkbench-v0.0.230-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.230/ContentWorkbench-v0.0.230-win-x64.zip",
+      "size": 45334106,
+      "sha256": "bf244cb2041a1c2795c62b4693e4460596a814f057db857116ddd9fb86bae82b"
+    },
+    "windows/arm64": {
+      "format": "zip",
+      "fileName": "ContentWorkbench-v0.0.230-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.230/ContentWorkbench-v0.0.230-win-arm64.zip",
+      "size": 42177587,
+      "sha256": "f35041ab8c6bcd25e8d84708605f7121a45b12fb62d0d00dce058418d035695a"
+    }
+  },
+  "browserExtensions": {
+    "version": "0.1.9",
+    "minimumChromiumVersion": "116",
+    "packages": {
+      "chrome": {
+        "fileName": "wendao-ai-browser-ext-v0.1.9-chrome.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.9/wendao-ai-browser-ext-v0.1.9-chrome.zip",
+        "size": 572056,
+        "sha256": "ea22bc5819c7fef4336502de353eda01c8bf218f769e8670824c9121c58f48de"
+      },
+      "edge": {
+        "fileName": "wendao-ai-browser-ext-v0.1.9-edge.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.9/wendao-ai-browser-ext-v0.1.9-edge.zip",
+        "size": 572056,
+        "sha256": "ea22bc5819c7fef4336502de353eda01c8bf218f769e8670824c9121c58f48de"
+      }
+    }
+  }
+}
