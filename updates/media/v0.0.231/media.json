@@ -1,0 +1,19 @@
+{
+  "version": "0.0.231",
+  "images": [
+    {
+      "fileName": "c9d0957051f633c7dfcc.webp",
+      "alt": "PDF/PPTX 资料生成视频，脚本分镜与原图来源并排编辑",
+      "width": 1440,
+      "height": 900,
+      "bytes": 35112
+    },
+    {
+      "fileName": "81b389f66dbf17a681a1.webp",
+      "alt": "图片金线显影，保留原图并可编辑场景与时间轴",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 104318
+    }
+  ]
+}
