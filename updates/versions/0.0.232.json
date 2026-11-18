@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.232",
+  "publishedAt": "2026-11-18T16:51:04Z",
+  "releaseNotes": [
+    "新增：默认进入话题发现，按事件、话题和单篇浏览，滚动即可继续加载。趋势图支持柱线叠加、热力图和时段筛选，右侧保留栏目与关键词筛选，趋势和关键词可独立关闭。原文章列表仍可切换。",
+    "优化：将再次润色放到检测块卡片，合并重复技能入口；历史记录显示候选版本并区分当前与曾经采用；补齐逐节润色方法的当前小节输入，兼容旧任务恢复。",
+    "修复：修复恢复检测原文后被历史采用记录锁住润色入口的问题；再次采用仅保留当前采用稿的范围，恢复较早部分采用版本后仍可继续采用。",
+    "修复：修复桌面启动记录保存后未立即上报、需等待前台周期检查的问题；确认协议和重新开启上传时立即补传，保留关闭选择与退出补报，并在服务拒收时显示 HTTP 状态码。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/amd64",
+    "macos/arm64",
+    "windows/amd64",
+    "windows/arm64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "format": "dmg",
+      "fileName": "ContentWorkbench-v0.0.232-mac-arm64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.232/ContentWorkbench-v0.0.232-mac-arm64.dmg",
+      "size": 44735104,
+      "sha256": "21e66148f64815484631bea881c3551145839438fb7577631abbc342fb876fef"
+    },
+    "macos/amd64": {
+      "format": "dmg",
+      "fileName": "ContentWorkbench-v0.0.232-mac-x64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.232/ContentWorkbench-v0.0.232-mac-x64.dmg",
+      "size": 48335585,
+      "sha256": "1a73d457c85642b95fb6eac72e2577072e56bf47054a501a98864ad92b28ce3f"
+    },
+    "windows/amd64": {
+      "format": "zip",
+      "fileName": "ContentWorkbench-v0.0.232-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.232/ContentWorkbench-v0.0.232-win-x64.zip",
+      "size": 47267107,
+      "sha256": "799929dd5f5802098e0859ed661abf2b42f20fa4e4ad7613b23d205a4bcbfc0c"
+    },
+    "windows/arm64": {
+      "format": "zip",
+      "fileName": "ContentWorkbench-v0.0.232-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.232/ContentWorkbench-v0.0.232-win-arm64.zip",
+      "size": 44087905,
+      "sha256": "3245da4a8232e91a1a987a15022c8e2dca0b414618ea0a362a96f630595a164e"
+    }
+  },
+  "browserExtensions": {
+    "version": "0.1.9",
+    "minimumChromiumVersion": "116",
+    "packages": {
+      "chrome": {
+        "fileName": "wendao-ai-browser-ext-v0.1.9-chrome.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.9/wendao-ai-browser-ext-v0.1.9-chrome.zip",
+        "size": 572056,
+        "sha256": "ea22bc5819c7fef4336502de353eda01c8bf218f769e8670824c9121c58f48de"
+      },
+      "edge": {
+        "fileName": "wendao-ai-browser-ext-v0.1.9-edge.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.9/wendao-ai-browser-ext-v0.1.9-edge.zip",
+        "size": 572056,
+        "sha256": "ea22bc5819c7fef4336502de353eda01c8bf218f769e8670824c9121c58f48de"
+      }
+    }
+  }
+}

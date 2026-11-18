@@ -2,24 +2,13 @@
   "schemaVersion": 2,
   "product": "wendao-ai",
   "channel": "stable",
-  "version": "0.0.231",
-  "publishedAt": "2026-11-18T13:40:34Z",
+  "version": "0.0.232",
+  "publishedAt": "2026-11-18T16:51:04Z",
   "releaseNotes": [
-    "新增：扩展可编辑视频创作，支持文章原图映射、角色播客、定格动画、位图白板和扫描三阶段处理，增加参考片切镜与报告、分窗转写及多格式导出；完善分镜局部修改、多帧预览诊断、断点续做、版本冲突和大内容保存恢复，保留已完成素材与手工编辑。",
-    "新增：新增 PDF/PPTX 资料工作区，保留原文件、逐页文字和原图，支持扫描页识别、脚本分镜编辑与来源映射；衔接现有视频风格、声音、原生工程编辑和导出，并保留中断、保存失败及响应未知时的恢复入口；优化资料与分镜工作区布局，脚本和素材并排对照，完善缩略图标注、字段层次与素材选择布局，适配桌面窄窗口。",
-    "新增：新增图片金线显影，支持原图描金、流光显影和轮廓显影。流光沿边饰与主体轮廓推进，最终亮出彩照。工程保留原图，支持换图、调整金线颜色和光晕以及编辑时间轴时长。",
-    "优化：按确认清单移出 17 项润色候选，保留本地技能源文件及已有文章和任务的技能快照；前置清理命名为“狐文 · 表达净化”，历史 v11 润色命名为“狐文 · 自然表达”，在技能说明和实际提示词记录中区分两个独立提示词。",
-    "优化：检测卡片独立执行表达净化与自然表达：净化后台流式接收并保存，自然表达实时展示；支持并发、停止和刷新后继续。文章未单独设置技能时明确选择，历史 v11 原件和旧任务提示词快照继续保留。",
-    "修复：保留全文并自动分页时，先保存包含正文和原图的可编辑初稿。AI 设计超时或停止后可单独重试，已编辑的初稿会保留，AI 版可单独查看。支持流式响应的模型按无数据时长判断超时。",
-    "修复：修复 Windows 等平台的运行组件暂无安装文件时，资源包工具页面及组件详情因空文件列表而崩溃的问题。",
-    "修复：修复导演录制任务读取字段不匹配导致无法开始、查询进度及恢复的问题，保留冻结工程、已录制帧和原任务重试。",
-    "修复：修复按分类查找和刷新模板时的资源加载问题，改善镜像故障切换，并修复资源包索引兼容和下载失败后的重试。",
-    "修复：分镜及画面理解按模型能力使用流式请求，移除固定三分钟总超时，持续输出时保持等待；完善断流、输出截断和空闲超时提示，避免保存不完整分镜，并保留原任务继续与取消恢复能力。",
-    "修复：批量或单块润色包含人工内容时，先明确显示数量并二次确认，可仅处理 AI 与疑似内容；错字语病修复同样确认，取消保留选区且不调用模型。历史润色稿加载、刷新及对比切换不再误播生成完成动画，保留真实流式与本次完成反馈。",
-    "修复：朱雀未配置或已停用时显示红色提示，可直接前往朱雀设置，返回后继续编辑原正文。",
-    "修复：润色流式动画移至卡片主正文，合并重复操作与进度；技能在确认弹框直接选择，并明确本次选择与文章默认的作用范围。区分原文检测、候选和失败停止状态，增加逐块继续，修复逐块累计采用、筛选隐藏未完成卡片和候选历史版本信息；实际提示词按检测块与阶段定位。",
-    "修复：移除工作台和设置／编辑器布局中的 Skip to Main 跳转入口，避免获得焦点时遮挡顶栏。",
-    "修复：精简检测页重复的版本与状态展示，将采用状态合入润色记录并保留历史详情；提示词记录按请求编号区分，修复刷新后详情与选中记录不一致。恢复历史检测块的精确原文边界，避免旧候选与相邻卡片重复显示正文。"
+    "新增：默认进入话题发现，按事件、话题和单篇浏览，滚动即可继续加载。趋势图支持柱线叠加、热力图和时段筛选，右侧保留栏目与关键词筛选，趋势和关键词可独立关闭。原文章列表仍可切换。",
+    "优化：将再次润色放到检测块卡片，合并重复技能入口；历史记录显示候选版本并区分当前与曾经采用；补齐逐节润色方法的当前小节输入，兼容旧任务恢复。",
+    "修复：修复恢复检测原文后被历史采用记录锁住润色入口的问题；再次采用仅保留当前采用稿的范围，恢复较早部分采用版本后仍可继续采用。",
+    "修复：修复桌面启动记录保存后未立即上报、需等待前台周期检查的问题；确认协议和重新开启上传时立即补传，保留关闭选择与退出补报，并在服务拒收时显示 HTTP 状态码。"
   ],
   "policy": {
     "minimumSupportedVersion": "",
@@ -36,31 +25,31 @@
   "packages": {
     "macos/arm64": {
       "format": "dmg",
-      "fileName": "ContentWorkbench-v0.0.231-mac-arm64.dmg",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.231/ContentWorkbench-v0.0.231-mac-arm64.dmg",
-      "size": 44751750,
-      "sha256": "67f0d13ce03a091865beca1e6a6f808f878b1f471e691dc7efcce133006dc288"
+      "fileName": "ContentWorkbench-v0.0.232-mac-arm64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.232/ContentWorkbench-v0.0.232-mac-arm64.dmg",
+      "size": 44735104,
+      "sha256": "21e66148f64815484631bea881c3551145839438fb7577631abbc342fb876fef"
     },
     "macos/amd64": {
       "format": "dmg",
-      "fileName": "ContentWorkbench-v0.0.231-mac-x64.dmg",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.231/ContentWorkbench-v0.0.231-mac-x64.dmg",
-      "size": 48332663,
-      "sha256": "89d81da4e5a5c8d850effca638724d9360c487457f9fd43ab9dc96dd83adbda0"
+      "fileName": "ContentWorkbench-v0.0.232-mac-x64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.232/ContentWorkbench-v0.0.232-mac-x64.dmg",
+      "size": 48335585,
+      "sha256": "1a73d457c85642b95fb6eac72e2577072e56bf47054a501a98864ad92b28ce3f"
     },
     "windows/amd64": {
       "format": "zip",
-      "fileName": "ContentWorkbench-v0.0.231-win-x64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.231/ContentWorkbench-v0.0.231-win-x64.zip",
-      "size": 47267574,
-      "sha256": "f583ef2a649b85bd44417f65d6e9f7b3f518ee41ee41cc379493c3beb0e9461c"
+      "fileName": "ContentWorkbench-v0.0.232-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.232/ContentWorkbench-v0.0.232-win-x64.zip",
+      "size": 47267107,
+      "sha256": "799929dd5f5802098e0859ed661abf2b42f20fa4e4ad7613b23d205a4bcbfc0c"
     },
     "windows/arm64": {
       "format": "zip",
-      "fileName": "ContentWorkbench-v0.0.231-win-arm64.zip",
-      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.231/ContentWorkbench-v0.0.231-win-arm64.zip",
-      "size": 44091088,
-      "sha256": "667863ed75ecc20392448039f91ca37aa2934856447af1815431e67f3a7dda9c"
+      "fileName": "ContentWorkbench-v0.0.232-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.232/ContentWorkbench-v0.0.232-win-arm64.zip",
+      "size": 44087905,
+      "sha256": "3245da4a8232e91a1a987a15022c8e2dca0b414618ea0a362a96f630595a164e"
     }
   },
   "browserExtensions": {
