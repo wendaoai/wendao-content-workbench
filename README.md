@@ -16,9 +16,11 @@
 
 小助手可以搜索资料、创建草稿、改稿、生图和制作视频。创作工具还包括可视化工作流、角色与音色管理、剪辑字幕、3D 导演台、资源市场，以及多账号运营与收入查看。稿件、工程和创作记录在本机管理，AI 服务按需要配置。
 
-![狐文桌面创作首页：主题输入、写作技能与模型选择](https://cdn.jsdelivr.net/gh/wendaoai/wendao-content-workbench@f4bf23153860d7dfd22528133a1b0c27a15654c3/assets/screens/v204-home.webp)
+![狐文 v0.0.236 创作首页，展示平台与账号选择、写作技能和实时热榜](https://www.asfop.top/assets/screens/v236-zh-home.webp)
 
-以下产品界面截图来自 v0.0.204，可点击查看大图；文字介绍已补充至 v0.0.227 的功能，新增工作区以安装后的实际界面为准。
+首页和正文编辑截图来自 v0.0.236，其余标有 v204 的图片来自 v0.0.204。新版官网可以按步骤查看热点发现、起稿、技能选择、排版、画布和账号管理。
+
+[中文创作流程](https://www.asfop.top/#workflow) · [Workflow in English](https://www.asfop.top/en/#workflow)
 
 ## 按你的创作任务开始
 
@@ -65,7 +67,7 @@
 
 [了解 AI 文章写作](https://www.asfop.top/features/ai-writing/) · [创作模板与写作技能](https://www.asfop.top/features/creation-templates/)
 
-![文章编辑与排版预览：在同一工作区修改正文、查看图文效果](https://cdn.jsdelivr.net/gh/wendaoai/wendao-content-workbench@f4bf23153860d7dfd22528133a1b0c27a15654c3/assets/screens/v204-editor.webp)
+![狐文 v0.0.236 正文编辑与实时排版预览](https://www.asfop.top/assets/screens/v236-zh-editor.webp)
 
 ## 小助手：查资料、写稿、生图与制作视频
 
@@ -145,7 +147,7 @@
 
 导入产品资料和视觉素材，在创作画布连接策划、镜头、图片与成品。制作产品介绍、种草图文与营销套图，也可以组织视频分镜，接入支持视频生成的模型继续制作。
 
-[产品营销套图](https://www.asfop.top/features/product-images/) · [视频分镜与生成](https://www.asfop.top/features/video-storyboard/) · [可视化创作画布](https://www.asfop.top/features/canvas/)
+[产品营销套图](https://www.asfop.top/features/product-images/) · [可视化创作画布](https://www.asfop.top/features/canvas/)
 
 ![可视化创作画布：从内容策划连接到图片与成品](https://cdn.jsdelivr.net/gh/wendaoai/wendao-content-workbench@f4bf23153860d7dfd22528133a1b0c27a15654c3/assets/screens/v204-canvas-plan.webp)
 
