@@ -4,7 +4,7 @@
 
 # Huwen · 狐文
 
-**Turn Inspiration into Content, Create in One Flow**
+**AI Writing and Smart Formatting for WeChat Official Accounts, plus Xiaohongshu Content Creation**
 
 A local-first desktop AI writing & content operations workbench for creators and content teams (macOS & Windows).
 

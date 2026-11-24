@@ -1,227 +1,230 @@
-<div align="center">
-
 <img src="assets/fox-logo.webp" alt="狐文 Huwen Logo" width="88" />
 
-# 狐文 · Huwen
-
-**把灵感变成内容，让创作一步到位**
-
-面向自媒体创作者与内容团队的本地桌面 AI 创作工坊（macOS & Windows）
+# 狐文（Huwen / Content Workbench）
 
 **简体中文** | [English](./README.en.md)
 
-[![最新版本](https://img.shields.io/github/v/release/wendaoai/wendao-content-workbench?label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC&style=flat-square&color=167D8D)](https://github.com/wendaoai/wendao-content-workbench/releases/latest)
-[![总下载量](https://img.shields.io/github/downloads/wendaoai/wendao-content-workbench/total?label=%E4%B8%8B%E8%BD%BD%E9%87%8F&style=flat-square&color=07C160)](https://github.com/wendaoai/wendao-content-workbench/releases)
-[![Stars](https://img.shields.io/github/stars/wendaoai/wendao-content-workbench?label=Stars&style=flat-square&color=D99428)](https://github.com/wendaoai/wendao-content-workbench/stargazers)
-[![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows-2F363D?style=flat-square)](https://www.asfop.top/#download)
-[![UI](https://img.shields.io/badge/UI-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%20%7C%20English-8B5CF6?style=flat-square)](./README.en.md)
+**微信公众号 AI 写作、逐节去 AI 味、智能排版与小红书图文桌面工作台**
 
-[![GoFrame v2](https://img.shields.io/badge/GoFrame-v2-00ADD8?style=flat-square&logo=go&logoColor=white)](https://goframe.org/)
-[![Wails v2](https://img.shields.io/badge/Wails-v2-DF0000?style=flat-square)](https://wails.io/)
-[![React 19](https://img.shields.io/badge/React-19-149ECA?style=flat-square&logo=react&logoColor=white)](https://react.dev/)
-[![SQLite](https://img.shields.io/badge/SQLite-%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8-003B57?style=flat-square&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+*Local-first desktop workbench for AI writing, WeChat Official Account editing, and Xiaohongshu content on macOS and Windows.*
 
-[官网下载](https://www.asfop.top/#download) · [GitHub Releases](https://github.com/wendaoai/wendao-content-workbench/releases/latest) · [GitCode Releases](https://gitcode.com/wendao-ai/wendao-ai-updates/releases) · [Gitee 镜像](https://gitee.com/wendaoai/wendao-content-workbench/releases) · [全部功能](https://www.asfop.top/features/) · [更新日志](https://www.asfop.top/updates/) · [使用帮助](https://ccnczqdy0ar6.feishu.cn/wiki/KcBAwnmFJiugFtkgIqlcccr3nPg) · [问题反馈](https://github.com/wendaoai/wendao-content-workbench/issues)
+[![最新版本](https://img.shields.io/github/v/release/wendaoai/wendao-content-workbench?label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC&style=flat-square&color=167D8D)](https://github.com/wendaoai/wendao-content-workbench/releases/latest) [![下载量](https://img.shields.io/github/downloads/wendaoai/wendao-content-workbench/total?label=%E4%B8%8B%E8%BD%BD%E9%87%8F&style=flat-square&color=07C160)](https://github.com/wendaoai/wendao-content-workbench/releases) [![收藏](https://img.shields.io/github/stars/wendaoai/wendao-content-workbench?label=%E6%94%B6%E8%97%8F&style=flat-square&color=D99428)](https://github.com/wendaoai/wendao-content-workbench/stargazers)
 
-</div>
+[![微信公众号 AI 写作](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7-AI%20%E5%86%99%E4%BD%9C-07C160?style=flat-square)](https://www.asfop.top/features/ai-writing/) [![去 AI 味逐节改写](https://img.shields.io/badge/%E5%8E%BB%20AI%20%E5%91%B3-%E9%80%90%E8%8A%82%E6%94%B9%E5%86%99-8B5CF6?style=flat-square)](https://www.asfop.top/features/article-rewrite/) [![腾讯朱雀 AI 检测](https://img.shields.io/badge/%E8%85%BE%E8%AE%AF%E6%9C%B1%E9%9B%80-AI%20%E6%A3%80%E6%B5%8B-2563EB?style=flat-square)](https://www.asfop.top/features/ai-detection/) [![公众号智能排版](https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-%E6%99%BA%E8%83%BD%E6%8E%92%E7%89%88-C8553D?style=flat-square)](https://www.asfop.top/features/wechat-layout/) [![AI 自动配图](https://img.shields.io/badge/AI-%E8%87%AA%E5%8A%A8%E9%85%8D%E5%9B%BE-D97706?style=flat-square)](https://www.asfop.top/features/image-studio/) [![小红书图文笔记](https://img.shields.io/badge/%E5%B0%8F%E7%BA%A2%E4%B9%A6-%E5%9B%BE%E6%96%87%E7%AC%94%E8%AE%B0-FF2442?style=flat-square)](https://www.asfop.top/features/xiaohongshu/) [![多账号运营管理](https://img.shields.io/badge/%E5%A4%9A%E8%B4%A6%E5%8F%B7-%E8%BF%90%E8%90%A5%E7%AE%A1%E7%90%86-0F766E?style=flat-square)](https://www.asfop.top/features/account-operations/) [![定时文章创作](https://img.shields.io/badge/%E5%AE%9A%E6%97%B6-%E6%96%87%E7%AB%A0%E5%88%9B%E4%BD%9C-475569?style=flat-square)](https://www.asfop.top/features/scheduled-writing/)
 
-<br />
+[![GoFrame v2](https://img.shields.io/badge/GoFrame-v2-00ADD8?style=flat-square&logo=go&logoColor=white)](https://goframe.org/) [![Wails v2](https://img.shields.io/badge/Wails-v2-DF0000?style=flat-square)](https://wails.io/) [![React 19](https://img.shields.io/badge/React-19-149ECA?style=flat-square&logo=react&logoColor=white)](https://react.dev/) [![SQLite](https://img.shields.io/badge/SQLite-%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8-003B57?style=flat-square&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 
-![狐文 v0.0.236 创作首页：顶栏直选平台与账号，挂接写作技能与模型开始创作](assets/screens/v236-zh-home.webp)
+[官网下载](https://www.asfop.top/#download) · [GitCode 下载](https://gitcode.com/wendao-ai/wendao-ai-updates/releases) · [GitHub 下载](https://github.com/wendaoai/wendao-content-workbench/releases/latest) · [Gitee 仓库](https://gitee.com/wendaoai/wendao-content-workbench) · [全部功能](https://www.asfop.top/features/) · [使用反馈](https://github.com/wendaoai/wendao-content-workbench/issues)
 
-> 以上及下文界面截图均采自 **v0.0.236** 桌面端真实界面，点击可查看大图。
+狐文是一款面向自媒体创作者的本地桌面创作工坊，支持微信公众号写作与排版、小红书图文、多页海报、图片生成、图层动效和影音制作。从主题与资料开始写文章，再把内容制作成可编辑图文或带字幕、配音的视频，在同一个工作台继续加工。
+
+小助手可以搜索资料、创建草稿、改稿、生图和制作视频。创作工具还包括可视化工作流、角色与音色管理、剪辑字幕、3D 导演台、资源市场，以及多账号运营与收入查看。稿件、工程和创作记录在本机管理，AI 服务按需要配置。
+
+![狐文 v0.0.236 创作首页，展示平台与账号选择、写作技能和实时热榜](assets/screens/v236-zh-home.webp)
+
+新版界面截图来自 v0.0.236，标有 v204 的图片来自 v0.0.204。新版官网可以按步骤查看热点发现、起稿、技能选择、排版、画布和账号管理。
 
 [中文创作流程](https://www.asfop.top/#workflow) · [Workflow in English](https://www.asfop.top/en/#workflow)
 
----
+## 按你的创作任务开始
 
-## 核心特性一览
-
-| 维度 | 能力说明 |
+| 创作任务 | 可用功能 |
 | --- | --- |
-| **本地优先，数据可控** | 基于 Wails + GoFrame + SQLite 的原生桌面应用。稿件、版本历史、知识库、素材与画布工程默认保存在本机，随时备份与迁移。 |
-| **全链路内容工坊** | 覆盖热点与资讯发现、技能直写、逐节去 AI 味、智能排版、小红书图文、多页可编辑海报、无限画布、图层动效与影音剪辑。 |
-| **自由配置 AI 模型** | 支持接入 DeepSeek、OpenAI、Claude、Gemini 及兼容中转网关，内置 **OpenRouter 免费模型目录**，也可先用体验额度上手。 |
-| **原生中英文双语界面** | 顶部工具栏一键切换简体中文与英文，工作台、画布、窗口标题与桌面菜单同步更新。 |
+| 今天写什么 | 用热点雷达和营销日历整理选题。 |
+| 把初稿改到可以发布 | 写稿后逐节处理 AI 腔，按需查看腾讯朱雀 AI 检测或独立审稿结果。 |
+| 检查并推送公众号草稿 | 查看违禁词检查与智能排版预览。连接公众号后，推送至草稿箱。 |
+| 同一个题目做成多种内容 | 用原稿制作小红书图文、知识卡片、多页可编辑海报或视频内容。 |
+| 长期维护多个公众号 | 管理账号定位与稿件，安排定时创作，在公众号后台确认发布。 |
 
----
+## 下载与开始使用
 
-## 六步串起完整创作链路
+公开安装包已在 [GitCode Releases](https://gitcode.com/wendao-ai/wendao-ai-updates/releases) 和 [GitHub Releases](https://github.com/wendaoai/wendao-content-workbench/releases/latest) 提供。也可查看 [Gitee Releases](https://gitee.com/wendaoai/wendao-content-workbench/releases)。前往[官网下载页](https://www.asfop.top/#download)，按系统和芯片选择对应安装包；具体平台与格式以当前附件为准。
 
-| 步骤 | 环节 | 你可以直接完成 |
-| :---: | --- | --- |
-| **01** | **热点洞察** | 浏览 8 栏目桌面资讯流、平台热榜、趋势图、RSS/Atom 订阅与账号样本分析，锁定选题切入点。 |
-| **02** | **技能直写** | 在创作首页直选目标平台、账号、模型与写作技能，挂接知识库资料与联网搜索生成初稿。 |
-| **03** | **逐节打磨** | 独立执行「表达净化」与「自然表达」分块流式润色，按需运行腾讯朱雀 AI 检测、质量评分与违禁词修订。 |
-| **04** | **排版图文** | 双栏实时预览公众号排版主题，一键延展为小红书图文笔记、知识卡片与多页可编辑海报。 |
-| **05** | **画布动效** | 在无限画布串联参考图与营销套图，在图片工作台对话出图，并延展为图层动效、图解视频与影音成片。 |
-| **06** | **矩阵交付** | 通过账号矩阵管理多平台系列与发布状态，支持上海时间定时自动备稿、公众号草稿推送、浏览器插件交接与离线导出。 |
+安装后，在设置中配置 AI 服务，也可以按应用提供的体验额度开始创作。模型、图片、语音、音乐、视频、联网搜索和外部检测等服务的额度与费用，按实际配置及服务商规则计算。
 
----
+## 配置自己的 AI 服务
 
-### 01 · 热点洞察、订阅资讯与选题规划
+| 模型服务 | 开始前准备 |
+| --- | --- |
+| DeepSeek | 在官方控制台或所用兼容服务获取地址、模型 ID 和 API Key。 |
+| OpenAI、Claude、Gemini | 按供应商支持的接口或兼容接入方式填写模型连接，并在设置里测试。 |
 
-聚合 8 栏目桌面资讯流、平台热榜、时段趋势图、营销日历与 RSS/Atom 订阅源，支持多源去重、收藏筛选与阅读讨论；结合账号分析与选题工作台，选定切入角度后可直接带入创作。
+稿件、工程与创作记录可保存在本机。模型生成、联网搜索和第三方检测按所用服务连接外部接口。不同模型的能力与费用取决于实际配置。
 
-> [热点与选题规划](https://www.asfop.top/features/topic-planning/) · [学习资料库](https://www.asfop.top/features/learning-library/)
-
-![狐文 v0.0.236 热点与话题发现：8 栏目资讯流、趋势图与事件聚合](assets/screens/v236-zh-hotspots.webp)
-
----
-
-### 02 · 技能直写、联网搜索与自定义写作技能库
-
-输入主题并挂接参考文章、链接、图片或本地知识库资料，按需开启联网搜索保留结果与来源。通用写作拆分为评论、故事、教程与长素材改写参考卡，支持在首页与技能库直接预览。
-
-支持从 **ZIP 或本地文件夹** 导入自定义写作技能，并在技能库中管理、编辑与复用；内置专业写作赛道覆盖视频解说、短视频口播、电商营销、社交笔记与私域运营等场景。
-
-> [AI 文章写作](https://www.asfop.top/features/ai-writing/) · [创作模板与写作技能](https://www.asfop.top/features/creation-templates/) · [系列内容创作](https://www.asfop.top/features/series-writing/)
-
-![狐文 v0.0.236 创作技能库：内置参考卡预览与自定义技能导入](assets/screens/v236-zh-skills.webp)
-
----
-
-### 03 · 逐节打磨、AI 内容检测与违禁词修订
-
-- **双阶段逐节润色**：「狐文 · 表达净化」先清理重复总结与套话，「狐文 · 自然表达」按检测块并发流式改写，支持版本对比、停止续做与手动逐块采用。
-- **独立检测与审稿**：按需运行腾讯朱雀 AI 内容检测（查看人工、疑似 AI、AI 分块分类，也支持独立工作区粘贴或导入 TXT/Markdown）；文章质量评分另行提供维度依据、原文引文与编辑建议。两者独立呈现，均不承诺固定人工率，也不自动覆盖原稿。
-- **违禁词检测**：公众号文章与小红书文案均支持本地违禁词定位、逐处预览替换与撤销，支持维护个人词库及按配置选择第三方复检。
-
-> [逐节表达改写](https://www.asfop.top/features/article-rewrite/) · [AI 内容检测](https://www.asfop.top/features/ai-detection/) · [独立质量评分](https://www.asfop.top/features/quality-review/) · [违禁词检查](https://www.asfop.top/features/content-checks/)
-
-![狐文 v0.0.236 内容检测与逐节表达打磨：分块分类查看与逐段流式润色](assets/screens/v236-zh-ai-detection.webp)
-
----
-
-### 04 · 公众号智能排版、小红书图文与多页可编辑海报
-
-左侧编辑 Markdown、右侧实时预览多种公众号排版主题，完成后可直接复制图文、导出带图 HTML，或推送至公众号草稿箱。
-
-同一篇稿件可继续拆分与重排为**小红书图文笔记**、**知识卡片**与**多页可编辑海报**。卡片工坊、海报与图文设计共用统一多页图层编辑器，支持参考线、吸附、格式刷、撤销重做，以及文字、图片、图表、表格与二维码的逐项微调，按用途导出 PNG、JPG、PDF、长图或九宫格。
-
-> [公众号智能排版](https://www.asfop.top/features/wechat-layout/) · [小红书图文笔记](https://www.asfop.top/features/xiaohongshu/) · [多页可编辑海报](https://www.asfop.top/features/multi-page-posters/) · [图文卡片工坊](https://www.asfop.top/features/card-maker/)
-
-![狐文 v0.0.236 双栏正文编辑器：左侧 Markdown 编辑与右侧公众号实时排版预览](assets/screens/v236-zh-editor.webp)
-
----
-
-### 05 · 无限画布、AI 图片工作台与视觉工坊
-
-- **无限画布**：按平台与项目组织文章、风格参考、视觉策划、产品营销套图与多页海报节点，创作脉络清晰可回溯，支持将已完成步骤保存为固定版本工作流模板。
-- **AI 图片工作台**：直接粘贴参考图进行多轮对话生图，统一管理生成任务、历史结果与失败重试；内置本地批量智能压缩，同时提供 AI 表情包与高清壁纸制作入口。
-
-> [无限画布](https://www.asfop.top/features/canvas/) · [AI 图片工作台](https://www.asfop.top/features/image-studio/) · [产品营销套图](https://www.asfop.top/features/product-images/) · [表情包](https://www.asfop.top/features/stickers/) · [壁纸生成](https://www.asfop.top/features/wallpaper/)
-
-![狐文 v0.0.236 无限画布：按平台与项目组织视觉方案与多页海报](assets/screens/v236-zh-canvas-poster.webp)
-
-![狐文 v0.0.236 AI 图片工作台：多轮对话生图、参考图与本地图库管理](assets/screens/v236-zh-image-gallery.webp)
-
----
-
-### 06 · 多账号矩阵、定时备稿与发布交接
-
-重整后的账号矩阵在一个列表内统一管理公众号、小红书、今日头条等平台账号，直观查看关联系列、分组及登录发布状态，公众号连接在抽屉内一站配置。
-
-- **定时自动备稿**：按上海时间（`Asia/Shanghai`）设置频率与创作要求，到点自动生成草稿进入内容库，由作者审阅润色后发布。
-- **多方式交付**：支持带图 HTML、纯 Markdown、高清 PNG/PDF 离线导出与下载中心统一管理；支持公众号草稿推送（需相应账号权限）及浏览器发布助手交接。
-
-> [多账号运营与分析](https://www.asfop.top/features/account-operations/) · [定时创作计划](https://www.asfop.top/features/scheduled-writing/) · [草稿与发布交接](https://www.asfop.top/features/publishing/) · [离线导出与下载中心](https://www.asfop.top/features/export-download/)
-
-![狐文 v0.0.236 账号矩阵：平台筛选、关联系列与发布连接状态](assets/screens/v236-zh-accounts.webp)
-
----
-
-## 更多创作与工程能力
-
-<details>
-<summary><strong>小助手（AI Companion）与原生 Agent 工作流</strong></summary>
-
-- **独立对话工作区**：支持查公开网页、读文章、检索工作台资料、创建真实草稿、按选定技能改稿、基于对话素材生成新图并打开图层编辑器修改封面。
-- **视频与动效直出**：支持按文章、主题或图片创建原生动效工程、可编辑沙画与 MP4，或调用已配置的云端视频服务；对话完整保留关联资料、任务和作品入口。
-- **原生 Agent 与开放入口**：支持制作计划准备、辅助剪辑与专家批改（先预览方案再确认采用）；提供 HTTP、CLI 与 MCP 能力入口，任务回执支持中断后查询与恢复。
-
-> [了解小助手](https://www.asfop.top/features/companion/)
-
-</details>
-
-<details>
-<summary><strong>图层动效、影音工作室、PDF/PPTX 资料转视频与 3D 导演台</strong></summary>
-
-- **文章与文档一键转可编辑视频**：支持文章与 PDF/PPTX 资料工作区（保留原文件、逐页文字与原图，支持扫描页识别），新增可编辑的**趋势图与判断流程图镜头**，支持横屏/竖屏副本独立微调。内置钢笔手绘讲解、暖金卡片产品宣传、模块拼贴、数字城市光场、人文纪录片、沙画故事与金线显影等风格。
-- **图层动效编辑器**：编辑场景、文字、图片、关键帧、音轨与字幕，支持导入 Lottie JSON / dotLottie 动画与保存个人预设，后台任务导出 MP4。
-- **影音工作室与时间轴剪辑**：统一组织剧本、分镜、参考图生图、视频生成、AI 超分与 Eagle 本地素材检索；时间轴支持裁剪、分割、多序列与复合片段、轨道混音、波形、调色示波器、代理预览、关键帧曲线与 SRT 字幕重分段，支持 WebM / WAV / M4A / MP4 导出。
-- **固定角色与声音克隆**：为项目保存角色参考与画风；支持系统音色及授权样本的声音克隆服务。
-- **3D 导演台与图解系列**：在 3D 导演台组织场景、模型、灯光、机位、骨骼姿态与关键帧并后台渲染；图解系列支持对比、流程、清单与数值图表批量渲染。
-
-> [图层动效与动态信息图](https://www.asfop.top/features/motion-graphics/)
-
-</details>
-
-<details>
-<summary><strong>本地知识库、资源市场与实用工具</strong></summary>
-
-- **内容库与产品资产**：全部作品目录汇总文章、图文设计、画布、HTML、图片、视频与平台文案，支持搜索筛选与返回原编辑器；保留系列与历史版本，影音作品支持打包迁移。
-- **资源市场与独立资源包**：提供提示词、写作技能、排版/图片模板、视频工程模板、按需字体、视觉素材、音乐音效与 Lottie 动画，支持在线安装或下载独立 ZIP 离线导入。应用默认使用系统字体，不内置字体文件。
-- **本地工具箱与用量统计**：内置本地批量图片智能压缩、ZIP/RAR/7z 解压工具，以及按日期、模型与用途统计的 Token 用量与费用估算视图。
-
-> [产品资产与知识库](https://www.asfop.top/features/assets-knowledge/) · [内容库与版本管理](https://www.asfop.top/features/content-library/) · [资源市场与资源包](https://www.asfop.top/features/resource-center/)
-
-</details>
-
----
-
-## 快速开始
-
-### 1. 下载与安装
-
-安装包在以下渠道同步发布，可前往 [官网下载页](https://www.asfop.top/#download) 按系统与芯片直接获取：
-
-| 平台 | 架构 | 格式 | 安装方式 |
-| --- | --- | --- | --- |
-| **macOS** | Apple Silicon (M 系列) / Intel (x64) | `.dmg` | 打开 DMG，将「狐文」拖入「应用程序」文件夹启动 |
-| **Windows** | x64 (Intel / AMD) / ARM64 | `.zip` | 解压完整文件夹后，双击运行目录内的 `狐文.exe`（勿单独拖出 exe） |
-
-- **下载源**：[官网下载](https://www.asfop.top/#download) · [GitHub Releases](https://github.com/wendaoai/wendao-content-workbench/releases/latest) · [GitCode Releases](https://gitcode.com/wendao-ai/wendao-ai-updates/releases) · [Gitee Releases](https://gitee.com/wendaoai/wendao-content-workbench/releases)
-- **macOS 首次打开提示**：若当前测试版未包含 Apple 开发者公证导致首次启动被拦截，请前往「系统设置 → 隐私与安全性」，找到狐文并点击「仍要打开」。
-
-### 2. 配置 AI 服务
-
-在工作台「设置 → AI 服务」中配置模型，也支持使用应用提供的体验额度快速试用：
-
-- **快捷接入**：支持保存前自动验证并拉取可用模型列表、中转站配置识别与默认模型速览。
-- **OpenRouter 免费模型目录**：可直接查询并选用 OpenRouter 提供的免费模型，无需额外整理模型 ID。
-- **主流模型兼容**：支持 DeepSeek、OpenAI、Claude、Gemini 及各类 OpenAI 兼容接口；文本、生图、语音、音乐、视频、联网搜索与第三方检测均按实际配置及服务商规则计费。
-
-> [AI 服务与模型设置](https://www.asfop.top/features/model-settings/)
+[查看 AI 服务设置](https://www.asfop.top/features/model-settings/) · [使用帮助](https://ccnczqdy0ar6.feishu.cn/wiki/KcBAwnmFJiugFtkgIqlcccr3nPg)
 
 ![狐文 v0.0.236 AI 服务与模型设置：默认模型速览、自由配置与 OpenRouter 免费模型目录](assets/screens/v236-zh-settings.webp)
 
-### 3. 可选：浏览器发布助手
+## 平台热点、订阅资讯与 AI 选题
 
-支持 **Chrome / Edge / Firefox**，可将工作台中的标题、正文、封面与配图交接到微信公众号、知乎或小红书编辑页，减少来回复制。插件不会自动登录、保存草稿或点击发布，最终确认始终由作者完成。
+浏览平台热点、热点雷达和营销日历，结合账号定位整理选题，把临时灵感留下来。选定主题后进入写作，让热点发现和文章创作接在一起。
 
-> [下载浏览器插件与安装教程](https://ccnczqdy0ar6.feishu.cn/wiki/H9Jmw1U0Oi9Ylik3jqCcbf9jnGd)
+订阅资讯支持 RSS/Atom 来源管理、采集、链接去重与多来源整理，阅读后可讨论或加入选题。账号分析用于研究公众号和已有内容。各平台在线采集能力以应用当前入口为准。
 
----
+[了解选题与热点功能](https://www.asfop.top/features/topic-planning/)
 
-## 本地架构与数据隐私
+![选题工作台：整理选题、查看策划并进入创作](https://cdn.jsdelivr.net/gh/wendaoai/wendao-content-workbench@f4bf23153860d7dfd22528133a1b0c27a15654c3/assets/screens/v204-topic-library.webp)
 
-```text
-Wails v2 原生桌面应用
-  ├── 内置 React 19 双语工作台界面（简体中文 / English）
-  ├── 本地 GoFrame v2 / Go 业务服务
-  └── 本地 SQLite 数据库与用户数据目录（content.db / backups / logs / outputs）
-```
+![狐文 v0.0.236 热点与话题发现：8 栏目资讯流、趋势图与事件聚合](assets/screens/v236-zh-hotspots.webp)
 
-- **本机存储**：稿件、素材、历史版本、知识库与工程文件保存在系统用户目录中，升级或替换安装包不会覆盖你的创作数据（重大升级前仍建议备份数据目录）。
-- **外部请求边界**：仅在你主动调用已配置的 AI 模型、联网搜索、第三方检测或发布服务时，才会向对应服务商发送该任务所需的数据。
+## 公众号 AI 写作与联网搜索：从主题和资料开始起稿
 
----
+输入主题，加入参考正文、链接、图片或知识资料，生成文章初稿。需要查找网上资料时开启联网搜索，也可以在文章助手中手动补充搜索，保留结果与来源，继续修改正文。
 
-## 反馈与声明
+写作模板和技能用于指定场景与表达方法，文章生成后可以继续对话修改、扩写、精简和调整结构。
 
-- 如果狐文对你的创作有帮助，欢迎在 [GitHub](https://github.com/wendaoai/wendao-content-workbench) 点一个 Star 支持我们。
-- 欢迎在 [GitHub Issues](https://github.com/wendaoai/wendao-content-workbench/issues) 提交问题与功能建议；反馈时请附上操作系统、应用版本号与复现步骤，**请勿上传 API Key、账号凭据或私人稿件**。
-- 狐文为闭源桌面软件，本仓库用于产品展示、公开资料与版本发布，不提供应用业务源码。文内文字、界面截图与品牌素材保留全部权利。
+[了解 AI 文章写作](https://www.asfop.top/features/ai-writing/) · [创作模板与写作技能](https://www.asfop.top/features/creation-templates/)
+
+![狐文 v0.0.236 正文编辑与实时排版预览](assets/screens/v236-zh-editor.webp)
+
+## 小助手：查资料、写稿、生图与制作视频
+
+在独立对话中梳理选题、搜索公开网页、阅读文章，查找工作台资料并创建真实草稿。选择写作技能后，可以继续改稿，也可以用对话中的图片与素材生成新图，打开图层编辑器修改封面文字。
+
+小助手支持按文章、主题或图片创建原生动效工程与 MP4，也能调用已配置的云端视频服务。对话保留关联资料、任务和作品入口，刷新后可继续查看和处理。
+
+## 专业写作赛道与短视频口播文案
+
+按需选择专业文本赛道与文案场景，确定写作方向、结构、语气和输出格式。场景覆盖视频解说、短视频口播、电商营销、社交笔记、私域运营等用途，也能单独生成标题、摘要、大纲，或执行改写、润色与内容复盘。
+
+专业资源还提供生图赛道、卡片与长图、系列案例，按需要安装和复用。
+
+[创作模板与写作技能](https://www.asfop.top/features/creation-templates/) · [系列内容创作](https://www.asfop.top/features/series-writing/)
+
+![狐文 v0.0.236 创作技能库：内置参考卡预览与自定义技能导入](assets/screens/v236-zh-skills.webp)
+
+## 去 AI 味与文章润色：逐节改写，查看修改差异
+
+围绕文章上下文逐节处理表达，减少套话、重复和机械句式。改完后查看各节修改与版本差异，再决定采用哪些内容；也可以选择需要修改的范围继续处理。
+
+[了解去 AI 味与逐节改写](https://www.asfop.top/features/article-rewrite/)
+
+## 腾讯朱雀 AI 检测与文章质量评分
+
+在文章工作区按需运行朱雀 AI 内容检测，查看人工、疑似 AI 和 AI 分类及对应段落。也可以打开独立检测工作区，粘贴文字或导入 TXT、Markdown，保存检测记录。
+
+文章质量评分另行提供维度依据、原文引文和编辑建议。评分用于判断怎么改稿，朱雀用于查看 AI 分类，两种结果分别呈现。去 AI 味与检测均不承诺固定人工率。
+
+[朱雀 AI 内容检测](https://www.asfop.top/features/ai-detection/) · [文章质量评分](https://www.asfop.top/features/quality-review/)
+
+![狐文 v0.0.236 内容检测与逐节表达打磨：分块分类查看与逐段流式润色](assets/screens/v236-zh-ai-detection.webp)
+
+## 违禁词检测与修订
+
+公众号文章和小红书文案均可运行本地违禁词检测，定位问题，逐处预览替换、删除或手动修改，采用后可以撤销。支持维护个人词库，并按配置选择句无忧或 Chinaz 第三方复检。
+
+词面检查用于提示需要处理的内容，最终发布按平台审核流程完成。
+
+[内容规则与违禁词检查](https://www.asfop.top/features/content-checks/)
+
+## 微信公众号智能排版：模板预览、图文编辑与草稿交接
+
+在文章工作区编辑 Markdown、插入图片、应用公众号排版模板，预览标题、章节和正文样式。完成后复制图文、导出带图 HTML，或交接到公众号草稿流程。
+
+草稿推送需要相应账号权限，最终公开发布由作者在目标平台确认。
+
+[公众号智能排版](https://www.asfop.top/features/wechat-layout/) · [公众号草稿与发布交接](https://www.asfop.top/features/publishing/)
+
+![公众号排版效果：月白朱红模板与数字章节，右侧提供导出入口](https://cdn.jsdelivr.net/gh/wendaoai/wendao-content-workbench@f4bf23153860d7dfd22528133a1b0c27a15654c3/assets/screens/v204-vermilion-layout.webp)
+
+## AI 自动配图与图片工作台
+
+为文章准备 AI 配图，结合提示词和参考图生成图片，在图片工作台管理生成任务、历史结果与重试。图片可以继续用于正文、产品营销图和画布作品。
+
+[了解 AI 图片工作台](https://www.asfop.top/features/image-studio/)
+
+![狐文 v0.0.236 AI 图片工作台：多轮对话生图、参考图与本地图库管理](assets/screens/v236-zh-image-gallery.webp)
+
+图片创作还覆盖 [AI 表情包制作](https://www.asfop.top/features/stickers/)与[壁纸生成](https://www.asfop.top/features/wallpaper/)，可以结合参考素材生成、调整并导出。
+
+## 小红书图文笔记与多页可编辑海报
+
+把已有文章整理为小红书笔记，准备标题、正文、封面和多页配图。海报支持多个画板，文字、图片与图层可以继续编辑，再导出整组作品。
+
+也可以用卡片工坊制作知识卡片和观点摘录。小红书相关功能覆盖内容制作与导出，最终发布按平台流程完成。
+
+[小红书图文笔记](https://www.asfop.top/features/xiaohongshu/) · [多页可编辑海报](https://www.asfop.top/features/multi-page-posters/) · [图文卡片工坊](https://www.asfop.top/features/card-maker/)
+
+![小红书成品预览：同时查看笔记文案、封面与多页配图](https://cdn.jsdelivr.net/gh/wendaoai/wendao-content-workbench@f4bf23153860d7dfd22528133a1b0c27a15654c3/assets/screens/v204-xhs-preview.webp)
+
+![狐文 v0.0.236 无限画布：按平台与项目组织视觉方案与多页海报](assets/screens/v236-zh-canvas-poster.webp)
+
+## 统一图层编辑器：从整页设计到逐项修改
+
+卡片工坊、海报与图文设计共用多页图层编辑能力。支持原文直接排版、全文 AI 设计、长文转小红书和相册编排，生成后继续修改文字、图片、图表、表格、二维码与页面布局。
+
+使用页面与图层管理、参考线、吸附、格式刷和撤销重做整理作品，保留原图和版本，再按用途导出 PNG、JPG、PDF、长图或九宫格。
+
+## 产品营销套图与 AI 视频分镜
+
+导入产品资料和视觉素材，在创作画布连接策划、镜头、图片与成品。制作产品介绍、种草图文与营销套图，也可以组织视频分镜，接入支持视频生成的模型继续制作。
+
+[产品营销套图](https://www.asfop.top/features/product-images/) · [可视化创作画布](https://www.asfop.top/features/canvas/)
+
+![可视化创作画布：从内容策划连接到图片与成品](https://cdn.jsdelivr.net/gh/wendaoai/wendao-content-workbench@f4bf23153860d7dfd22528133a1b0c27a15654c3/assets/screens/v204-canvas-plan.webp)
+
+## 图层动效与文章一键生成视频
+
+把文章转成分镜、画面文字、字幕与可选配音、背景音乐，生成可继续编辑的动效工程。支持钢笔手绘讲解、模块拼贴宣传、数字城市光场、人文纪录片和角色歌词 MV 等模板方向，也可以保存个人视觉风格供后续文章复用。
+
+在图层动效工作区调整场景、文字、图片、关键帧、音轨与字幕，导入 Lottie JSON 或 dotLottie 动画，保存自己的动效预设。工程可保存、恢复与导入导出，成片通过后台任务导出 MP4。
+
+## 影音工作室：剧本、分镜、剪辑与字幕
+
+在同一项目中组织文字、图片、语音、音乐和视频，连接剧本、镜头、素材与时间线。支持参考图生图、视频生成、媒体处理、AI 超分，以及持久素材库和本机 Eagle 素材检索与导入。
+
+剪辑工作台支持片段编排、音轨与字幕编辑、关键词高亮和 SRT 字幕重分段。可以让文本模型提出局部剪辑方案，预览后采用，再导出成片；任务中心保留进度、取消、失败重试和原任务恢复入口。
+
+## 固定角色、系统音色与声音克隆
+
+为项目保存角色参考和画风，生成图片与镜头时复用相应设定。配音可选择服务提供的系统音色，或接入支持的声音克隆服务，上传自己的授权样本后创建音色，再按角色与台词生成配音。
+
+音频支持试听、下载与加入作品，生成记录保留模型、音色、台词及任务关联。具体音色、克隆、表演指令和费用由所选服务提供，使用样本前需取得相应授权。
+
+## 可视化工作流、Agent 与专家批改
+
+在图片画布与影音工作室连接生成、处理和素材节点，把已完成的步骤或选中子图保存为固定版本工作流模板。支持结构化分镜、角色输入，以及图片、音视频处理结果的继续采用。
+
+原生 Agent 可准备制作计划、辅助剪辑与专家批改，先查看方案，再确认相应调用与采用结果。HTTP、CLI 和 MCP 提供相关能力入口，调用范围以实际授权为准，任务回执支持中断后的查询与恢复。
+
+## 3D 导演台与图解系列
+
+在 3D 导演台组织场景、模型、灯光、机位、姿态与关键帧，预演镜头并通过后台任务渲染视频。支持骨骼映射、姿态调整、撤销重做和工程保存，渲染任务可查看进度与恢复。
+
+图解系列用于制作可编辑的对比、流程、清单与数值图表，安排配音、字幕和横竖布局，批量渲染后继续管理成片与源工程。
+
+## 多账号管理、定时创作与公众号收入查看
+
+按账号管理选题、系列和文章，保留各自的创作定位。为重复写作任务设置定时计划，到时生成文章，回到内容库继续编辑和排版。
+
+公众号运营还提供收入趋势、日报设置与文章收益指南。定时创作需要应用与服务保持可用；收入查看依赖授权数据。
+
+[多账号运营与收入查看](https://www.asfop.top/features/account-operations/) · [定时创作计划](https://www.asfop.top/features/scheduled-writing/)
+
+![狐文 v0.0.236 账号矩阵：平台筛选、关联系列与发布连接状态](assets/screens/v236-zh-accounts.webp)
+
+## 本地知识库、内容管理与离线导出
+
+全部作品目录汇总文章、图文设计、画布、HTML、图片、视频与平台文案，支持搜索、筛选、媒体预览和返回原编辑器。产品资料、图片和知识文档可继续用于后续创作，文章保留系列与版本。
+
+文章支持 Markdown、带图 HTML 和压缩 HTML 导出；影音作品可导出包含编辑结构、配方与素材的作品包，迁入后继续编辑。下载中心统一查看进度、历史与保存位置。
+
+稿件保存在本地，调用 AI、搜索、检测和发布服务时会按任务与配置提交所需内容。
+
+[产品资产与知识库](https://www.asfop.top/features/assets-knowledge/) · [内容库与版本管理](https://www.asfop.top/features/content-library/) · [离线导出与下载中心](https://www.asfop.top/features/export-download/)
+
+## 资源市场、资源包与本地工具
+
+资源市场提供提示词、写作技能与风格、排版和图片模板、字体、视觉素材，以及音乐、音效、Lottie 动画和视频素材。按需预览与安装，也可到资源包页面下载独立 ZIP，保存到其他设备导入；各类资源遵循各自授权。
+
+应用默认使用系统字体，额外字体通过市场下载或本地导入。已用于作品的素材随作品保存，便于继续编辑和导出。智能压缩支持本地批量图片压缩，并提供 ZIP、RAR、7z 解压入口。
+
+## 问题反馈
+
+如果狐文对你的工作有帮助，欢迎在 [GitHub](https://github.com/wendaoai/wendao-content-workbench) 点个 Star。
+
+欢迎在 [Issues](https://github.com/wendaoai/wendao-content-workbench/issues) 反馈问题和建议。请附上系统、应用版本与复现步骤，不要上传 API Key、账号凭据或私人稿件。
+
+狐文为闭源桌面软件，本仓库用于产品介绍、公开资料和版本发布，不提供业务源码。文字、图片与品牌素材保留全部权利。
 
 Copyright (c) 2026 Content Workbench. All rights reserved.
