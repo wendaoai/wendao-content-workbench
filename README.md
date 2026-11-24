@@ -1,4 +1,8 @@
-# 狐文｜AI 写作、图文设计与影音创作工坊
+# 狐文（Huwen / Content Workbench）
+
+**微信公众号 AI 写作、逐节去 AI 味、智能排版与小红书图文桌面工作台**
+
+*Local-first desktop workbench for AI writing, WeChat Official Account editing, and Xiaohongshu content on macOS and Windows.*
 
 [![最新版本](https://img.shields.io/github/v/release/wendaoai/wendao-content-workbench?label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC&style=flat-square&color=167D8D)](https://github.com/wendaoai/wendao-content-workbench/releases/latest) [![下载量](https://img.shields.io/github/downloads/wendaoai/wendao-content-workbench/total?label=%E4%B8%8B%E8%BD%BD%E9%87%8F&style=flat-square&color=07C160)](https://github.com/wendaoai/wendao-content-workbench/releases) [![收藏](https://img.shields.io/github/stars/wendaoai/wendao-content-workbench?label=%E6%94%B6%E8%97%8F&style=flat-square&color=D99428)](https://github.com/wendaoai/wendao-content-workbench/stargazers)
 
@@ -16,11 +20,32 @@
 
 以下产品界面截图来自 v0.0.204，可点击查看大图；文字介绍已补充至 v0.0.227 的功能，新增工作区以安装后的实际界面为准。
 
+## 按你的创作任务开始
+
+| 创作任务 | 可用功能 |
+| --- | --- |
+| 今天写什么 | 用公众号热文榜、热点雷达和营销日历整理选题。 |
+| 把初稿改到可以发布 | 写稿后逐节处理 AI 腔，按需查看腾讯朱雀 AI 检测或独立审稿结果。 |
+| 检查并推送公众号草稿 | 查看违禁词检查与智能排版预览。连接公众号后，推送至草稿箱。 |
+| 同一个题目做成多种内容 | 用原稿制作小红书图文、知识卡片、多页可编辑海报或视频内容。 |
+| 长期维护多个公众号 | 管理账号定位与稿件，安排定时创作，在公众号后台确认发布。 |
+
 ## 下载与开始使用
 
-公开安装包已在 [GitCode Releases](https://gitcode.com/wendao-ai/wendao-ai-updates/releases) 和 [GitHub Releases](https://github.com/wendaoai/wendao-content-workbench/releases/latest) 提供。前往[官网下载页](https://www.asfop.top/#download)，按系统和芯片选择对应安装包；具体平台与格式以当前附件为准。
+公开安装包已在 [GitCode Releases](https://gitcode.com/wendao-ai/wendao-ai-updates/releases) 和 [GitHub Releases](https://github.com/wendaoai/wendao-content-workbench/releases/latest) 提供。也可查看 [Gitee Releases](https://gitee.com/wendaoai/wendao-content-workbench/releases)。前往[官网下载页](https://www.asfop.top/#download)，按系统和芯片选择对应安装包；具体平台与格式以当前附件为准。
 
 安装后，在设置中配置 AI 服务，也可以按应用提供的体验额度开始创作。模型、图片、语音、音乐、视频、联网搜索和外部检测等服务的额度与费用，按实际配置及服务商规则计算。
+
+## 配置自己的 AI 服务
+
+| 模型服务 | 开始前准备 |
+| --- | --- |
+| DeepSeek | 在官方控制台或所用兼容服务获取地址、模型 ID 和 API Key。 |
+| OpenAI、Claude、Gemini | 按供应商支持的接口或兼容接入方式填写模型连接，并在设置里测试。 |
+
+稿件、工程与创作记录可保存在本机。模型生成、联网搜索和第三方检测按所用服务连接外部接口。不同模型的能力与费用取决于实际配置。
+
+[查看 AI 服务设置](https://www.asfop.top/features/model-settings/) · [使用帮助](https://ccnczqdy0ar6.feishu.cn/wiki/KcBAwnmFJiugFtkgIqlcccr3nPg)
 
 ## 平台热点、订阅资讯与 AI 选题
 
@@ -179,6 +204,8 @@
 应用默认使用系统字体，额外字体通过市场下载或本地导入。已用于作品的素材随作品保存，便于继续编辑和导出。智能压缩支持本地批量图片压缩，并提供 ZIP、RAR、7z 解压入口。
 
 ## 问题反馈
+
+如果狐文对你的工作有帮助，欢迎在 [GitHub](https://github.com/wendaoai/wendao-content-workbench) 点个 Star。
 
 欢迎在 [Issues](https://github.com/wendaoai/wendao-content-workbench/issues) 反馈问题和建议。请附上系统、应用版本与复现步骤，不要上传 API Key、账号凭据或私人稿件。
 
