@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.238",
+  "publishedAt": "2026-11-25T01:26:06Z",
+  "releaseNotes": [
+    "新增：资讯后台的会话明细显示安装 UUID 和 IP 的首见状态，便于按上海日期识别首次出现的安装和地址。",
+    "优化：资讯后台保留 RSS 简介供分类和抽检，按归一化链接减少重复收录。分类可由规则直接完成，结果会补齐热点栏目，抽检优先展示兜底结果并统计今日兜底占比。订阅分类主模型默认使用 gpt-6.1-terra。",
+    "修复：修复文章视频因 MiniMax 配音限流而无法继续的问题。续跑时复用已完成的配音，仅补发明确被限流拒绝的片段。",
+    "修复：资讯分类给成批模型响应预留 90 秒。熔断探测会自动过期，服务中途退出后分类队列可继续处理。修复数据库使用上海时间时的不足批派发和今日抽检统计。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/amd64",
+    "macos/arm64",
+    "windows/amd64",
+    "windows/arm64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "format": "dmg",
+      "fileName": "ContentWorkbench-v0.0.238-mac-arm64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.238/ContentWorkbench-v0.0.238-mac-arm64.dmg",
+      "size": 47510322,
+      "sha256": "6ac42599f2f0d2039e7e65ec38ca553c9349a6b1c15e04989b5543ce85e01fcd"
+    },
+    "macos/amd64": {
+      "format": "dmg",
+      "fileName": "ContentWorkbench-v0.0.238-mac-x64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.238/ContentWorkbench-v0.0.238-mac-x64.dmg",
+      "size": 51359946,
+      "sha256": "c51a10eb9d2d009d0ae1e380864b43429a29a0cae5d81a75b1976995c51e6a9a"
+    },
+    "windows/amd64": {
+      "format": "zip",
+      "fileName": "ContentWorkbench-v0.0.238-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.238/ContentWorkbench-v0.0.238-win-x64.zip",
+      "size": 50465245,
+      "sha256": "2f697c5a2e1096e97a33c52b6a8b767b4c5251a31f4c1bf2f025837495b21a10"
+    },
+    "windows/arm64": {
+      "format": "zip",
+      "fileName": "ContentWorkbench-v0.0.238-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.238/ContentWorkbench-v0.0.238-win-arm64.zip",
+      "size": 47063769,
+      "sha256": "eccef6cca5ca1fa4e2def581f18f738093d9df1c878265ef114c0d29543c441b"
+    }
+  },
+  "browserExtensions": {
+    "version": "0.1.9",
+    "minimumChromiumVersion": "116",
+    "packages": {
+      "chrome": {
+        "fileName": "wendao-ai-browser-ext-v0.1.9-chrome.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.9/wendao-ai-browser-ext-v0.1.9-chrome.zip",
+        "size": 572056,
+        "sha256": "ea22bc5819c7fef4336502de353eda01c8bf218f769e8670824c9121c58f48de"
+      },
+      "edge": {
+        "fileName": "wendao-ai-browser-ext-v0.1.9-edge.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.9/wendao-ai-browser-ext-v0.1.9-edge.zip",
+        "size": 572056,
+        "sha256": "ea22bc5819c7fef4336502de353eda01c8bf218f769e8670824c9121c58f48de"
+      }
+    }
+  }
+}
