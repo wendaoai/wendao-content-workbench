@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 2,
+  "product": "wendao-ai",
+  "channel": "stable",
+  "version": "0.0.241",
+  "publishedAt": "2026-11-27T17:19:00Z",
+  "releaseNotes": [
+    "优化：任务中心支持按任务编号搜索，按状态显示实际记录数。顶栏统计进行中和需处理任务，任务卡片显示编号、耗时与状态原因。",
+    "优化：系列列表和详情提供手动引导，首次空列表自动提示。文章推荐风险的发布前确认改用分组页签，刷新时保留搜索和当前核查分组。",
+    "优化：调整写作技能库中的推荐技能布局、键盘焦点和原文入口。新建中心在窄窗口自动收起侧栏，放宽后恢复。",
+    "优化：调整文章工作区顶栏和正文配图入口，合并快速配图与 AI 配图菜单。段落导航随正文滚动显隐，内容检测空态直接提供检测或配置入口。",
+    "优化：首页收入摘要集中显示本月和昨日金额。采集状态移入提示，键盘聚焦或鼠标移入时可切换、暂停和收起。",
+    "修复：修复创作工作台模型、高级设置、输出和参考记录浮层遮挡顶栏的问题。模型按服务商分组，后台任务提示在浮层关闭后展示。",
+    "修复：修复文章收益指南顶栏文字被裁切的问题。学习资料失效时显示错误提示，提供重试和返回资料库入口。"
+  ],
+  "policy": {
+    "minimumSupportedVersion": "",
+    "allowSkip": true,
+    "remindAfterHours": 24,
+    "reason": ""
+  },
+  "supportedPlatforms": [
+    "macos/amd64",
+    "macos/arm64",
+    "windows/amd64",
+    "windows/arm64"
+  ],
+  "packages": {
+    "macos/arm64": {
+      "format": "dmg",
+      "fileName": "ContentWorkbench-v0.0.241-mac-arm64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.241/ContentWorkbench-v0.0.241-mac-arm64.dmg",
+      "size": 35240751,
+      "sha256": "b0b10df8f1658c5494b81dbbcbb0b7bc2f44eb3519178531e34e19a77c0e9f83"
+    },
+    "macos/amd64": {
+      "format": "dmg",
+      "fileName": "ContentWorkbench-v0.0.241-mac-x64.dmg",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.241/ContentWorkbench-v0.0.241-mac-x64.dmg",
+      "size": 39791944,
+      "sha256": "052f04d4d8b6a665b26ca338019b6e0a2ac6cf5456a280e72cb7b9f54f418092"
+    },
+    "windows/amd64": {
+      "format": "zip",
+      "fileName": "ContentWorkbench-v0.0.241-win-x64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.241/ContentWorkbench-v0.0.241-win-x64.zip",
+      "size": 48140499,
+      "sha256": "7ae9848dab7df1cb59431ddd5c2a32aa574cfff04dda4fb99d802107607b9567"
+    },
+    "windows/arm64": {
+      "format": "zip",
+      "fileName": "ContentWorkbench-v0.0.241-win-arm64.zip",
+      "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/v0.0.241/ContentWorkbench-v0.0.241-win-arm64.zip",
+      "size": 44646630,
+      "sha256": "88f7fc79b396f576779878f80eb7ec1bbeabe7a496670e8a7e82fc2c8e2e986c"
+    }
+  },
+  "browserExtensions": {
+    "version": "0.1.9",
+    "minimumChromiumVersion": "116",
+    "packages": {
+      "chrome": {
+        "fileName": "wendao-ai-browser-ext-v0.1.9-chrome.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.9/wendao-ai-browser-ext-v0.1.9-chrome.zip",
+        "size": 572056,
+        "sha256": "ea22bc5819c7fef4336502de353eda01c8bf218f769e8670824c9121c58f48de"
+      },
+      "edge": {
+        "fileName": "wendao-ai-browser-ext-v0.1.9-edge.zip",
+        "url": "https://gitcode.com/wendao-ai/wendao-ai-updates/releases/download/browser-extension-v0.1.9/wendao-ai-browser-ext-v0.1.9-edge.zip",
+        "size": 572056,
+        "sha256": "ea22bc5819c7fef4336502de353eda01c8bf218f769e8670824c9121c58f48de"
+      }
+    }
+  }
+}

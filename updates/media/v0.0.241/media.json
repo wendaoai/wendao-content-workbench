@@ -1,0 +1,19 @@
+{
+  "version": "0.0.241",
+  "images": [
+    {
+      "fileName": "d61f05ee6010da62cf38.webp",
+      "alt": "狐文文章工作区的新版顶栏和正文配图入口",
+      "width": 1440,
+      "height": 900,
+      "bytes": 87016
+    },
+    {
+      "fileName": "3878fd09178617f46bad.webp",
+      "alt": "狐文任务中心的状态计数、任务编号和分页操作",
+      "width": 1024,
+      "height": 768,
+      "bytes": 40968
+    }
+  ]
+}
